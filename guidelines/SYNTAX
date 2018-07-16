@@ -1,0 +1,15 @@
+	NOMINALS
+nmod:Modifyer of nominal by another nominal
+libro de putin (libro nmod-> putin)
+mia libro (libro nmod:pass-> mia)
+appos:reference of nominals
+putin, la prezidento (putin appos->prezidento)
+amod: Adjective modufyer of head
+pura akvo (akvo amod->pura)
+nummod: Numeral modifyer
+tri hundoj (hundoj nummod->tri)
+acl:relcl: clause modifyer
+cxion, kion li havis (cxion acl:relcl-> havis)
+Determiners attach to the head of the nominal with the det relation.
+Adpositions attach to the head of the nominal with the case relation.
+Classifiers attach to a numeral or possessive with the clf relation.
