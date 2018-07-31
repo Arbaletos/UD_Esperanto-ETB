@@ -66,6 +66,10 @@ class Parser:
                  'a':'ASN','aj':'APN','an':'ASA','ajn':'APA',
                  'e':'ADE','en':'ADD','as':'VPR','os':'VFT',
                  'is':'VPS','i':'VIN','u':'VDM','us':'VCN'}
+    
+    ###Special ending for partiples
+    self.part_fin_dict = {'at':'SPR','ot':'SFT','it':'SPS',
+                          'ant':'DPR','ont':'DFT','int':'DPS'}
                  
     ###INIT COVERT DICT TO CONVERT 2 TAG###
     convert_dict = {   'NSN':('NOUN',1),  'NPN':('NOUN',2),
@@ -116,7 +120,8 @@ class Parser:
       t = sent[i]
       t.id = id
       self.get_tag(t,i==0)
-      #self.get_feats(t) #Not realized
+      self.get_feats(t)
+      self.get_misc(t)
     return sent
       
   def get_tag(self, token, new_sent):
@@ -133,7 +138,7 @@ class Parser:
       self.addVar(token, 'SYM')
       return
       
-    if self.cls_dict.get(token.word.lower(),None): #word from closed class
+    if self.cls_dict.get(token.word.lower(), None): #word from closed class
       poss = self.cls_dict[token.word.lower()]
       for pos in poss:
         tag, ind = self.conv_dict.get(pos,(pos,0))
@@ -159,11 +164,41 @@ class Parser:
         pos = self.fin_dict[fin]
         tag, ind = self.conv_dict.get(pos,(pos,0))
         lemm = token.word.lower()[:len(token.word) - ind]
+        for part in self.par_fin_dict.keys():
+          if lemm.endswith(part):
+            tag = self.par_fin_dict[par]+tag
+            break
         self.addVar(token, pos, tag, lemm)
         return
     self.addVar(token, 'X')
     return
+    
+  def get_feats(self, token):
+    feats = []
+    for var in token.vars():
+      fin = token.word[len(var['lemm']):len(word)]
+      if var.pos=='VERB':
+        Tense ('Past', 'Pres', 'Fut')
+        Mood ('Ind', 'Imp', 'Cnd')
+        VerbForm ('FIN','INF')
+        return
+      if var.tag[-1] == ['A']:feats.append('Case=Acc')
+      if var.tag[-1] == ['N']:feats.append('Case=Nom')
+      if var.tag[-2] == ['S']:feats.append('Number=Sing')
+      if var.tag[-2] == ['P']:feats.append('Number=Plur')
+      #Prontype for correlativoj!
+      #Part for participles!
       
+  
+  def get_misc(self, token):
+    cur = []
+    if not token.space:
+      cur.append('SpaceAfter=No')
+    if cur:
+      token.misc = '|'.join(cur)
+      return
+    token.misc = '_'
+    
       
   def addVar(self, token, pos, tag=None, lemm=None):
     if tag is None:
