@@ -163,7 +163,6 @@ def init_dict(dict):
   """Generting Tag Dictionary"""
   num_k ={k:'NUM' for k in ['du','tri','kvar','kvin','ses','sep','ok','naŭ']}
   num_f ={'dek':'','cent':''}
-#  kor_k = {'ki':'INT','i':'IND','ĉi':'TOT','neni':'NEG','ti':'DEM'}
   kor_k = {'ki':'INT','i':'IND','ĉi':'IND','neni':'IND','ti':'DEM'}
   kor_f = {'a':'ASN', \
     'o':'PRUN','u':'DSN', \

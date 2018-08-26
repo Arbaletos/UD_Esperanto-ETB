@@ -14,7 +14,7 @@ Last change: 25.05.2018
 
 
 def print_l(li,delim = ','):
-  """More comfortableinterface for char.join"""
+  """More comfortable interface for char.join"""
   return delim.join([str(l) for l in li])
 
 def kon(li):
@@ -433,7 +433,7 @@ def main():
   now = time()
   if len(sys.argv)<2:  filename = 'nivelo3'
   else: filename = sys.argv[1]
-  inp = parsecon('con/in/'+filename+'.con')
+  inp = parsecon('_con/'+filename+'.con')
   inputo = [('1','NUM'),('.','PUNCT')]
   outputo = []
   all = 0
@@ -443,6 +443,7 @@ def main():
   while len(inp)>0:
     cursent = Sent(getsent(inp))
     par = cursent.parse()
+    print(par[0][0])
     if par:good+=1
     else:
       shitlist.append(cursent) 

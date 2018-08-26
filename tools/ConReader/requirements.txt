@@ -1,0 +1,6 @@
+1)Navigatio en doco. (w,a,s,d)
+2)deleto del eno (x)
+3)deleto del linio (X)
+4)inserto del nove verso (i)-nsert
+5)split sent(c)-ut
+6)merge sent(j)-oin
