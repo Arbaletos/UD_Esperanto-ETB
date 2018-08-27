@@ -86,7 +86,7 @@ class Parser:
                           'ant':'DPR','ont':'DFT','int':'DPS'}
                  
     ###INIT COVERT DICT TO CONVERT 2 TAG###
-    convert_dict = {   'NSN':('NOUN',1),  'NPN':('NOUN',2),
+    conv_dict = {   'NSN':('NOUN',1),  'NPN':('NOUN',2),
     'NSA':('NOUN',2),  'NPA':('NOUN',3),  'ASN':('ADJ',1),
     'APN':('ADJ',2),   'ASA':('ADJ',2),   'APA':('ADJ',3),
     'ADE':('ADV',1),   'ADD':('ADV',2),   'VPR':('VERB',2),
@@ -108,15 +108,15 @@ class Parser:
     for k in kom:
       for f in fin:
         if f in ['APN','ASA','DPN','DSA']:
-          convert_dict[k+f] = ['DET',1]
-        elif f in ['DPA','APA']: convert_dict[k+f] = ['DET',2]
-        elif f in ['DSN','ASN','DQU','DPS']: convert_dict[k+f] = ['DET',0]
-        elif f == 'PRUA': convert_dict[k+f] = ['PRON',1]
-        elif f == 'PRUN': convert_dict[k+f] = ['PRON',0]
-        elif f == 'ADV': convert_dict[k+f] = ['ADV',0]
-        elif f == 'ADD': convert_dict[k+f] = ['ADV',1]
+          conv_dict[k+f] = ['DET',1]
+        elif f in ['DPA','APA']: conv_dict[k+f] = ['DET',2]
+        elif f in ['DSN','ASN','DQU','DPS']: conv_dict[k+f] = ['DET',0]
+        elif f == 'PRUA': conv_dict[k+f] = ['PRON',1]
+        elif f == 'PRUN': conv_dict[k+f] = ['PRON',0]
+        elif f == 'ADV': conv_dict[k+f] = ['ADV',0]
+        elif f == 'ADD': conv_dict[k+f] = ['ADV',1]
         
-    self.conv_dict = convert_dict
+    self.conv_dict = conv_dict
     
     
   def tokenize(self, sent):
