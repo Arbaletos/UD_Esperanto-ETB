@@ -1,9 +1,15 @@
 class Conll:
   """Full Conll representation of a document."""
 
-  def __init__(self, text, id=''):
-    self.sentaro = [Sent(strings) for strings in text.split('\n\n')]
+  def __init__(self, id=None):
     self.id = id
+    self.formal = True
+    
+  def exportu(self, text):
+    self.sentaro = [Sent(strings) for strings in text.split('\n\n')]
+    
+  def importu(self, spaces=True, ids=True, sent_tekst=True):
+    return str(self)
     
   def __str__(self):
     return ''.join([str(sent) for sent in self.sentaro])
@@ -17,11 +23,10 @@ class Conll:
       s.update_text()
   
 
-  
 class Sent:
   """The conll sentence, contains table, id and coolstory"""
   
-  def __init__(self,strings):  
+  def __init__(self, strings=None, vortoj=None):  
     self.tokens = []
     self.pars = {}
     tokens = strings.split('\n')
@@ -60,7 +65,7 @@ class Token:
     self.word = cols[1]
     self.feat_dict = str_to_dict(cols[5]) #feats can be dict
     self.misc_dict = str_to_dict(cols[9]) #misc can be dict
-    if cols[3]=='_': #Kostyl for TAG(can't be underscore)
+    if cols[3]=='_':                      #Kostyl for TAG(can't be underscore)
       cols[3] = 'X'
     self.cols = cols
     
