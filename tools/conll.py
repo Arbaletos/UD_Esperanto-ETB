@@ -26,18 +26,22 @@ class Conll:
 class Sent:
   """The conll sentence, contains table, id and coolstory"""
   
-  def __init__(self, strings=None, vortoj=None):  
+  def __init__(self, id=None, strings=None):  
     self.tokens = []
-    self.pars = {}
-    tokens = strings.split('\n')
-    for tok in tokens:
-      if tok.strip().startswith('#'):
-        pars = tok.strip()[1:].split('=')
-        if len(pars)>=2:
-          self.pars[pars[0].strip()] = pars[1].strip()
-      else:
-        cols = tok.split('\t')
-        self.tokens.append(Token(cols))
+    self.pars = {'id':id} if id is not None else {}
+    if strings is not None:
+      tokens = strings.split('\n')
+      for tok in tokens:
+        if tok.strip().startswith('#'):
+          pars = tok.strip()[1:].split('=')
+          if len(pars)>=2:
+            self.pars[pars[0].strip()] = pars[1].strip()
+        else:
+          cols = tok.split('\t')
+          self.tokens.append(Token(cols))
+          
+  def add(self, token):
+    self.tokens.append(token)
         
   def __str__(self):
     ret = []
@@ -58,33 +62,57 @@ class Sent:
 class Token:
   """Token class, containg all gramemes."""
   
-  def __init__(self, cols):
-    if len(cols) < 10:
-      cols = cols+['_']*(10-len(cols))
-    self.id = cols[0]
-    self.word = cols[1]
-    self.feat_dict = str_to_dict(cols[5]) #feats can be dict
-    self.misc_dict = str_to_dict(cols[9]) #misc can be dict
-    if cols[3]=='_':                      #Kostyl for TAG(can't be underscore)
-      cols[3] = 'X'
-    self.cols = cols
-    
+  #def __init__(self, cols):
+  def __init__(self, id='0', word='_', lemma='_', upos='X', xpos='_',
+               feats='_', head='_', deprel='_', deps='_', misc='SpaceAfter=Yes')
+    self.id = id
+    self.word = word
+    self.lemma = lemma
+    self.upos = upos
+    self.xpos = xpos
+    self.feats = ConllDict(feats) #feats can be dict
+    self.head = head
+    self.deprel = deprel
+    self.deps = deps
+    self.misc = ConllDict(misc) #misc can be dict
+  
   def __str__(self):
     return '\t'.join(self.cols)
-    
+  
   def to_sent(self):
     space = self.misc_dict.get('SpaceAfter', 'Yes')
     if space=='Yes':
-      return self.cols[1]+' '
-    return self.cols[1]
- 
-          
-def str_to_dict(in_str):
-  ret = {}
-  if in_str=='_':
-    return ret
-  keys = in_str.split('|')
-  return {k.split('=')[0]:k.split('=')[1] for k in keys}
+      return self.word+' '
+    return self.word
+    
+
+class ConllDict:
+  '''Dict incapsulation, that can be easily transformed and edited in CONLL string form.'''
+  
+  def __init__(self, data):
+    if type(data)=='str':
+      self.data = self.str_to_dict(data)
+    elif type(data)=='dict':
+      self.dict = data
+    else:
+      self.dict = {}
+      
+  #def get !!!!
+  
+  #def __indice__(for str and int!)!!!!
+      
+  def __str__(self):
+    return self.dict_to_str(self.dict)
+  
+  def dict_to_str(self, dict):
+    return '|'.join(['{}={}'.format(k, dict[k]) for k in sorted(dict)]) if dict else '_'!!!!!!!!!!!
+  
+  def str_to_dict(self, in_str):
+    ret = {}
+    if in_str=='_':
+      return ret
+    keys = in_str.split('|')
+    return {k.split('=')[0]:k.split('=')[1] for k in keys}
   
 
 def insert_spaces(text):
