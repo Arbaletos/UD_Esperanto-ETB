@@ -1,0 +1,24 @@
+La sistemo konsistas el sekvaj partoj:
+KNLL (Konferenco de natura lingvo lernado) == CoNLL (Conference of natural language learning)
+
+1. Vortparsilo
+2. Frazparsilo
+3. KNLLlegilo
+4. Analizilo
+5. Disvariantigilo
+
+Vortparsilo legas iun tekstan el dosiero aux el klavaro, kaj:
+1.Dissektas frazoj en tiu cxi teksto.
+2.Tokenigas teskton.
+3.Parsas cxiun tokenon en teksto.
+
+Fine, kion ni havas estas KNLL dosiero kun vortinformo pri cxiu vorto. 
+Vortparsilo povas funkcii en formala (-f) kaj neformala varianto. Se in formala, la parsilo provas elekti varianton en multvariantaj kauxzoj mem, en formala parsilo kreas 'nKNLL' - la versio de KNLL kun multaj variantoj.
+
+Frazparsilo funkcias precipe same, sed gxi bezonas havi KNLL (ne neformala!) ene, kaj produktas pli detalita KNLL aux nKNLL.
+
+KNLLlegilo povas helpi legi iux KNLL dosiero pri komforte, kun kolorigo de tekstoj, rapida navigacio kaj tiel plu.
+
+Analizilo povas helpi preni informon pri ekzista KNLL dosiero kaj formi MLL rezult dokumento
+
+Disvariantigilo estas helpilo por mane fari el nKNLL KNLL-n.
