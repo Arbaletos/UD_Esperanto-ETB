@@ -6,6 +6,9 @@ class Conll:
     self.formal = True
     
   def exportu(self, text):
+  '''
+  Por esti sukcese eksportita, frazoj en via teksto devas esti divigitaj.
+  '''
     self.sentaro = [Sent(strings) for strings in text.split('\n\n')]
     
   def importu(self, spaces=True, ids=True, sent_tekst=True):
@@ -24,7 +27,7 @@ class Conll:
   
 
 class Sent:
-  """The conll sentence, contains table, id and coolstory"""
+  """The conll sentence, contains tokens, id and coolstory"""
   
   def __init__(self, id=None, strings=None):  
     self.tokens = []
@@ -89,33 +92,49 @@ class Token:
 class ConllDict:
   '''Dict incapsulation, that can be easily transformed and edited in CONLL string form.'''
   
-  def __init__(self, data):
+  def __init__(self, data=None):
     if type(data)=='str':
       self.data = self.str_to_dict(data)
     elif type(data)=='dict':
       self.dict = data
     else:
       self.dict = {}
-      
-  #def get !!!!
-  
-  #def __indice__(for str and int!)!!!!
+            
+  def __getitem__(self, key):
+    return self.dict[key]
+
+  def __setitem__(self, key, value):
+    self.dict[key] = value
       
   def __str__(self):
-    return self.dict_to_str(self.dict)
+    return '|'.join(['{}={}'.format(k, self.to_str(self.dict[k])) for k in sorted(self.dict)]) if len(self.dict) else '_'
+    
+  def to_str(self, arg):
+  '''returns string from a par: Yes for True, No for False, str for str'''
+  if arg==True:
+    return 'Yes'
+  if arg==False:
+    return 'No'
+  return str(arg)
   
-  def dict_to_str(self, dict):
-    return '|'.join(['{}={}'.format(k, dict[k]) for k in sorted(dict)]) if dict else '_'!!!!!!!!!!!
+  def to_bool(self,arg):
+  '''returns True instead of 'Yes' and False instead of 'No''''
+  if arg=='Yes':
+    return True
+  if arg=='No':
+    return False
+  return str(arg)
   
   def str_to_dict(self, in_str):
     ret = {}
     if in_str=='_':
       return ret
     keys = in_str.split('|')
-    return {k.split('=')[0]:k.split('=')[1] for k in keys}
+    return {k.split('=')[0]:self.to_bool(k.split('=')[1]) for k in keys}
   
 
 def insert_spaces(text):
+  '''Add blank lines in conll before each sentence, if they are not here.'''
   linearo = text.split('\n')
   for i in range(1,len(linearo)):
     line = linearo[i]
