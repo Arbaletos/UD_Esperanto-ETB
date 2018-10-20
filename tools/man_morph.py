@@ -11,35 +11,7 @@ Last change: 21.08.2018
 import sys
 import os
 
-
-class Token:
-
-  def __init__(self, word, space=True):
-    self.word = word      #form of word in text
-    self.space = space    #is this token followed by space?
-    self.vars = []
-
-  def is_digit(self):
-    return self.word.isdigit()
-
-  def is_alpha(self):
-    return self.word.isalpha()
-
-  def is_punct(self):
-    return self.word in ['.', ',', '...', '?', '!', '"', "'", ':', ';', '`', '(', ')']
-
-  def is_symb(self):
-    return not self.is_alpha() and not self.is_digit() and not self.is_punct()
-
-  def is_capital(self):
-    return self.word[0].isupper()
-
-  def is_foreign(self):
-    for_let = ['q','x','w','y']
-    for let in for_let:
-      if let in self.word:
-        return True
-    return False
+from conll import Token
     
     
 class Parser:

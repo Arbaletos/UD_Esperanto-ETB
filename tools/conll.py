@@ -5,16 +5,24 @@ class Conll:
     self.id = id
     self.formal = True
     
+  def load_from_file(self, fn):
+    with open(fn, 'r') as f:
+      self.exportu(f.read())
+    
   def exportu(self, text):
-  '''
-  Por esti sukcese eksportita, frazoj en via teksto devas esti divigitaj.
-  '''
+    '''
+      Por esti sukcese eksportita, frazoj en via teksto devas esti divigitaj.
+    '''
     self.sentaro = [Sent(strings) for strings in text.split('\n\n')]
     
-  def importu(self, spaces=True, ids=True, sent_tekst=True):
-    return str(self)
+  def importu(self, fn):
+    with open(fn, 'w') as f:
+      f.write(str(self))
     
   def __str__(self):
+    '''
+      spaces=True, ids=True, sent_tekst=True
+    ''' 
     return ''.join([str(sent) for sent in self.sentaro])
     
   def update_sent_id(self):
@@ -24,6 +32,13 @@ class Conll:
   def update_text(self):
     for s in self.sentaro:
       s.update_text()
+      
+  def add(self, sent):
+    if type(sent)==Sent:
+      self.sentaro.append(Sent)
+    else:
+      self.sentaro.append(Sent(sent))
+     
   
 
 class Sent:
@@ -63,11 +78,11 @@ class Sent:
     
     
 class Token:
-  """Token class, containg all gramemes."""
+  """Token class, containing all gramemes."""
   
   #def __init__(self, cols):
   def __init__(self, id='0', word='_', lemma='_', upos='X', xpos='_',
-               feats='_', head='_', deprel='_', deps='_', misc='SpaceAfter=Yes')
+               feats='_', head='_', deprel='_', deps='_', misc='SpaceAfter=Yes'): #cxu add 'space' explicitly?
     self.id = id
     self.word = word
     self.lemma = lemma
@@ -81,12 +96,37 @@ class Token:
   
   def __str__(self):
     return '\t'.join(self.cols)
+    
+  def space(self):
+    return self.misc_dict.get('SpaceAfter', True)
   
   def to_sent(self):
-    space = self.misc_dict.get('SpaceAfter', 'Yes')
-    if space=='Yes':
+    space = self.misc_dict.get('SpaceAfter', True)
+    if space:
       return self.word+' '
     return self.word
+
+  def is_digit(self):
+    return self.word.isdigit()
+
+  def is_alpha(self):
+    return self.word.isalpha()
+
+  def is_punct(self):
+    return self.word in ['.', ',', '...', '?', '!', '"', "'", ':', ';', '`', '(', ')']
+
+  def is_symb(self):
+    return not self.is_alpha() and not self.is_digit() and not self.is_punct()
+
+  def is_capital(self):
+    return self.word.istitle()
+
+  def is_foreign(self):
+    for_let = ['q','x','w','y']
+    for let in for_let:
+      if let in self.word:
+        return True
+    return False
     
 
 class ConllDict:
@@ -99,6 +139,13 @@ class ConllDict:
       self.dict = data
     else:
       self.dict = {}
+      
+      
+  def get(self, k, d):
+    try:
+      return self.dict[k]
+    except:
+      return d
             
   def __getitem__(self, key):
     return self.dict[key]
@@ -110,20 +157,20 @@ class ConllDict:
     return '|'.join(['{}={}'.format(k, self.to_str(self.dict[k])) for k in sorted(self.dict)]) if len(self.dict) else '_'
     
   def to_str(self, arg):
-  '''returns string from a par: Yes for True, No for False, str for str'''
-  if arg==True:
-    return 'Yes'
-  if arg==False:
-    return 'No'
-  return str(arg)
+    '''returns string from a par: Yes for True, No for False, str for str'''
+    if arg==True:
+      return 'Yes'
+    if arg==False:
+      return 'No'
+    return str(arg)
   
   def to_bool(self,arg):
-  '''returns True instead of 'Yes' and False instead of 'No''''
-  if arg=='Yes':
-    return True
-  if arg=='No':
-    return False
-  return str(arg)
+    '''returns True instead of 'Yes' and False instead of 'No'''
+    if arg=='Yes':
+      return True
+    if arg=='No':
+      return False
+    return str(arg)
   
   def str_to_dict(self, in_str):
     ret = {}
