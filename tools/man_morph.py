@@ -4,7 +4,7 @@
 """
 Author: Artemo Arbaletos
 https:github.com/Arbaletos
-Last change: 21.08.2018
+Last change: 14.07.2019
 """
 
 
@@ -267,6 +267,20 @@ def get_out(source, root='../m_out/conll/'):
     out = open(name, 'w')
   return out
 
+def clean_text(text):
+    """Sxangxos la x-sisteme skribitaj cxapelliteroj per cxapele skribitaj"""
+    dicto = {'Cx':'Ĉ',
+             'Gx':'Ĝ',
+             'Hx':'Ĥ',
+             'Jx':'Ĵ',
+             'Sx':'Ŝ',
+             'Ux':'Ŭ'} # POZOR! tux -> tŭ!!!
+    for k in dicto:
+        text = text.replace(k, dicto[k])
+        text = text.replace(k.lower(), dicto[k].lower())
+        text = text.replace(k.upper(), dicto[k].upper())
+    return text
+
 
 def get_source(fn, root='../data'):
   if fn=='stdin':
@@ -293,6 +307,7 @@ def main():
     source = get_source(pipeline.pop())
     out = get_out(source)
     text = parse_source(source)
+    text = clean_text(text)
     sents = sent_split(text)
     tokens = [parser.tokenize(sent) for sent in sents]
     for sent in tokens:

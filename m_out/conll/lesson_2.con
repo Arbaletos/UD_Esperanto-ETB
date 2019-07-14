@@ -1,113 +1,93 @@
-1	Bona	bon	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+1	Bona	bon	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	viro	vir	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-3	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	La	la	DET	DET	_	_	_	_	_
-2	granda	grand	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	granda	grand	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 3	tablo	tabl	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-4	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	Blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	floro	flor	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-3	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	Flava	flav	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Flava	flav	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	birdo	bird	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-3	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	La	la	DET	DET	_	_	_	_	_
-2	bela	bel	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
-3	birdo	bird	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	bela	bel	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	birdo	bird	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 4	kantas	kant	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-5	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	Forta	fort	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
-2	knabo	knab	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Forta	fort	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	knabo	knab	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 3	kuras	kur	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-4	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	La	la	DET	DET	_	_	_	_	_
-2	bona	bon	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
-3	viro	vir	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	bona	bon	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	viro	vir	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 4	marŝas	marŝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-5	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	La	la	DET	DET	_	_	_	_	_
-2	bela	bel	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
-3	ĉevalo	ĉeval	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	bela	bel	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	ĉevalo	ĉeval	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 4	kuras	kur	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-5	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	La	la	DET	DET	_	_	_	_	_
-2	suno	sun	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	suno	sun	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 3	brilas	bril	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-4	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	Birdo	bird	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
-2	flugas	flug	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
-3	kaj	kaj	CCONJ	CCONJ	_	_	_	_	_
-4	knabo	knab	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Birdo	bird	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	flugas	flug	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+4	knabo	knab	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 5	kuras	kur	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-6	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	Ĉevalo	ĉeval	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
-2	blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Ĉevalo	ĉeval	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 3	marŝas	marŝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-4	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	La	la	DET	DET	_	_	_	_	_
-2	bela	bel	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
-3	luno	lun	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	bela	bel	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	luno	lun	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 4	brilas	bril	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-5	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	La	la	DET	DET	_	_	_	_	_
-2	knabo	knab	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
-3	kantas	kant	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
-4	kaj	kaj	CCONJ	CCONJ	_	_	_	_	_
-5	la	la	DET	DET	_	_	_	_	_
-6	viro	vir	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	knabo	knab	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	kantas	kant	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+5	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+6	viro	vir	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 7	dormas	dorm	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-8	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	Bela	bel	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
-2	granda	grand	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Bela	bel	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	granda	grand	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 3	pomo	pom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-4	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	La	la	DET	DET	_	_	_	_	_
-2	bona	bon	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
-3	knabo	knab	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	bona	bon	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	knabo	knab	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 4	kantas	kant	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-5	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	La	la	DET	DET	_	_	_	_	_
-2	granda	grand	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
-3	ĉevalo	ĉeval	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	granda	grand	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	ĉevalo	ĉeval	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 4	dormas	dorm	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-5	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	La	la	DET	DET	_	_	_	_	_
-2	suno	sun	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
-3	brilas	bril	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
-4	kaj	kaj	CCONJ	CCONJ	_	_	_	_	_
-5	la	la	DET	DET	_	_	_	_	_
-6	luno	lun	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	suno	sun	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	brilas	bril	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+5	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+6	luno	lun	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 7	brilas	bril	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-8	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	Granda	grand	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
-2	forta	fort	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Granda	grand	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	forta	fort	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 3	tablo	tabl	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-4	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	Violo	viol	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Violo	viol	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	flava	flav	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-3	.	.	PUNCT	PUNCT	_	_	_	_	_
-
-1	La	la	DET	DET	_	_	_	_	_
-2	bona	bon	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
-3	flava	flav	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+3	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	bona	bon	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	flava	flav	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 4	pomo	pom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-5	.	.	PUNCT	PUNCT	_	_	_	_	_
-
+5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
