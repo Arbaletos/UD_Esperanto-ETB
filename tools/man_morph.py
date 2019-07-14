@@ -10,6 +10,9 @@ Last change: 21.08.2018
 
 import sys
 import os
+import re
+
+from copy import deepcopy as copy
 
 from conll import Token
     
@@ -26,7 +29,6 @@ class Parser:
     ###INIT ClOSED WORDS DICT###
     num_k ={k:'NUM' for k in ['du', 'tri', 'kvar', 'kvin', 'ses', 'sep', 'ok', 'naŭ']}
     num_f ={'dek':'','cent':''}
-    #kor_k = {'ki':'INT','i':'IND','ĉi':'IND','neni':'IND','ti':'DEM'}
     kor_k = {'ki':'DEM','i':'KOR','ĉi':'KOR','neni':'KOR','ti':'KOR'}
     kor_f = {'a':'ASN', 'o':'PRUN', 'u':'DSN', 'e':'ADV','el':'ADV',\
              'en':'ADD', 'es':'DPS','om':'DQU', 'am':'ADV','al':'ADV',\
@@ -89,85 +91,73 @@ class Parser:
         elif f == 'ADD': conv_dict[k+f] = ['ADV',1]
         
     self.conv_dict = conv_dict
+
+    self.token_list = ['k.t.p.', 'i.e.', 'd-ro', '...']
+    self.token_list = sorted(self.token_list, key=lambda x:-len(x))
+    self.token_list = ['^'+t.replace('.', '\.') for t in self.token_list]
+    self.token_list = self.token_list + ['^[A-Z]\.','^\d+', '^\w+','^.']
     
     
   def tokenize(self, sent):
     """Split sent into tokens sequence, with spaces also."""
-    ###Replace by spacy?###
     ret = []
     spaced_toks = sent.split(' ')
+    cur_id = 1
     for tok in spaced_toks:
-      if tok == 'k.t.p.': #add more, malestu hundo.
-        ret.append(Token(tok))
-        continue
-      while not tok[0].isalpha() and not tok[0].isdigit():
-        ret.append(tok[0], False)
-        tok = tok[1:]
-      space = True
-      nret = []
-      while not tok[-1].isalpha() and not tok[-1].isdigit():
-        if tok.endswith('...'):
-          ntok = '...'
-        elif len(tok)>1 and tok.endswith('.') and tok[-2].isupper():
-          ntok = tok[-2:]
-        else:
-          ntok = tok[-1]
-        if tok == ntok:
-          break
-        nret.append(Token(ntok, space))
-        tok = tok[:-len(ntok)]
-        space = False
-      if tok:
-        ret.append(Token(tok, space))
-      ret += nret
-    
+      while len(tok):
+        for reg in self.token_list:
+          regres = re.search(reg, tok)
+          if regres is not None:
+            w = regres.group(0)
+            space = len(w)==len(tok)
+            ret.append(Token(cur_id, w, misc={'SpaceAfter':space}))
+            cur_id+=1
+            tok = tok[len(w):]
+            break
     #qtrick()
     return ret    
     
-  def parse(self, sent):
-    for i in range(len(sent)):
-      id = i+1
-      t = sent[i]
-      t.id = id
-      self.get_tag(t, i == 0)
-      self.get_feats(t)
-      self.get_misc(t)
-    return sent
+  def parse(self, sent, disamb=False):
+    ret = []
+    for i, t in enumerate(sent):
+      parsoj = self.get_tag(t, i==0)
+      
+      for p in parsoj:
+          self.get_feats(p)
+          self.get_misc(p)
+          ret.append(p)
+    if disamb:
+        ret = self.disamb(ret)
+    return ret 
       
   def get_tag(self, token, new_sent):
   
     if token.is_digit():  #digital numerals
-      self.addVar(token, 'NUM')
-      return
+      return [self.add_pos(token, 'NUM')]
       
     if token.is_punct():  #punctuation
-      self.addVar(token, 'PUNCT')
-      return
+      return [self.add_pos(token, 'PUNCT')]
       
     if token.is_symb():  #symbol - phone, email, url, abbreviation.
-      self.addVar(token, 'SYM')
-      return
+      return [self.add_pos(token, 'SYM')]
+
+    ret = []
       
     if self.cls_dict.get(token.word.lower(), None): #word from closed class
       poss = self.cls_dict[token.word.lower()]
       for pos in poss:
         tag, ind = self.conv_dict.get(pos,(pos,0))
         lemm = token.word.lower()[:len(token.word) - ind]
-        self.addVar(token, pos, tag, lemm)
-      return
+        ret.append(self.add_pos(token, pos, tag, lemm))
+      return ret
       
     if token.is_capital() and not new_sent: #If this word definetely proper
       if token.word.endswith('on'):
-        self.addVar(token, 'PROPN', 'PROPA', token.word[:-1])
-        return
-      if token.is_foreign():
-        token.foreign = True
-      self.addVar(token, 'PROPN')
+        ret.append(self.add_pos(token, 'PROPN', 'PROPA', token.word[:-1]))
+      ret.append(self.add_pos(token, 'PROPN'))
       
     if token.is_foreign(): #Don't parse foreign word by ending.
-      token.foreign = True
-      self.addVar(token, 'X')
-      return
+      return ret+[self.add_pos(token, 'X')]
       
     for fin in self.fin_dict.keys():
       if token.word.endswith(fin):
@@ -179,67 +169,50 @@ class Parser:
             if lemm.endswith(part):
               tag = self.part_fin_dict[part]+tag
               break
-        self.addVar(token, pos, tag, lemm)
-        return
-    self.addVar(token, 'X')
-    return
+        ret.append(self.add_pos(token, pos, tag, lemm))
+        return ret
+    ret.append(self.add_pos(token, 'X'))
+    return ret
     
   def get_feats(self, token):
     feats = []
-    for var in token.vars:
-      fin = token.word[len(var['lemm']):]
-      if var['pos']=='VERB':
-        if var['tag']=='VPR': feats.append('Mood=Ind|Tense=Pres')
-        if var['tag']=='VPS': feats.append('Mood=Ind|Tense=Past')
-        if var['tag']=='VFT': feats.append('Mood=Ind|Tense=Fut')
-        if var['tag']=='VCN': feats.append('Mood=Cnd')
-        if var['tag']=='VDM': feats.append('Mood=Imp')
-        if var['tag']=='VIN': feats.append('VerbForm=Inf')
-      else:
-        if var['tag'][-1] == 'A':feats.append('Case=Acc')
-        if var['tag'][-1] == 'N':feats.append('Case=Nom')
-        if var['tag'][-2] == 'S':feats.append('Number=Sing')
-        if var['tag'][-2] == 'P':feats.append('Number=Plur')
-      #Prontype for correlativoj!
-      #Part for participles!
-      if feats:
-        var['feats'] = '|'.join(feats)
-        feats.clear()
-      else:
-        var['feats'] = '_' 
-      
+    fin = token.word[len(token.lemma):]
+    if token.upos =='VERB':
+      if token.xpos == 'VPR': feats.append('Mood=Ind|Tense=Pres')
+      if token.xpos == 'VPS': feats.append('Mood=Ind|Tense=Past')
+      if token.xpos == 'VFT': feats.append('Mood=Ind|Tense=Fut')
+      if token.xpos == 'VCN': feats.append('Mood=Cnd')
+      if token.xpos == 'VDM': feats.append('Mood=Imp')
+      if token.xpos == 'VIN': feats.append('VerbForm=Inf')
+    else:
+      if len(token.xpos)>=1:
+        if token.xpos[-1] == 'A': feats.append('Case=Acc')
+        if token.xpos[-1] == 'N': feats.append('Case=Nom')
+      if len(token.xpos)>=2:
+        if token.xpos[-2] == 'S': feats.append('Number=Sing')
+        if token.xpos[-2] == 'P': feats.append('Number=Plur')
+    #Prontype for correlativoj!
+    #Part for participles!
+    if feats:
+      token.set_feats('|'.join(feats))
+      feats.clear()
+    else:
+      token.set_feats('_')
   
   def get_misc(self, token):
-    cur = []
-    if not token.space:
-      cur.append('SpaceAfter=No')
-    if cur:
-      token.misc = '|'.join(cur)
-      return
-    token.misc = '_'
-    
+    if token.is_foreign():
+          token.add_misc('Foreign=True')
       
-  def addVar(self, token, pos, tag=None, lemm=None):
+  def add_pos(self, token, pos, tag=None, lemm=None):
+    ret = copy(token)
     if tag is None:
       tag = pos
     if lemm is None:
       lemm = token.word.lower()
-    token.vars.append({'lemm':lemm, 'pos':pos, 'tag':tag})
-    
-
-def parse_source(source):
-  """Makes text from .txt or .xml file"""
-  if source=='stdin':
-    text = input('Enter your text or q to exit!\n')
-    if text == 'q': sys.exit()
-    return text
-  elif source.endswith('.xml'):
-    ###xml parsing routine###
-    pass
-  else:
-    ###All other text files.###
-    with open(source, 'r') as inf:
-      return inf.read()
+    ret.lemma = lemm
+    ret.upos = pos
+    ret.xpos = tag
+    return ret
   
   
 def sent_split(text):
@@ -268,8 +241,23 @@ def kombiki(kom_dict, fin_dict):
       except:
         ret[kom+fin] = [kom_dict[kom]+fin_dict[fin]]  
   return ret
-    
-  
+
+
+def parse_source(source):
+  """Makes text from .txt or .xml file"""
+  if source=='stdin':
+    text = input('Enter your text or q to exit!\n')
+    if text == 'q': sys.exit()
+    return text
+  elif source.endswith('.xml'):
+    ###xml parsing routine###
+    pass
+  else:
+    ###All other text files.###
+    with open(source, 'r') as reader:
+      return reader.read()
+
+
 def get_out(source, root='../m_out/conll/'):
   """get output file to write for selected source"""
   if source=='stdin':
@@ -291,21 +279,15 @@ def get_source(fn, root='../data'):
 
 
 def build_con(sent):
-  ret = ''
-  id = 1
-  for token in sent:
-    for var in token.vars:
-      ret +='\t'.join([str(id),token.word,var['lemm'],var['pos'],var['tag'],var['feats'],'_','_','_',token.misc])
-      ret+='\n'
-    id+=1
-  return ret + '\n'
+  return '\n'.join([str(t) for t in sent]) + '\n'
   
   
 def main():
   """Main function Loop, containing every step"""
   args = sys.argv[1:]
   pipeline = args[:]
-  if not args: pipeline.append('stdin')
+  if not args: 
+    pipeline.append('stdin')
   parser = Parser()
   while len(pipeline): 
     source = get_source(pipeline.pop())
@@ -337,11 +319,10 @@ def test():
     print ('{} {} Test Cases completed!'.format(len(cases), temo))
     
   def test_token(case, word, space, isdigit, isalpha, ispunct, issymb):
-    if space: token = Token(word)
-    else: token = Token(word, space)
+    token = Token(word=word, misc={'SpaceAfter':space}) 
     case = 'Token '+str(case)
     ass(case, word, token.word, 'word')
-    ass(case, space, token.space, 'space')
+    ass(case, space, token.space_after(), 'space')
     ass(case, isdigit, token.is_digit(), 'is_digit')
     ass(case, isalpha, token.is_alpha(), 'is_alpha')
     ass(case, ispunct, token.is_punct(), 'is_punct')
@@ -357,7 +338,7 @@ def test():
     parser = Parser()
     n_tokens = parser.tokenize(sent)
     n_words = [token.word for token in n_tokens]
-    n_spaces = [token.space for token in n_tokens]
+    n_spaces = [token.space_after() for token in n_tokens]
     ass(case, words, n_words, 'words')
     ass(case, spaces, n_spaces, 'spaces')
     
@@ -366,7 +347,6 @@ def test():
     ['putino', True, False, True, False, False],
     ['548', True, True, False, False, False],  
     ['.', True, False, False, True, False], 
-    ['hundo-mundo', True, False, True, False, False], #Necesas fari!     
     ]
     
   kombiki_test_cases = [

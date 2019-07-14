@@ -12,6 +12,7 @@ class Conll:
   def exportu(self, text):
     '''
       Por esti sukcese eksportita, frazoj en via teksto devas esti divigitaj.
+      Exportas conll el .con file.
     '''
     self.sentaro = [Sent(strings) for strings in text.split('\n\n')]
     
@@ -80,10 +81,9 @@ class Sent:
 class Token:
   """Token class, containing all gramemes."""
   
-  #def __init__(self, cols):
-  def __init__(self, id='0', word='_', lemma='_', upos='X', xpos='_',
-               feats='_', head='_', deprel='_', deps='_', misc='SpaceAfter=Yes'): #cxu add 'space' explicitly?
-    self.id = id
+  def __init__(self, cur_id='0', word='_', lemma='_', upos='X', xpos='_',
+               feats='_', head='_', deprel='_', deps='_', misc='SpaceAfter=Yes'):
+    self.id = cur_id
     self.word = word
     self.lemma = lemma
     self.upos = upos
@@ -93,15 +93,17 @@ class Token:
     self.deprel = deprel
     self.deps = deps
     self.misc = ConllDict(misc) #misc can be dict
-  
+
   def __str__(self):
-    return '\t'.join(self.cols)
+    return '\t'.join(str(x) for x in [self.id, self.word,
+        self.lemma, self.upos, self.xpos, self.feats,
+        self.head, self.deprel, self.deps, self.misc])
     
-  def space(self):
-    return self.misc_dict.get('SpaceAfter', True)
+  def space_after(self):
+    return self.misc.get('SpaceAfter', True)
   
   def to_sent(self):
-    space = self.misc_dict.get('SpaceAfter', True)
+    space = self.misc.get('SpaceAfter', True)
     if space:
       return self.word+' '
     return self.word
@@ -116,6 +118,7 @@ class Token:
     return self.word in ['.', ',', '...', '?', '!', '"', "'", ':', ';', '`', '(', ')']
 
   def is_symb(self):
+    #necesas aldoni regexpojn!
     return not self.is_alpha() and not self.is_digit() and not self.is_punct()
 
   def is_capital(self):
@@ -127,15 +130,30 @@ class Token:
       if let in self.word:
         return True
     return False
-    
+
+  def add_misc(self, misc):
+    self.misc.update(misc)
+
+  def set_misc(self, misc):
+    self.misc = ConllDict(misc)
+
+  def add_feats(self, feats):
+    self.feats.update(feats)
+
+  def set_feats(self, feats):
+    self.feats = ConllDict(feats)
+
 
 class ConllDict:
-  '''Dict incapsulation, that can be easily transformed and edited in CONLL string form.'''
+  '''Dict incapsulation, that can be easily transformed and edited in CONLL
+  string form.'''
   
   def __init__(self, data=None):
-    if type(data)=='str':
-      self.data = self.str_to_dict(data)
-    elif type(data)=='dict':
+
+
+    if type(data) is str:
+      self.dict = self.str_to_dict(data)
+    elif type(data) is dict:
       self.dict = data
     else:
       self.dict = {}
@@ -152,6 +170,10 @@ class ConllDict:
 
   def __setitem__(self, key, value):
     self.dict[key] = value
+
+  def update(self, nova):
+      nova = ConllDict(nova)
+      self.dict.update(nova.dict)
       
   def __str__(self):
     return '|'.join(['{}={}'.format(k, self.to_str(self.dict[k])) for k in sorted(self.dict)]) if len(self.dict) else '_'
