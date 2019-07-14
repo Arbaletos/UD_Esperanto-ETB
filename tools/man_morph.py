@@ -14,7 +14,7 @@ import re
 
 from copy import deepcopy as copy
 
-from conll import Token
+from con.conll import Token
     
     
 class Parser:
