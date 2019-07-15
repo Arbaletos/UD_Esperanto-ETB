@@ -4,19 +4,20 @@ class Conll:
   def __init__(self, id=None):
     self.id = id
     self.formal = True
+    self.sentaro = []
     
   def load_from_file(self, fn):
     with open(fn, 'r') as f:
       self.exportu(f.read())
     
-  def exportu(self, text):
+  def importu(self, text):
     '''
       Por esti sukcese eksportita, frazoj en via teksto devas esti divigitaj.
       Exportas conll el .con file.
     '''
     self.sentaro = [Sent(i, strings) for i, strings in enumerate(text.split('\n\n'))]
     
-  def importu(self, fn):
+  def exportu(self, fn):
     with open(fn, 'w') as f:
       f.write(str(self))
     
@@ -35,8 +36,8 @@ class Conll:
       s.update_text()
       
   def add(self, sent):
-    if type(sent)==Sent:
-      self.sentaro.append(Sent)
+    if type(sent) is Sent:
+      self.sentaro.append(sent)
     else:
       self.sentaro.append(Sent(len(self.sentaro), sent))
      
@@ -72,10 +73,26 @@ class Sent:
     return ''.join(ret)
     
   def update_sent_id(self, sent_id, text_id):
-    self.pars['sent_id'] = text_id+sent_id
+    self.pars['sent_id'] = text_id+'_'+sent_id
     
   def update_text(self):
-    self.pars['text'] = ''.join([t.to_sent() for t in self.tokens])
+    if len(self.tokens) == 0:
+      return
+    if self.is_formal():
+      self.pars['text'] = ''.join([t.to_sent() for t in self.tokens])
+    else:
+      self.pars['text'] = ''
+      id_0 = self.tokens[0].id
+      for t in self.tokens:
+          if t.id == id_0:
+              id_0 += 1
+              self.pars['text'] += t.to_sent()
+
+  def is_formal(self):
+    ids = [t.id for t in self.tokens]
+    if len(set(ids)) < len(ids):
+      return False
+    return True
     
     
 class Token:

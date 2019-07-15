@@ -14,7 +14,7 @@ import re
 
 from copy import deepcopy as copy
 
-from con.conll import Token
+from con.conll import Token, Conll, Sent
     
     
 class Parser:
@@ -259,13 +259,12 @@ def parse_source(source):
 
 
 def get_out(source, root='../m_out/conll/'):
-  """get output file to write for selected source"""
+  """get output filename to write for selected source"""
   if source=='stdin':
-    out = open(root+'out.con', 'w')
+    name = root + 'out.con'
   else:
     name = root+source.split(os.sep)[-1].replace('.xml', '').replace('.txt', '').replace('.con', '')+'.con'
-    out = open(name, 'w')
-  return out
+  return name
 
 def clean_text(text):
     """Sxangxos la x-sisteme skribitaj cxapelliteroj per cxapele skribitaj"""
@@ -292,8 +291,11 @@ def get_source(fn, root='../data'):
   return os.path.join(root,'txt',fn)
 
 
-def build_con(sent):
-  return '\n'.join([str(t) for t in sent]) + '\n'
+def build_sent(sent):
+  ret = Sent()
+  for s in sent:
+    ret.add(s)
+  return ret
   
   
 def main():
@@ -303,19 +305,23 @@ def main():
   if not args: 
     pipeline.append('stdin')
   parser = Parser()
-  while len(pipeline): 
+  while len(pipeline):
     source = get_source(pipeline.pop())
     out = get_out(source)
     text = parse_source(source)
     text = clean_text(text)
     sents = sent_split(text)
     tokens = [parser.tokenize(sent) for sent in sents]
-    for sent in tokens:
-      seg = parser.parse(sent)
-      con = build_con(seg)
-      print(con)
-      out.write(con)
-    out.close()
+    con = Conll(id=os.path.basename(source))
+    for t_sent in tokens:
+      seg = parser.parse(t_sent)
+      sent = build_sent(seg)
+      con.add(sent)
+
+      print(sent)
+    con.update_sent_id()
+    con.update_text()
+    con.exportu(out)
     if source == 'stdin':
       pipeline.append('stdin')
       
