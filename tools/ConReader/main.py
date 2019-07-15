@@ -11,7 +11,7 @@ if __name__=='__main__':
     start = time.time()
     spaced = insert_spaces(in_con.read())
     space = time.time()
-    con = Conll('fund_kres_')
+    con = Conll('fundamenta_krestomatio_')
     con.exportu(spaced)
 
     init = time.time()
