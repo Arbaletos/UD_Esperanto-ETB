@@ -5,10 +5,14 @@ class Conll:
     self.id = id
     self.formal = True
     self.sentaro = []
+    self.col_names = ['ID', 'FORM', 'LEMMA', 'UPOS', 'XPOS', 'FEATS', 'HEAD', 'DEPREL', 'DEPS', 'MISC']
     
   def load_from_file(self, fn):
     with open(fn, 'r') as f:
       self.importu(f.read())
+
+  def get_col_names(self):
+    return self.col_names
     
   def importu(self, text):
     '''
