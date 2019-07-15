@@ -4,3 +4,4 @@
 4)inserto del nove verso (i)-nsert
 5)split sent(c)-ut
 6)merge sent(j)-oin
+7)automate trovi la hundlokon

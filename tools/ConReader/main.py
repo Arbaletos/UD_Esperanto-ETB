@@ -21,6 +21,4 @@ if __name__=='__main__':
     print(con)
     end = time.time()
 
-    #from termcolor import colored
-    #colored('hello', 'red', 'on_white'), 
     print(f'Space insert time: {space-start}, init time: {init-space}, print time: {end-init}, ful l time: {end-start}')

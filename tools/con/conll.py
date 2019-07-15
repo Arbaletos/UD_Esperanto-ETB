@@ -8,14 +8,14 @@ class Conll:
     
   def load_from_file(self, fn):
     with open(fn, 'r') as f:
-      self.exportu(f.read())
+      self.importu(f.read())
     
   def importu(self, text):
     '''
       Por esti sukcese eksportita, frazoj en via teksto devas esti divigitaj.
       Exportas conll el .con file.
     '''
-    self.sentaro = [Sent(i, strings) for i, strings in enumerate(text.split('\n\n'))]
+    self.sentaro = [Sent(i, strings) for i, strings in enumerate(text.split('\n\n')) if len(strings)]
     
   def exportu(self, fn):
     with open(fn, 'w') as f:
@@ -40,6 +40,12 @@ class Conll:
       self.sentaro.append(sent)
     else:
       self.sentaro.append(Sent(len(self.sentaro), sent))
+  
+  def get_size(self):
+      return len(self.sentaro)
+
+  def get_sent(self, sent_id):
+      return self.sentaro[sent_id]
      
   
 
@@ -71,6 +77,16 @@ class Sent:
       ret.append(str(tok)+'\n')
     ret.append('\n')
     return ''.join(ret)
+
+  def get_values(self):
+    "Returns sent data as an 2-d list"
+    return [str(t).split('\t') for t in self.tokens]
+
+  def get_sent_id(self):
+    return self.pars.get('sent_id', '')
+
+  def get_text(self):
+    return self.pars.get('text', '')
     
   def update_sent_id(self, sent_id, text_id):
     self.pars['sent_id'] = text_id+'_'+sent_id

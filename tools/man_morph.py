@@ -258,7 +258,7 @@ def parse_source(source):
       return reader.read()
 
 
-def get_out(source, root='../m_out/conll/'):
+def get_out(source, root='../out/conll/'):
   """get output filename to write for selected source"""
   if source=='stdin':
     name = root + 'out.con'
