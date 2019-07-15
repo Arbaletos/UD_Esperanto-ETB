@@ -143,27 +143,27 @@ class Parser:
 
     ret = []
       
-    if self.cls_dict.get(token.word.lower(), None): #word from closed class
-      poss = self.cls_dict[token.word.lower()]
+    if self.cls_dict.get(token.form.lower(), None): #word from closed class
+      poss = self.cls_dict[token.form.lower()]
       for pos in poss:
         tag, ind = self.conv_dict.get(pos,(pos,0))
-        lemm = token.word.lower()[:len(token.word) - ind]
+        lemm = token.form.lower()[:len(token.form) - ind]
         ret.append(self.add_pos(token, pos, tag, lemm))
       return ret
       
     if token.is_capital() and not new_sent: #If this word definetely proper
-      if token.word.endswith('on'):
-        ret.append(self.add_pos(token, 'PROPN', 'PROPA', token.word[:-1]))
+      if token.form.endswith('on'):
+        ret.append(self.add_pos(token, 'PROPN', 'PROPA', token.form[:-1]))
       ret.append(self.add_pos(token, 'PROPN'))
       
     if token.is_foreign(): #Don't parse foreign word by ending.
       return ret+[self.add_pos(token, 'X')]
       
     for fin in self.fin_dict.keys():
-      if token.word.endswith(fin):
+      if token.form.endswith(fin):
         tag = self.fin_dict[fin]
         pos, ind = self.conv_dict.get(tag,(tag,0))
-        lemm = token.word.lower()[:len(token.word) - ind]
+        lemm = token.form.lower()[:len(token.form) - ind]
         if pos in ['ADJ','NOUN','ADV']:
           for part in self.part_fin_dict.keys():
             if lemm.endswith(part):
@@ -176,7 +176,7 @@ class Parser:
     
   def get_feats(self, token):
     feats = []
-    fin = token.word[len(token.lemma):]
+    fin = token.form[len(token.lemma):]
     if token.upos =='VERB':
       if token.xpos == 'VPR': feats.append('Mood=Ind|Tense=Pres')
       if token.xpos == 'VPS': feats.append('Mood=Ind|Tense=Past')
@@ -208,7 +208,7 @@ class Parser:
     if tag is None:
       tag = pos
     if lemm is None:
-      lemm = token.word.lower()
+      lemm = token.form.lower()
     ret.lemma = lemm
     ret.upos = pos
     ret.xpos = tag
@@ -339,10 +339,10 @@ def test():
         print (e)
     print ('{} {} Test Cases completed!'.format(len(cases), temo))
     
-  def test_token(case, word, space, isdigit, isalpha, ispunct, issymb):
-    token = Token(word=word, misc={'SpaceAfter':space}) 
+  def test_token(case, form, space, isdigit, isalpha, ispunct, issymb):
+    token = Token(form=form, misc={'SpaceAfter':space}) 
     case = 'Token '+str(case)
-    ass(case, word, token.word, 'word')
+    ass(case, form, token.form, 'word')
     ass(case, space, token.space_after(), 'space')
     ass(case, isdigit, token.is_digit(), 'is_digit')
     ass(case, isalpha, token.is_alpha(), 'is_alpha')
@@ -358,7 +358,7 @@ def test():
   def test_tokenize(case, sent, words, spaces):
     parser = Parser()
     n_tokens = parser.tokenize(sent)
-    n_words = [token.word for token in n_tokens]
+    n_words = [token.form for token in n_tokens]
     n_spaces = [token.space_after() for token in n_tokens]
     ass(case, words, n_words, 'words')
     ass(case, spaces, n_spaces, 'spaces')

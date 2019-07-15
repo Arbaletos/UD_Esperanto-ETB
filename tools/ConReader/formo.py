@@ -20,6 +20,7 @@ class App(npyscreen.NPSAppManaged):
       self.con = Conll(id='lesson_60')
       self.con.load_from_file('../../out/conll/lesson_60.con')
       self.addForm("MAIN", MainForm)
+      self.addForm("EDIT", EditForm)
 
 
 class ConllGrid(npyscreen.GridColTitles):
@@ -41,7 +42,17 @@ class ConllGrid(npyscreen.GridColTitles):
         curses.KEY_DOWN: self.move_down,
         'W': self.page_up,
         'S': self.page_down,
+        'r': self.edit_mode,
+        'x': self.delete,
         })
+
+  def delete(self, *args):
+    self.parent.set_value('_')
+    
+
+  def edit_mode(self, *args):
+    self.parent.parentApp.getForm('EDIT').value = None
+    self.parent.parentApp.switchForm('EDIT')
 
   def page_up(self, *args):
     mh = self.max_height - self.y_pad
@@ -91,6 +102,22 @@ class ConllGrid(npyscreen.GridColTitles):
     self.h_move_cell_right(*args)
     self.parent.update_grid()
 
+class EditForm(npyscreen.ActionPopup):
+    def create(self):
+        self.text_field = self.add(npyscreen.Textfield, name = "Text Field")
+
+    def beforeEditing(self):
+        val = self.parentApp.getForm('MAIN').get_value()
+        self.text_field.value=val
+
+    def on_ok(self):
+      self.parentApp.getForm('MAIN').set_value(self.text_field.value)
+      self.parentApp.switchFormPrevious()
+
+    def on_cancel(self):
+      self.parentApp.switchFormPrevious()
+
+
 class MainForm(npyscreen.Form):
     def create(self):
         max_h, max_w = self.useable_space()
@@ -101,10 +128,11 @@ class MainForm(npyscreen.Form):
         self.sega.col_titles = self.parentApp.con.get_col_names()
         self.cursor_field = self.add(npyscreen.FixedText, name = "Curfield")
         self.cur_sent = 0
+        self.update_grid()
         self.load_sent()
         self.add_handlers({
             'A': self.prev_sent,
-            'D': self.next_sent
+            'D': self.next_sent,
             })
 
     def prev_sent(self, *args):
@@ -119,8 +147,8 @@ class MainForm(npyscreen.Form):
           self.load_sent()
 
     def load_sent(self):
-        sent = self.parentApp.con.get_sent(self.cur_sent)
-
+        self.sent = self.parentApp.con.get_sent(self.cur_sent)
+        sent = self.sent
         self.id_field.value = sent.get_sent_id()
         self.text_filed.value = sent.get_text()
         self.sega.values = sent.get_values()
@@ -131,8 +159,22 @@ class MainForm(npyscreen.Form):
         self.cursor_field.value = str(self.sega.x)+':'+str(self.sega.y)
         self.display()
 
-    def afterEditing(self):
-        self.parentApp.setNextForm(None)
+    def get_x(self):
+      return self.sega.x
+
+    def get_y(self):
+      return self.sega.y
+
+    def get_value(self):
+      return str(self.sent.tokens[self.sega.y][self.sega.x])
+
+    def set_value(self, value):
+      self.sent.tokens[self.sega.y][self.sega.x] = value
+      self.load_sent()
+
+    def exit(self, *args):
+      sys.exit()
+      self.parentApp.setNextForm(None)
 
 if __name__=='__main__':
     a = App()

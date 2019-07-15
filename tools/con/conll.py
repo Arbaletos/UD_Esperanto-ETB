@@ -118,10 +118,10 @@ class Sent:
 class Token:
   """Token class, containing all gramemes."""
   
-  def __init__(self, cur_id='0', word='_', lemma='_', upos='X', xpos='_',
+  def __init__(self, cur_id='0', form='_', lemma='_', upos='X', xpos='_',
                feats='_', head='_', deprel='_', deps='_', misc='SpaceAfter=Yes'):
     self.id = cur_id
-    self.word = word
+    self.form = form 
     self.lemma = lemma
     self.upos = upos
     self.xpos = xpos
@@ -131,40 +131,54 @@ class Token:
     self.deps = deps
     self.misc = ConllDict(misc) #misc can be dict
 
+    self.field_list = ['id', 'form', 'lemma', 'upos', 'xpos',
+                       'feats', 'head', 'deprel', 'deps', 'misc']
+
   def __str__(self):
-    return '\t'.join(str(x) for x in [self.id, self.word,
-        self.lemma, self.upos, self.xpos, self.feats,
-        self.head, self.deprel, self.deps, self.misc])
-    
+    return '\t'.join([str(self[x]) for x in self.field_list])
+
+
+  def __getitem__(self, key):
+    if key in range(10):
+        key = self.field_list[key]
+    if key in self.field_list:
+      return self.__dict__[key]
+
+  def __setitem__(self, key, val):
+    if key in range(10):
+      key = self.field_list[key]
+    if key in self.field_list:
+      self.__dict__[key] = val
+
   def space_after(self):
     return self.misc.get('SpaceAfter', True)
   
   def to_sent(self):
     space = self.misc.get('SpaceAfter', True)
     if space:
-      return self.word+' '
-    return self.word
+      return self.form+' '
+    return self.form
 
   def is_digit(self):
-    return self.word.isdigit()
+    return self.form.isdigit()
 
   def is_alpha(self):
-    return self.word.isalpha()
+    return self.form.isalpha()
 
   def is_punct(self):
-    return self.word in ['.', ',', '...', '?', '!', '"', "'", ':', ';', '`', '(', ')']
+    return self.form in ['.', ',', '...', '?', '!', '"', "'", ':', ';', '`', '(', ')']
 
   def is_symb(self):
     #necesas aldoni regexpojn!
     return not self.is_alpha() and not self.is_digit() and not self.is_punct()
 
   def is_capital(self):
-    return self.word.istitle()
+    return self.form.istitle()
 
   def is_foreign(self):
     for_let = ['q','x','w','y']
     for let in for_let:
-      if let in self.word:
+      if let in self.form:
         return True
     return False
 
