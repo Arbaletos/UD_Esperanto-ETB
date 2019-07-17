@@ -16,9 +16,9 @@ interese estas, ke ni volas minimigi la tri unuaj problemojn (cxar ili povas est
 Checklisto:
 1)Ctrl-S: save con
 2)Ctrl-L: load con
-3)x: delete value
-4)X: delete token	smart (kun -1 la postaj tokenoj) aux ne smart
-5)p: duplicate token (smart/ne smart)
+3)x: delete value	+
+4)X: delete token	smart + (kun -1 la postaj tokenoj) aux ne smart +
+5)p: duplicate token (smart + /ne smart + ) 
 6)J:unuigi sentoj
 7)K:disigi sentoj
 8)u: undone(?)

@@ -1,0 +1,545 @@
+# sent_id = lesson_60_0
+# text = Pri la kamero. 
+1	Pri	pri	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+3	kamero	kamer	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_1
+# text = Bostono, 12/XI/1910. 
+1	Bostono	boston	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+3	12	12	NUM	NUM	_	_	_	_	SpaceAfter=No
+4	/	/	SYM	SYM	_	_	_	_	SpaceAfter=No
+5	XI	xi	X	X	_	_	_	_	SpaceAfter=No
+6	/	/	SYM	SYM	_	_	_	_	SpaceAfter=No
+7	1910	1910	NUM	NUM	_	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_2
+# text = Brown kaj Ko., Nov-Jorko. 
+1	Brown	brown	X	X	_	_	_	_	Foreign=True|SpaceAfter=Yes
+2	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+3	Ko	ko	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+3	Ko	k	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+6	Nov	nov	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+6	Nov	nov	X	X	_	_	_	_	SpaceAfter=No
+7	-	-	SYM	SYM	_	_	_	_	SpaceAfter=No
+8	Jorko	jorko	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+8	Jorko	jork	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_3
+# text = Sinjoroj: Vidinte vian reklamon en gazeto al kiu mi abonas, mi skribas por peti ke vi sendu al mi priskribaĵon de via kamero nomita "La Infaneto," kiun eble mi deziros provi. 
+1	Sinjoroj	sinjor	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+2	:	:	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+3	Vidinte	vidinte	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+3	Vidinte	vidint	ADV	DPSADE	_	_	_	_	SpaceAfter=Yes
+4	vian	vi	PRUPSA	DET	_	_	_	_	SpaceAfter=Yes
+5	reklamon	reklam	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+6	en	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+7	gazeto	gazet	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+8	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+9	kiu	kiu	DEMDSN	DET	_	_	_	_	SpaceAfter=Yes
+10	mi	mi	PRSN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+11	abonas	abon	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+13	mi	mi	PRSN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+14	skribas	skrib	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+15	por	por	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+15	por	por	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+16	peti	pet	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
+17	ke	ke	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+18	vi	vi	PRUN	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
+19	sendu	send	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=Yes
+20	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+21	mi	mi	PRSN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+22	priskribaĵon	priskribaĵ	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+23	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+24	via	vi	PRUPSN	DET	_	_	_	_	SpaceAfter=Yes
+25	kamero	kamer	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+26	nomita	nomit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+27	"	"	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+28	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+29	Infaneto	infaneto	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+29	Infaneto	infanet	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+30	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+31	"	"	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+32	kiun	kiu	DEMDSA	DET	_	_	_	_	SpaceAfter=Yes
+33	eble	ebl	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+34	mi	mi	PRSN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+35	deziros	dezir	VERB	VFT	Mood=Ind|Tense=Fut	_	_	_	SpaceAfter=Yes
+36	provi	prov	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
+37	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_4
+# text = Bonvolu ankaŭ sendi dekduonon da platoj, 6 x 9 centimetrojn, por kiu mi ĉi* kune sendas spesmilon kaj duonon. 
+1	Bonvolu	bonvol	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=Yes
+2	ankaŭ	ankaŭ	PART	PART	_	_	_	_	SpaceAfter=Yes
+3	sendi	send	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
+4	dekduonon	dekduon	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+5	da	da	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+6	platoj	plat	NOUN	SPRNPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+8	6	6	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+9	x	x	X	X	_	_	_	_	Foreign=True|SpaceAfter=Yes
+10	9	9	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+11	centimetrojn	centimetr	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+13	por	por	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+13	por	por	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+14	kiu	kiu	DEMDSN	DET	_	_	_	_	SpaceAfter=Yes
+15	mi	mi	PRSN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+16	ĉi	ĉi	PART	PART	_	_	_	_	SpaceAfter=No
+17	*	*	SYM	SYM	_	_	_	_	SpaceAfter=Yes
+18	kune	kun	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+19	sendas	send	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+20	spesmilon	spesmil	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+21	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+22	duonon	duon	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_5
+# text = Kun respekto,J. C. Smith. 
+1	Kun	kun	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+2	respekto	respekt	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+4	J.	j.	SYM	SYM	_	_	_	_	SpaceAfter=Yes
+5	C.	c.	SYM	SYM	_	_	_	_	SpaceAfter=Yes
+6	Smith	smith	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+6	Smith	smith	X	X	_	_	_	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_6
+# text = Nov-Jorko, 18an novembro, 1910. 
+1	Nov	nov	X	X	_	_	_	_	SpaceAfter=No
+2	-	-	SYM	SYM	_	_	_	_	SpaceAfter=No
+3	Jorko	jorko	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+3	Jorko	jork	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+5	18	18	NUM	NUM	_	_	_	_	SpaceAfter=No
+6	an		ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+7	novembro	novembr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+9	1910	1910	NUM	NUM	_	_	_	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_7
+# text = Kara Sinjoro: Respondante al via estimata letero de la 12a, ni donas ĉi sube mallongan priskribaĵon de nia bonega fotografilo nomita "La Infaneto." "La Infaneto" kamero havis neesperitan sukceson, kaj estas vendita po miloj da ekzempleroj. 
+1	Kara	kar	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	Sinjoro	sinjoro	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+2	Sinjoro	sinjor	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+3	:	:	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+4	Respondante	respondante	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+4	Respondante	respondant	ADV	DPRADE	_	_	_	_	SpaceAfter=Yes
+5	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+6	via	vi	PRUPSN	DET	_	_	_	_	SpaceAfter=Yes
+7	estimata	estimat	ADJ	SPRASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+8	letero	leter	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+9	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+10	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+11	12	12	NUM	NUM	_	_	_	_	SpaceAfter=No
+12	a		ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+14	ni	ni	PRPN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+15	donas	don	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+16	ĉi	ĉi	PART	PART	_	_	_	_	SpaceAfter=Yes
+17	sube	sub	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+18	mallongan	mallong	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+19	priskribaĵon	priskribaĵ	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+20	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+21	nia	ni	PRPPSN	DET	_	_	_	_	SpaceAfter=Yes
+22	bonega	boneg	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+23	fotografilo	fotografil	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+24	nomita	nomit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+25	"	"	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+26	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+27	Infaneto	infaneto	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+27	Infaneto	infanet	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+29	"	"	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+30	"	"	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+31	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+32	Infaneto	infaneto	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+32	Infaneto	infanet	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+33	"	"	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+34	kamero	kamer	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+35	havis	hav	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
+36	neesperitan	neesperit	ADJ	SPSASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+37	sukceson	sukces	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+38	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+39	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+40	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+41	vendita	vendit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+42	po	po	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+43	miloj	mil	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+44	da	da	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+45	ekzempleroj	ekzempler	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+46	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_8
+# text = Ĉie oni unuvoĉe laŭdas ĝian malgrandan kaj tamen bonegan konstruon, kaj ankaŭ ĝian firman samtempe facilan funkciadon. 
+1	Ĉie	ĉie	KORADV	KORADV	_	_	_	_	SpaceAfter=Yes
+2	oni	oni	PRPN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+3	unuvoĉe	unuvoĉ	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+4	laŭdas	laŭd	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+5	ĝian	ĝi	PRSPSA	DET	_	_	_	_	SpaceAfter=Yes
+6	malgrandan	malgrand	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+7	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+8	tamen	tamen	ADV	ADV	_	_	_	_	SpaceAfter=Yes
+9	bonegan	boneg	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+10	konstruon	konstru	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+12	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+13	ankaŭ	ankaŭ	PART	PART	_	_	_	_	SpaceAfter=Yes
+14	ĝian	ĝi	PRSPSA	DET	_	_	_	_	SpaceAfter=Yes
+15	firman	firm	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+16	samtempe	samtemp	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+17	facilan	facil	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+18	funkciadon	funkciad	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_9
+# text = Ĝi ne estas pli granda ol monujo, tial ĝi ne bezonas pli multe da spaco ol tiu, kaj povas esti portata kaj uzata treege konvene. 
+1	Ĝi	ĝi	PRSN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+2	ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	pli	pli	PART	PART	_	_	_	_	SpaceAfter=Yes
+5	granda	grand	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+6	ol	ol	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+7	monujo	monuj	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+9	tial	tial	KORADV	KORADV	_	_	_	_	SpaceAfter=Yes
+10	ĝi	ĝi	PRSN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+11	ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
+12	bezonas	bezon	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+13	pli	pli	PART	PART	_	_	_	_	SpaceAfter=Yes
+14	multe	mult	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+15	da	da	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+16	spaco	spac	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+17	ol	ol	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+18	tiu	tiu	KORDSN	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+20	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+21	povas	pov	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+22	esti	est	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
+23	portata	portat	ADJ	SPRASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+24	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+25	uzata	uzat	ADJ	SPRASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+26	treege	treeg	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+27	konvene	konven	ADV	ADE	_	_	_	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_10
+# text = La dimensioj de la fermita kamero estas 8 x 5 x 6.5 centimetroj. 
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	dimensioj	dimensi	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+3	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+4	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+5	fermita	fermit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+6	kamero	kamer	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+7	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+8	8	8	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+9	x	x	X	X	_	_	_	_	Foreign=True|SpaceAfter=Yes
+10	5	5	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+11	x	x	X	X	_	_	_	_	Foreign=True|SpaceAfter=Yes
+12	6	6	NUM	NUM	_	_	_	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+14	5	5	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+15	centimetroj	centimetr	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_11
+# text = La pezo, kun objektivo, tri platingoj, kaj malbrila vitro, estas 365 gramoj. "La Infaneto" estas konstruita tute el metalo, kaj kovrita de bonega bovledo. 
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	pezo	pez	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+4	kun	kun	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+5	objektivo	objektiv	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+7	tri	tri	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+8	platingoj	plating	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+10	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+11	malbrila	malbril	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+12	vitro	vitr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+14	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+15	365	365	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+16	gramoj	gram	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+18	"	"	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+19	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+20	Infaneto	infaneto	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+20	Infaneto	infanet	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+21	"	"	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+22	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+23	konstruita	konstruit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+24	tute	tut	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+25	el	el	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+26	metalo	metal	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+28	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+29	kovrita	kovrit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+30	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+31	bonega	boneg	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+32	bovledo	bovled	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_12
+# text = Kiam oni malfermas la aparaton, la objektivo samtempe enfokusiĝas, tiamaniere ke la kamero estas preta por uzado post unu sekundo, ĉar la objektivfermilo estas ĉiam streĉita. 
+1	Kiam	kiam	DEMADV	ADV	_	_	_	_	SpaceAfter=Yes
+2	oni	oni	PRPN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+3	malfermas	malferm	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+5	aparaton	aparat	NOUN	SPRNSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+7	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+8	objektivo	objektiv	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+9	samtempe	samtemp	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+10	enfokusiĝas	enfokusiĝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+12	tiamaniere	tiamanier	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+13	ke	ke	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+14	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+15	kamero	kamer	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+16	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+17	preta	pret	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+18	por	por	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+18	por	por	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+19	uzado	uzad	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+20	post	post	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+21	unu	unu	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+22	sekundo	sekund	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+24	ĉar	ĉar	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+25	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+26	objektivfermilo	objektivfermil	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+27	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+28	ĉiam	ĉiam	KORADV	KORADV	_	_	_	_	SpaceAfter=Yes
+29	streĉita	streĉit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_13
+# text = Sekve: neniaj preparadoj, nenia prokrasto je la ekfotografado. 
+1	Sekve	sekv	ADV	ADE	_	_	_	_	SpaceAfter=No
+2	:	:	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+3	neniaj	neniaj	KORAPN	KORAPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+4	preparadoj	preparad	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+6	nenia	nenia	KORASN	KORASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+7	prokrasto	prokrast	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+8	je	je	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+9	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+10	ekfotografado	ekfotografad	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_14
+# text = La negativoj estas klaraj ĝis la bordo, kaj tial konvenaj por pligrandigo. 
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	negativoj	negativ	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	klaraj	klar	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+5	ĝis	ĝis	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+5	ĝis	ĝis	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+6	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+7	bordo	bord	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+9	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+10	tial	tial	KORADV	KORADV	_	_	_	_	SpaceAfter=Yes
+11	konvenaj	konven	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+12	por	por	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+12	por	por	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+13	pligrandigo	pligrandig	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_15
+# text = Cetere, oni scias ke bona pligrandigo ofte pli kontentigas ol malgranda originalo. 
+1	Cetere	ceter	ADV	ADE	_	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+3	oni	oni	PRPN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+4	scias	sci	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+5	ke	ke	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+6	bona	bon	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+7	pligrandigo	pligrandig	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+8	ofte	oft	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+9	pli	pli	PART	PART	_	_	_	_	SpaceAfter=Yes
+10	kontentigas	kontentig	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+11	ol	ol	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+12	malgranda	malgrand	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+13	originalo	original	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_16
+# text = Precipe ĉe promenoj kaj vojaĝoj oni tial volonte preferas la malgrandan "Infaneton," por poste pligrandigi la negativojn. 
+1	Precipe	precip	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+2	ĉe	ĉe	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+3	promenoj	promen	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+4	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+5	vojaĝoj	vojaĝ	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+6	oni	oni	PRPN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+7	tial	tial	KORADV	KORADV	_	_	_	_	SpaceAfter=Yes
+8	volonte	volont	ADV	DFTADE	_	_	_	_	SpaceAfter=Yes
+9	preferas	prefer	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+10	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+11	malgrandan	malgrand	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+12	"	"	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+13	Infaneton	Infaneto	PROPN	PROPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
+13	Infaneton	infaneton	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+13	Infaneton	infanet	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+15	"	"	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+16	por	por	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+16	por	por	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+17	poste	post	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+18	pligrandigi	pligrandig	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
+19	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+20	negativojn	negativ	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_17
+# text = Por la pligrandigo ni fabrikas specialajn taglum-pligrandigajn aparatojn, kies prezoj estas malaltaj (vidu en nia prezaro). 
+1	Por	por	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+1	Por	por	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+3	pligrandigo	pligrandig	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+4	ni	ni	PRPN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+5	fabrikas	fabrik	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+6	specialajn	special	ADJ	APA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=Yes
+7	taglum	taglum	X	X	_	_	_	_	SpaceAfter=No
+8	-	-	SYM	SYM	_	_	_	_	SpaceAfter=No
+9	pligrandigajn	pligrandig	ADJ	APA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=Yes
+10	aparatojn	aparat	NOUN	SPRNPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+12	kies	kies	DEMDPS	DET	_	_	_	_	SpaceAfter=Yes
+13	prezoj	prez	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+14	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+15	malaltaj	malalt	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+16	(	(	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+17	vidu	vid	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=Yes
+18	en	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+19	nia	ni	PRPPSN	DET	_	_	_	_	SpaceAfter=Yes
+20	prezaro	prezar	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+21	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_18
+# text = Ni ne ŝanĝis la konstruon de "La Infaneto" de post 1909, ĉar ĝis nun ĝi estas ĉiurilate kontentiga. 
+1	Ni	ni	PRPN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+2	ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
+3	ŝanĝis	ŝanĝ	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
+4	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+5	konstruon	konstru	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+6	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+7	"	"	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+8	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+9	Infaneto	infaneto	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+9	Infaneto	infanet	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+10	"	"	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+11	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+12	post	post	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+13	1909	1909	NUM	NUM	_	_	_	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+15	ĉar	ĉar	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+16	ĝis	ĝis	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+16	ĝis	ĝis	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+17	nun	nun	ADV	ADV	_	_	_	_	SpaceAfter=Yes
+18	ĝi	ĝi	PRSN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+19	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+20	ĉiurilate	ĉiurilat	ADV	SPRADE	_	_	_	_	SpaceAfter=Yes
+21	kontentiga	kontentig	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_19
+# text = Sole la rapideca reguligo de la momenta fermilo estas plibonigita, ĉar ni ĝin fabrikas kun speciala aŭtomata fermilo, kiu estas aranĝita por malfermoj daŭraj, kaj momentaj, je unu sekundo ĝis unu centono da sekundo. 
+1	Sole	sol	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+3	rapideca	rapidec	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+4	reguligo	regulig	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+5	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+6	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+7	momenta	moment	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+8	fermilo	fermil	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+9	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+10	plibonigita	plibonigit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+12	ĉar	ĉar	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+13	ni	ni	PRPN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+14	ĝin	ĝi	PRSA	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+15	fabrikas	fabrik	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+16	kun	kun	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+17	speciala	special	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+18	aŭtomata	aŭtomat	ADJ	SPRASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+19	fermilo	fermil	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+21	kiu	kiu	DEMDSN	DET	_	_	_	_	SpaceAfter=Yes
+22	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+23	aranĝita	aranĝit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+24	por	por	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+24	por	por	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+25	malfermoj	malferm	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+26	daŭraj	daŭr	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+28	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+29	momentaj	moment	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+30	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+31	je	je	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+32	unu	unu	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+33	sekundo	sekund	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+34	ĝis	ĝis	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+34	ĝis	ĝis	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+35	unu	unu	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+36	centono	centon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+37	da	da	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+38	sekundo	sekund	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+39	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_20
+# text = Esperante ke ni baldaŭ ricevos mendon de vi, kaj certigante al vi ke ni tre zorge plenumos iun ajn mendon, ni restas. 
+1	Esperante	esperant	ADV	DPRADE	_	_	_	_	SpaceAfter=Yes
+2	ke	ke	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+3	ni	ni	PRPN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+4	baldaŭ	baldaŭ	ADV	ADV	_	_	_	_	SpaceAfter=Yes
+5	ricevos	ricev	VERB	VFT	Mood=Ind|Tense=Fut	_	_	_	SpaceAfter=Yes
+6	mendon	mend	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+7	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+8	vi	vi	PRUN	PRUN	Case=Nom	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+10	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+11	certigante	certigant	ADV	DPRADE	_	_	_	_	SpaceAfter=Yes
+12	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+13	vi	vi	PRUN	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
+14	ke	ke	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+15	ni	ni	PRPN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+16	tre	tre	PART	PART	_	_	_	_	SpaceAfter=Yes
+17	zorge	zorg	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+18	plenumos	plenum	VERB	VFT	Mood=Ind|Tense=Fut	_	_	_	SpaceAfter=Yes
+19	iun	iun	KORDSA	KORDSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+20	ajn	ajn	PART	PART	_	_	_	_	SpaceAfter=Yes
+21	mendon	mend	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+23	ni	ni	PRPN	PRON	Case=Nom	_	_	_	SpaceAfter=Yes
+24	restas	rest	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_21
+# text = Tre respekte la viaj, Brown & Ko. 
+1	Tre	tre	PART	PART	_	_	_	_	SpaceAfter=Yes
+2	respekte	respekt	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+3	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+4	viaj	vi	PRUPPN	DET	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+6	Brown	brown	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	Foreign=True|SpaceAfter=Yes
+6	Brown	brown	X	X	_	_	_	_	Foreign=True|SpaceAfter=Yes
+7	&	&	SYM	SYM	_	_	_	_	SpaceAfter=Yes
+8	Ko	ko	PROPN	PROPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+8	Ko	k	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = lesson_60_22
+# text = Per C. 
+1	Per	per	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+2	C.	c.	SYM	SYM	_	_	_	_	SpaceAfter=Yes
+

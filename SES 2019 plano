@@ -1,6 +1,15 @@
-Estas necesa:
+https://annuel.framapad.org/p/sep-projektoj
 
-1)Gxisdatigi la morfologan alanilizilon
-2)Finigi la CONLL redaktilo
-3)Alhundigi la sintaksan analizilon
-4)Testu cxi faritajxos
+Celoj:
+    1) Fari eblecon por ricxigi tekstomarkojn de Tekstaro pli rapide kaj oportune (Tio necesas por dauxra disvolvigxo de statistikaj metodoj de lingva procezado celante al Esperanto)
+
+Taskoj:
+    1)Gxisdatigi miajn malnovajn sintaksanalizilon kaj morfologianalizilon por bone labori kun CONLL sintakso
+    2)Fari CONLL-redaktilo ap por suficxe raipide redakti erarojn en CONLL dokumentojn
+    3)Fari la konvertilon el XML, uzata en Tekstaro, en CONLL
+    4)Kunigi la cxiuj partoj kaj provi markumi iun ne tre longan kaj komplikan tekston, ekzemple, komenco de Fundamenta Ekzercaro (preskaux 7 mil da vortoj entute)
+
+Ligiloj:
+	Mia repozitorio por afero:  https://github.com/Arbaletos/UD_Esperanto-ETB
+	UD retejo kun reguloj de markado kaj CONLL sintakso: https://universaldependencies.org/
+	Tekstaro de Esperanto, kiun mi uzas kiel la bazo: https://tekstaro.com/ (Eblas elsxuti liberajn tekstojn en cxi pagxo: https://tekstaro.com/tekstaro.html#priskribo)

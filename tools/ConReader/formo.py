@@ -3,9 +3,11 @@ import sys
 sys.path.append('../con')
 
 from conll import *
+from conllgrid import ConllGrid
+
+from copy import deepcopy as copy
 
 import npyscreen
-import curses
 
 def length_split(text, max_len):
   ret = []    
@@ -22,85 +24,6 @@ class App(npyscreen.NPSAppManaged):
       self.addForm("MAIN", MainForm)
       self.addForm("EDIT", EditForm)
 
-
-class ConllGrid(npyscreen.GridColTitles):
-  def create(self, max_x=0, max_y=0):
-    self.x = 0
-    self.y = 0
-    self.info = ''
-    self.max_x = max_x
-    self.max_y = max_y
-    self.y_pad = 2
-    self.add_handlers({
-        'a': self.move_left,
-        'd': self.move_right,
-        'w': self.move_up,
-        's': self.move_down,
-        curses.KEY_LEFT: self.move_left,
-        curses.KEY_RIGHT: self.move_right,
-        curses.KEY_UP: self.move_up,
-        curses.KEY_DOWN: self.move_down,
-        'W': self.page_up,
-        'S': self.page_down,
-        'r': self.edit_mode,
-        'x': self.delete,
-        })
-
-  def delete(self, *args):
-    self.parent.set_value('_')
-    
-
-  def edit_mode(self, *args):
-    self.parent.parentApp.getForm('EDIT').value = None
-    self.parent.parentApp.switchForm('EDIT')
-
-  def page_up(self, *args):
-    mh = self.max_height - self.y_pad
-    if self.y <= mh:
-      return
-    self.y -= mh
-    self.h_move_page_up(*args)
-    self.parent.update_grid()
-
-  def page_down(self, *args):
-   mh = self.max_height - self.y_pad
-   if self.y + mh >= self.max_y:
-     return
-   self.y += mh
-   self.h_move_page_down(*args)
-   self.parent.update_grid()
-
-  def move_up(self, *args):
-    if self.y <= 0:
-      return
-    self.info = args
-    self.y -= 1
-    self.h_move_line_up(*args)
-    self.parent.update_grid()
-
-  def move_down(self, *args):
-    if self.y >= self.max_y - 1:
-      return
-    self.info = args
-    self.y += 1
-    self.h_move_line_down(*args)
-    self.parent.update_grid()
-
-  def move_left(self, *args):
-    if self.x <= 0:
-      return
-    self.info = args
-    self.x -= 1
-    self.h_move_cell_left(*args)
-    self.parent.update_grid()
-
-  def move_right(self, *args):
-    if self.x >= self.max_x - 1:
-      return
-    self.info = args
-    self.x += 1
-    self.h_move_cell_right(*args)
-    self.parent.update_grid()
 
 class EditForm(npyscreen.ActionPopup):
     def create(self):
@@ -133,6 +56,10 @@ class MainForm(npyscreen.Form):
         self.add_handlers({
             'A': self.prev_sent,
             'D': self.next_sent,
+            'j': self.kunigi_sent,
+            'J': self.kunigi_sent,
+            'k': self.disigi_sent,
+            'K': self.disigi_sent,
             })
 
     def prev_sent(self, *args):
@@ -145,6 +72,16 @@ class MainForm(npyscreen.Form):
         if self.cur_sent < self.parentApp.con.get_size()-1:
           self.cur_sent += 1
           self.load_sent()
+
+    def kunigi_sent(self, *args):
+      if self.cur_sent < self.parentApp.con.get_size()-1:
+        self.parentApp.con.kunigi_sentoj(self.cur_sent)
+        self.load_sent()
+
+    def disigi_sent(self, *args):
+      if self.sega.y < self.sega.max_y:
+        self.parentApp.con.disigi_sentoj(self.cur_sent, self.sega.y+1)
+        self.load_sent()
 
     def load_sent(self):
         self.sent = self.parentApp.con.get_sent(self.cur_sent)
@@ -170,6 +107,14 @@ class MainForm(npyscreen.Form):
 
     def set_value(self, value):
       self.sent.tokens[self.sega.y][self.sega.x] = value
+      self.load_sent()
+
+    def copy_line(self, shift=False):
+      self.sent.insert_token(copy(self.sent.tokens[self.sega.y]), self.sega.y, shift)
+      self.load_sent()
+
+    def delete_line(self, shift=False):
+      self.sent.delete_token(self.sega.y, shift)
       self.load_sent()
 
     def exit(self, *args):

@@ -1,0 +1,188 @@
+1	La	la	DET	DET	_	_	_	_	_
+2	alta	alt	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+3	viro	vir	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+4	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+5	en	en	ADP	ADP	_	_	_	_	_
+6	la	la	DET	DET	_	_	_	_	_
+7	ĝardeno	ĝarden	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	Blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+2	ĉevalo	ĉeval	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+4	en	en	ADP	ADP	_	_	_	_	_
+5	la	la	DET	DET	_	_	_	_	_
+6	kampo	kamp	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	Belaj	bel	ADJ	APN	Case=Nom|Number=Plur	_	_	_	_
+2	birdoj	bird	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+3	sidas	sid	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+4	sur	sur	ADP	ADP	_	_	_	_	_
+5	la	la	DET	DET	_	_	_	_	_
+6	verda	verd	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+7	arbo	arb	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	La	la	DET	DET	_	_	_	_	_
+2	bonaj	bon	ADJ	APN	Case=Nom|Number=Plur	_	_	_	_
+3	knaboj	knab	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+4	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+5	en	en	ADP	ADP	_	_	_	_	_
+6	la	la	DET	DET	_	_	_	_	_
+7	domo	dom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	La	la	DET	DET	_	_	_	_	_
+2	ĉambroj	ĉambr	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+3	en	en	ADP	ADP	_	_	_	_	_
+4	la	la	DET	DET	_	_	_	_	_
+5	bela	bel	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+6	domo	dom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+7	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+8	grandaj	grand	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	Freŝaj	freŝ	ADJ	APN	Case=Nom|Number=Plur	_	_	_	_
+2	floroj	flor	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+3	kuŝas	kuŝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+4	sur	sur	ADP	ADP	_	_	_	_	_
+5	la	la	DET	DET	_	_	_	_	_
+6	tablo	tabl	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	La	la	DET	DET	_	_	_	_	_
+2	violoj	viol	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+3	en	en	ADP	ADP	_	_	_	_	_
+4	la	la	DET	DET	_	_	_	_	_
+5	kampo	kamp	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+6	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+7	belaj	bel	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	La	la	DET	DET	_	_	_	_	_
+2	luno	lun	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+3	kaj	kaj	CCONJ	CCONJ	_	_	_	_	_
+4	la	la	DET	DET	_	_	_	_	_
+5	suno	sun	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+6	ŝajnas	ŝajn	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+7	grandaj	grand	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	La	la	DET	DET	_	_	_	_	_
+2	kolomboj	kolomb	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+4	belaj	bel	ADJ	APN	Case=Nom|Number=Plur	_	_	_	_
+5	birdoj	bird	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	La	la	DET	DET	_	_	_	_	_
+2	knaboj	knab	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+3	ŝajnas	ŝajn	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+4	fortaj	fort	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	Ruĝaj	ruĝ	ADJ	APN	Case=Nom|Number=Plur	_	_	_	_
+2	pomoj	pom	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+4	sur	sur	ADP	ADP	_	_	_	_	_
+5	la	la	DET	DET	_	_	_	_	_
+6	tablo	tabl	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+7	en	en	ADP	ADP	_	_	_	_	_
+8	la	la	DET	DET	_	_	_	_	_
+9	ĉambro	ĉambr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	La	la	DET	DET	_	_	_	_	_
+2	fortaj	fort	ADJ	APN	Case=Nom|Number=Plur	_	_	_	_
+3	viroj	vir	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+4	sidas	sid	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+5	sur	sur	ADP	ADP	_	_	_	_	_
+6	seĝoj	seĝ	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+7	en	en	ADP	ADP	_	_	_	_	_
+8	la	la	DET	DET	_	_	_	_	_
+9	longa	long	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+10	ĉambro	ĉambr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	La	la	DET	DET	_	_	_	_	_
+2	arboj	arb	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+4	altaj	alt	ADJ	APN	Case=Nom|Number=Plur	_	_	_	_
+5	kaj	kaj	CCONJ	CCONJ	_	_	_	_	_
+6	verdaj	verd	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	La	la	DET	DET	_	_	_	_	_
+2	kolomboj	kolomb	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+3	sur	sur	ADP	ADP	_	_	_	_	_
+4	la	la	DET	DET	_	_	_	_	_
+5	arboj	arb	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+6	kantas	kant	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	Fortaj	fort	ADJ	APN	Case=Nom|Number=Plur	_	_	_	_
+2	ĉevaloj	ĉeval	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+3	marŝas	marŝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+4	kaj	kaj	CCONJ	CCONJ	_	_	_	_	_
+5	kuras	kur	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+6	en	en	ADP	ADP	_	_	_	_	_
+7	la	la	DET	DET	_	_	_	_	_
+8	verdaj	verd	ADJ	APN	Case=Nom|Number=Plur	_	_	_	_
+9	kampoj	kamp	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	La	la	DET	DET	_	_	_	_	_
+2	knaboj	knab	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+3	dormas	dorm	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+4	en	en	ADP	ADP	_	_	_	_	_
+5	la	la	DET	DET	_	_	_	_	_
+6	granda	grand	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+7	domo	dom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	Ruĝaj	ruĝ	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+2	,	,	SYM	SYM	_	_	_	_	_
+3	flavaj	flav	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+4	,	,	SYM	SYM	_	_	_	_	_
+5	kaj	kaj	CCONJ	CCONJ	_	_	_	_	_
+6	verdaj	verd	ADJ	APN	Case=Nom|Number=Plur	_	_	_	_
+7	folioj	foli	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+8	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+9	en	en	ADP	ADP	_	_	_	_	_
+10	la	la	DET	DET	_	_	_	_	_
+11	ĝardeno	ĝarden	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	Longa	long	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	_
+2	tablo	tabl	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	_
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+4	en	en	ADP	ADP	_	_	_	_	_
+5	la	la	DET	DET	_	_	_	_	_
+6	domo	dom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	Belaj	bel	ADJ	APN	Case=Nom|Number=Plur	_	_	_	_
+2	birdoj	bird	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+3	flugas	flug	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+4	kaj	kaj	CCONJ	CCONJ	_	_	_	_	_
+5	kantas	kant	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+6	en	en	ADP	ADP	_	_	_	_	_
+7	la	la	DET	DET	_	_	_	_	_
+8	kampo	kamp	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	Freŝaj	freŝ	ADJ	APN	Case=Nom|Number=Plur	_	_	_	_
+2	rozoj	roz	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+3	ŝajnas	ŝajn	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+4	belaj	bel	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	_	_	_	_
+
+1	La	la	DET	DET	_	_	_	_	_
+2	folioj	foli	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	_
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	_
+4	verdaj	verd	ADJ	APN	Case=Nom|Number=Plur	_	_	_	_
+5	kaj	kaj	CCONJ	CCONJ	_	_	_	_	_
+6	ruĝaj	ruĝ	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	_	_	_	_
+

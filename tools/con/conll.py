@@ -50,6 +50,20 @@ class Conll:
 
   def get_sent(self, sent_id):
       return self.sentaro[sent_id]
+
+  def kunigi_sentoj(self, sent_id):
+    """Kunigas la sent_id sento kun la sekva"""
+    self.sentaro[sent_id].kunigi(self.sentaro[sent_id+1])
+    self.sentaro = self.sentaro[:sent_id+1] + self.sentaro[sent_id+2:]
+    self.update_sent_id()
+
+  def disigi_sentoj(self, sent_id, i):
+    """Faras du sentoj el unu"""
+    novasento = self.sentaro[sent_id].disigi(i)
+    if novasento is None:
+      return
+    self.sentaro.insert(sent_id+1, novasento)
+    self.update_sent_id()
      
   
 
@@ -72,6 +86,45 @@ class Sent:
           
   def add(self, token):
     self.tokens.append(token)
+  
+  def insert_token(self, token, i, id_shift=False):
+    """inserts token into tesktaro, and shifts all ids post new one"""
+    self.tokens.insert(i, token)
+    if not id_shift:
+      return
+    for t in self.tokens[i+1:]:
+      if t.id >= token.id:
+          t.id += 1
+
+  def delete_token(self, i, id_shift=False):
+    """deletes token from sentaro and decreases all token's id post it if id_shift"""
+    last_id = self.tokens[i].id
+    self.tokens = self.tokens[:i]+self.tokens[i+1:]
+    if not id_shift:
+      return
+    for t in self.tokens[i:]:
+      if t.id > last_id:
+          t.id -= 1
+
+  def kunigi(self, sent):
+    t0 = 0 if not len(self.tokens) else self.tokens[-1].id
+    for t in sent.tokens:
+      t.id += t0
+    self.tokens = self.tokens + sent.tokens
+    self.update_text()
+
+  def disigi(self, i):
+    """Splits this sent by i id kaj returns new sent."""
+    if i>=len(self.tokens):
+        return None
+    new_sent = Sent()
+    for t in self.tokens[i:]:
+        t.id -= self.tokens[i-1].id
+        new_sent.add(t)
+    self.tokens = self.tokens[:i]
+    new_sent.update_text()
+    self.update_text()
+    return new_sent
         
   def __str__(self):
     ret = []
@@ -120,7 +173,7 @@ class Token:
   
   def __init__(self, cur_id='0', form='_', lemma='_', upos='X', xpos='_',
                feats='_', head='_', deprel='_', deps='_', misc='SpaceAfter=Yes'):
-    self.id = cur_id
+    self.id = int(cur_id)
     self.form = form 
     self.lemma = lemma
     self.upos = upos
