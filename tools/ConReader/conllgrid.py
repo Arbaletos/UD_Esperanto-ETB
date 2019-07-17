@@ -20,7 +20,7 @@ class ConllGrid(npyscreen.GridColTitles):
         curses.KEY_DOWN: self.move_down,
         'W': self.page_up,
         'S': self.page_down,
-        'r': self.edit_mode,
+        'r': self.parent.edit_menu,
         'x': self.delete_value,
         'c': self.delete_line,
         'C': self.delete_line_shift,
@@ -53,11 +53,6 @@ class ConllGrid(npyscreen.GridColTitles):
   def delete_value(self, *args):
     self.parent.set_value('_')
     
-
-  def edit_mode(self, *args):
-    self.parent.parentApp.getForm('EDIT').value = None
-    self.parent.parentApp.switchForm('EDIT')
-
   def page_up(self, *args):
     mh = self.max_height - self.y_pad
     if self.y <= mh:

@@ -22,34 +22,19 @@ class App(npyscreen.NPSAppManaged):
       self.con = Conll(id='lesson_60')
       self.con.load_from_file('../../out/conll/lesson_60.con')
       self.addForm("MAIN", MainForm)
-      self.addForm("EDIT", EditForm)
-
-
-class EditForm(npyscreen.ActionPopup):
-    def create(self):
-        self.text_field = self.add(npyscreen.Textfield, name = "Text Field")
-
-    def beforeEditing(self):
-        val = self.parentApp.getForm('MAIN').get_value()
-        self.text_field.value=val
-
-    def on_ok(self):
-      self.parentApp.getForm('MAIN').set_value(self.text_field.value)
-      self.parentApp.switchFormPrevious()
-
-    def on_cancel(self):
-      self.parentApp.switchFormPrevious()
 
 
 class MainForm(npyscreen.Form):
     def create(self):
         max_h, max_w = self.useable_space()
         self.id_field = self.add(npyscreen.FixedText, name = "Sent id")
-        self.text_filed = self.add(npyscreen.FixedText, max_width = max_w - 4, name = "Sent text")
-        self.sega = self.add(ConllGrid, scroll_exit=False, slow_scroll=True, max_height=max_h-8, name = 'Sega', col_margin=0, columns=10)
+        self.text_field = self.add(npyscreen.FixedText, max_width = max_w - 4, name = "Sent text")
+        self.sega = self.add(ConllGrid, scroll_exit=False, slow_scroll=True, max_height=max_h-10, name = 'Sega', col_margin=0, columns=10)
         self.sega.create(max_x=10, max_y=0)
         self.sega.col_titles = self.parentApp.con.get_col_names()
         self.cursor_field = self.add(npyscreen.FixedText, name = "Curfield")
+        self.input_text = self.add(npyscreen.FixedText, name = "Input text", hidden=True)
+        self.input = self.add(npyscreen.Textfield, name = "Input", hidden=True)
         self.cur_sent = 0
         self.update_grid()
         self.load_sent()
@@ -60,7 +45,48 @@ class MainForm(npyscreen.Form):
             'J': self.kunigi_sent,
             'k': self.disigi_sent,
             'K': self.disigi_sent,
+            '^S': self.save_menu,
+            '^L': self.load_menu,
             })
+
+    def focus(self, *args):
+      self.h_exit_down(*args)
+
+    def show_label(self):
+      self.input.hidden = False
+      self.input_text.hidden = False
+      self.display()
+
+    def hide_label(self):
+      self.input.value =''
+      self.input_text.value = ''
+      self.input.hidden = True
+      self.input_text.hidden = True
+      self.display()
+
+    def edit_menu(self, *args):
+      self.input_text.value = 'Edit label:'
+      self.input.value = self.get_value()
+      self.show_label()
+      self.input.edit()
+      self.set_value(self.input.value)
+      self.hide_label()
+
+    def save_menu(self, *args):
+      self.input_text.value = 'Save Path:'
+      self.input.value = '/hundeojo'
+      self.show_label()
+      self.input.edit()
+      val = self.input.value
+      self.hide_label()
+
+    def load_menu(self, *args):
+      self.input_text.value = 'Load Path:'
+      self.input.value = '/hundeojo'
+      self.show_label()
+      self.input.edit()
+      val = self.input.value
+      self.hide_label()
 
     def prev_sent(self, *args):
 
@@ -87,7 +113,7 @@ class MainForm(npyscreen.Form):
         self.sent = self.parentApp.con.get_sent(self.cur_sent)
         sent = self.sent
         self.id_field.value = sent.get_sent_id()
-        self.text_filed.value = sent.get_text()
+        self.text_field.value = sent.get_text()
         self.sega.values = sent.get_values()
         self.sega.max_y = len(self.sega.values)
         self.display()
