@@ -2,6 +2,7 @@ import sys
 
 sys.path.append('../con')
 
+import os 
 from conll import *
 from conllgrid import ConllGrid
 
@@ -9,19 +10,22 @@ from copy import deepcopy as copy
 
 import npyscreen
 
-def length_split(text, max_len):
-  ret = []    
-  while len(text):
-    ret.append(text[:max_len])
-    text = text[max_len:]
-  return ret
-
 
 class App(npyscreen.NPSAppManaged):
   def onStart(self):
-      self.con = Conll(id='lesson_60')
-      self.con.load_from_file('../../out/conll/lesson_60.con')
       self.addForm("MAIN", MainForm)
+
+  def load_con(self, fn):
+    self.fn = os.path.abspath(fn)
+    n_id = os.path.splitext(os.path.basename(fn))[0]
+    self.con = Conll(id=n_id)
+    self.con.load_from_file(fn)
+
+  def save_con(self, fn):
+    self.fn = fn
+    self.con.update_sent_id()
+    self.con.update_text()
+    self.con.exportu(fn)
 
 
 class MainForm(npyscreen.Form):
@@ -74,18 +78,32 @@ class MainForm(npyscreen.Form):
 
     def save_menu(self, *args):
       self.input_text.value = 'Save Path:'
-      self.input.value = '/hundeojo'
+      self.input.value = self.parentApp.fn
       self.show_label()
       self.input.edit()
-      val = self.input.value
+      try:
+        self.parentApp.save_con(self.input.value)
+      except Exception as e:
+        self.input_text.value = 'Error Occured! Try another address!'
+        self.input.value = str(e)
+        self.show_label()
+        self.input.edit()
       self.hide_label()
 
     def load_menu(self, *args):
       self.input_text.value = 'Load Path:'
-      self.input.value = '/hundeojo'
+      self.input.value = self.parentApp.fn
       self.show_label()
       self.input.edit()
-      val = self.input.value
+      try:
+        self.parentApp.load_con(self.input.value)
+        self.cur_sent = 0 
+        self.load_sent()
+      except Exception as e:
+        self.input_text.value = 'Error Occured! Try another address!'
+        self.input.value = str(e)
+        self.show_label()
+        self.input.edit()
       self.hide_label()
 
     def prev_sent(self, *args):
@@ -147,6 +165,12 @@ class MainForm(npyscreen.Form):
       sys.exit()
       self.parentApp.setNextForm(None)
 
+    def AfterEditing(self):
+      self.parentApp.setNextForm(None)
+
+
 if __name__=='__main__':
     a = App()
+    fn = '../../out/conll/lesson_60.con' if len(sys.argv)==1 else sys.argv[1]
+    a.load_con(fn)
     a.run()

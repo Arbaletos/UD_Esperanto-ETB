@@ -19,7 +19,7 @@ class Conll:
       Por esti sukcese eksportita, frazoj en via teksto devas esti divigitaj.
       Exportas conll el .con file.
     '''
-    self.sentaro = [Sent(i, strings) for i, strings in enumerate(text.split('\n\n')) if len(strings)]
+    self.sentaro = [Sent(strings) for strings in text.split('\n\n') if len(strings)]
     
   def exportu(self, fn):
     with open(fn, 'w') as f:
@@ -70,9 +70,9 @@ class Conll:
 class Sent:
   """The conll sentence, contains tokens, id and coolstory"""
   
-  def __init__(self, id=None, strings=None):  
+  def __init__(self, strings=None):  
     self.tokens = []
-    self.pars = {'id':id} if id is not None else {}
+    self.pars =  {}
     if strings is not None:
       tokens = strings.split('\n')
       for tok in tokens:
