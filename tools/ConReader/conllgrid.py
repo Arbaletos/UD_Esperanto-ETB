@@ -8,7 +8,10 @@ class ConllGrid(npyscreen.GridColTitles):
     self.info = ''
     self.max_x = max_x
     self.max_y = max_y
+    self.columns = max_x+1
     self.y_pad = 2
+    self.last_i = 0
+    self.mode = 'DEFAULT'
     self.add_handlers({
         'a': self.move_left,
         'd': self.move_right,
@@ -33,6 +36,18 @@ class ConllGrid(npyscreen.GridColTitles):
 
         })
 
+  def custom_print_cell(self, cell, value):
+
+    if cell.relx == self.relx:
+      if value == self.last_i:
+        self.mode = 'CRITICAL'
+      else:
+        self.mode = 'DEFAULT'
+      self.last_i = value
+
+    cell.color = self.mode
+    #cell.value = self.i
+    #self.i += 1
 
   def delete_line(self, *args):
     if self.y < self.max_y:
