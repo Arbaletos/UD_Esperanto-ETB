@@ -15,6 +15,8 @@ import re
 from copy import deepcopy as copy
 
 from con.conll import Token, Conll, Sent
+
+from bs4 import BeautifulSoup
     
     
 class Parser:
@@ -55,11 +57,11 @@ class Parser:
                  'e':'ADE','en':'ADD','as':'VPR','os':'VFT',
                  'is':'VPS','i':'VIN','u':'VDM','us':'VCN'}
     
-    ###Special ending for partiples
+    ### Special ending for partiples
     self.part_fin_dict = {'at':'SPR','ot':'SFT','it':'SPS',
                           'ant':'DPR','ont':'DFT','int':'DPS'}
                  
-    ###INIT COVERT DICT TO CONVERT 2 TAG###
+    ### INIT COVERT DICT TO CONVERT 2 TAG ###
     conv_dict = {   'NSN':('NOUN',1),  'NPN':('NOUN',2),
     'NSA':('NOUN',2),  'NPA':('NOUN',3),  'ASN':('ADJ',1),
     'APN':('ADJ',2),   'ASA':('ADJ',2),   'APA':('ADJ',3),
@@ -72,7 +74,7 @@ class Parser:
     'PRSPSA':('DET',2),'PRPPSA':('DET',2),'PRUPSA':('DET',2),
     'PRSPPN':('DET',2),'PRPPPN':('DET',2),'PRUPPN':('DET',2),
     'PRSPPA':('DET',3),'PRPPPA':('DET',3),'PRUPPA':('DET',3),
-    'PROPN':('PROPN',0), 'PROPA':('PROPN',1)}
+    'PROPSN':('PROPN',0), 'PROPSA':('PROPN',1)}
 
     kom = ['INT','IND','TOT','NEG','DEM']
     fin = ['ASN','PRUN','DSN','ADV','ADV',\
@@ -153,8 +155,8 @@ class Parser:
       
     if token.is_capital() and not new_sent: #If this word definetely proper
       if token.form.endswith('on'):
-        ret.append(self.add_pos(token, 'PROPN', 'PROPA', token.form[:-1]))
-      ret.append(self.add_pos(token, 'PROPN'))
+        ret.append(self.add_pos(token, 'PROPN', 'PROPSA', token.form[:-1]))
+      ret.append(self.add_pos(token, 'PROPN', 'PROPSN'))
       
     if token.is_foreign(): #Don't parse foreign word by ending.
       return ret+[self.add_pos(token, 'X')]
@@ -250,8 +252,18 @@ def parse_source(source):
     if text == 'q': sys.exit()
     return text
   elif source.endswith('.xml'):
-    ###xml parsing routine###
+    with open(source, 'r') as reader:
+      content = reader.read()
+    soup = BeautifulSoup(content)
+    p = soup.find_all('p')
+    text = [t.get_text() for t in p]
+    #Necesas parsi la fremdlangan segmentajxon
+    return '\n'.join(text)
     pass
+  elif source.endswith('con'):
+    data = Conll()
+    data.load_from_file(source)
+    return [s.tokens for s in data.sentaro]
   else:
     ###All other text files.###
     with open(source, 'r') as reader:
@@ -290,6 +302,11 @@ def get_source(fn, root='../data'):
     return os.path.join(root,'con',fn)
   return os.path.join(root,'txt',fn)
 
+def is_raw(fn):
+  """Check whether the input is raw and thus needs preprocecing or not"""
+  if fn.endswith('.con'):
+    return False
+  return True
 
 def build_sent(sent):
   ret = Sent()
@@ -308,10 +325,13 @@ def main():
   while len(pipeline):
     source = get_source(pipeline.pop())
     out = get_out(source)
-    text = parse_source(source)
-    text = clean_text(text)
-    sents = sent_split(text)
-    tokens = [parser.tokenize(sent) for sent in sents]
+    if is_raw(source):
+      text = parse_source(source)
+      text = clean_text(text)
+      sents = sent_split(text)
+      tokens = [parser.tokenize(sent) for sent in sents]
+    else:
+      tokens = parse_source(source)
     con = Conll(id=os.path.basename(source))
     for t_sent in tokens:
       seg = parser.parse(t_sent)
@@ -396,5 +416,5 @@ def test():
    
     
 if __name__=='__main__':
-  test()
+  #test()
   main()

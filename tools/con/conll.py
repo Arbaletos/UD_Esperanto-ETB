@@ -19,7 +19,7 @@ class Conll:
       Por esti sukcese eksportita, frazoj en via teksto devas esti divigitaj.
       Exportas conll el .con file.
     '''
-    self.sentaro = [Sent(strings) for strings in text.split('\n\n') if len(strings)]
+    self.sentaro = [Sent(strings) for strings in insert_spaces(text).split('\n\n') if len(strings)]
     
   def exportu(self, fn):
     with open(fn, 'w') as f:
@@ -76,6 +76,8 @@ class Sent:
     if strings is not None:
       tokens = strings.split('\n')
       for tok in tokens:
+        if not len(tok):
+          continue
         if tok.strip().startswith('#'):
           pars = tok.strip()[1:].split('=')
           if len(pars)>=2:
@@ -314,7 +316,7 @@ def insert_spaces(text):
   for i in range(1,len(linearo)):
     line = linearo[i]
     pre_line = linearo[i-1]
-    if (line.startswith('1\t') or line.startswith('1-')) and len(pre_line) and pre_line[0] not in('#',' '):
+    if (line.startswith('1\t') or line.startswith('1-')) and len(pre_line) and pre_line[0] not in('#',' ') and not linearo[i-1].endswith('\n'):
       linearo[i-1] +='\n'
   return '\n'.join(linearo)
                 
