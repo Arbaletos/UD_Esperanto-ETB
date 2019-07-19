@@ -1,10 +1,7 @@
 import sys
-
-sys.path.append('../con')
-
 import os 
-from conll import *
-from conllgrid import ConllGrid
+from con.conll import *
+from con.conllgrid import ConllGrid
 
 from copy import deepcopy as copy
 
@@ -171,6 +168,6 @@ class MainForm(npyscreen.Form):
 
 if __name__=='__main__':
     a = App()
-    fn = '../../out/conll/lesson_60.con' if len(sys.argv)==1 else sys.argv[1]
+    fn = '../out/conll/fundamenta-ekzercaro.con' if len(sys.argv)==1 else sys.argv[1]
     a.load_con(fn)
     a.run()
