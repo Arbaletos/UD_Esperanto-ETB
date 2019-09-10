@@ -14,7 +14,7 @@ import re
 
 from copy import deepcopy as copy
 
-from con.conll import Token, Conll, Sent
+from conll.conll import Token, Conll, Sent
 
 from bs4 import BeautifulSoup
     
@@ -299,7 +299,7 @@ def get_source(fn, root='../data'):
   if fn.endswith('.xml'):
     return os.path.join(root,'xml',fn)
   if fn.endswith('.con'):
-    return os.path.join(root,'con',fn)
+    return os.path.join(root,'conll',fn)
   return os.path.join(root,'txt',fn)
 
 def is_raw(fn):

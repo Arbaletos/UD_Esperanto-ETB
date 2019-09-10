@@ -1,7 +1,7 @@
 import sys
 import os 
-from con.conll import *
-from con.conllgrid import ConllGrid
+from conll.conll import *
+from conll.conllgrid import ConllGrid
 
 from copy import deepcopy as copy
 
