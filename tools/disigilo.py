@@ -24,6 +24,15 @@ def get_source(fn, root='../data'):
   return os.path.join(root,'txt',fn)
 
 
+def get_out(source, root='../out/conll/'):
+  """get output filename to write for selected source"""
+  if source=='stdin':
+    name = root + 'out.con'
+  else:
+    name = root+source.split(os.sep)[-1].replace('.xml', '').replace('.txt', '').replace('.con', '')+'.con'
+  return name
+
+
 def parse_source(source):
   """Makes text from .txt or .xml file"""
   if source=='stdin':
@@ -36,7 +45,7 @@ def parse_source(source):
     soup = BeautifulSoup(content)
     p = soup.find_all('p')
     text = [t.get_text() for t in p]
-    #Necesas parsi la fremdlangan segmentajxon
+    # Necesas parsi la fremdlangan segmentajxon
     return '\n'.join(text)
     pass
   elif source.endswith('con'):
@@ -44,7 +53,7 @@ def parse_source(source):
     data.load_from_file(source)
     return [s.tokens for s in data.sentaro]
   else:
-    ###All other text files.###
+    ### All other text files. ###
     with open(source, 'r') as reader:
       return reader.read()
 
@@ -56,33 +65,59 @@ def is_raw(fn):
   return True
 
 
+def build_sent(sent):
+  ret = Sent()
+  for s in sent:
+    ret.add(s)
+  return ret
+
+
+def disigi(sent, token_regexp=None):
+  """Split sent into tokens sequence, mentioning spaces."""
+  # Necesas prilabori d-ro, k.t.p., k. t. p., e-posxton, retejoj, telefonnumeroj k.t.p.
+  ret = []
+  spaced = sent.split(' ')
+  cur_id = 1;
+  for token_group in spaced:
+    token_group = word_tokenize(token_group)
+    for i, t in enumerate(token_group):
+      ret.append(Token(cur_id, t, misc={'SpaceAfter': i==len(token_group)-1}))
+      cur_id+=1
+  return ret
+    
+
 def main():
   args = sys.argv[1:]
   pipeline = args[:]
+
+  #token_list = ['k.t.p.', 'i.e.', 'd-ro', '...']
+  #token_list = sorted(token_list, key=lambda x:-len(x))
+  #token_list = ['^'+t.replace('.', '\.') for t in token_list]
+  #token_list += ['^[A-Z]\.','^\d+', '^\w+','^.']
+
   if not args: 
     pipeline.append('stdin')
   while len(pipeline):
     source = get_source(pipeline.pop())
-    #out = get_out(source)
+    out = get_out(source)
     if not is_raw(source):
       print('Cxi programo laboras nur kun nedisigita teksto')
       quit()
     text = parse_source(source)
-    #text = clean_text(text)
 
-    #sents = sent_split(text)
-    #tokens = [parser.tokenize(sent) for sent in sents]
+    sents = sent_tokenize(text)
+    tokens = [disigi(sent) for sent in sents]
       
-    #con = Conll(id=os.path.basename(source))
-    #for t_sent in tokens:
-    #  seg = parser.parse(t_sent)
-    #  sent = build_sent(seg)
-    #  con.add(sent)
+    con = Conll(id=os.path.basename(source))
+    for t_sent in tokens:
+      sent = build_sent(t_sent)
+      con.add(sent)
 
-    #  print(sent)
-    #con.update_sent_id()
-    #con.update_text()
-    #con.exportu(out)
+      print(sent)
+    
+    con.update_sent_id()
+    con.update_text()
+    con.exportu(out)
 
     if source == 'stdin':
       pipeline.append('stdin')
