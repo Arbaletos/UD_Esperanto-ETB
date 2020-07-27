@@ -107,7 +107,7 @@ def preprilabori(source):
     #token_list += ['^[A-Z]\.','^\d+', '^\w+','^.']
 
     teksto = parse_source(source)
-    teksto = clean_text(teksto)
+    #teksto = clean_text(teksto)
     sents = sent_tokenize(teksto)
     tokens = [disigi(sent) for sent in sents]
     con = Conll(id=os.path.basename(source))
