@@ -1,5 +1,7 @@
 from conll.conll import Token
-from morf import kombiki, sent_split, Parser
+from morf import kombiki, MorfParser
+from nltk import sent_tokenize
+from disigilo import disigi
 
 def test():
   def ass(case, exp, real, err_name=''):
@@ -28,11 +30,10 @@ def test():
     ass(case, ret_dict, kombiki(kom_dict, fin_dict))
   
   def test_sent_split(case, sent, sent_parts):
-    ass(case, sent_parts, sent_split(sent))
+    ass(case, sent_parts, sent_tokenize(sent))
  
   def test_tokenize(case, sent, words, spaces):
-    parser = Parser()
-    n_tokens = parser.tokenize(sent)
+    n_tokens = disigi(sent)
     n_words = [token.form for token in n_tokens]
     n_spaces = [token.space_after() for token in n_tokens]
     ass(case, words, n_words, 'words')
