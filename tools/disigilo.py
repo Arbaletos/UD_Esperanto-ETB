@@ -57,6 +57,20 @@ def parse_source(source):
     with open(source, 'r') as reader:
       return reader.read()
 
+def clean_text(text):
+    """Sxangxos la x-sisteme skribitaj cxapelliteroj per cxapele skribitaj"""
+    dicto = {'Cx':'Ĉ',
+             'Gx':'Ĝ',
+             'Hx':'Ĥ',
+             'Jx':'Ĵ',
+             'Sx':'Ŝ',
+             'Ux':'Ŭ'} # POZOR! tux -> tŭ!!!
+    for k in dicto:
+        text = text.replace(k, dicto[k])
+        text = text.replace(k.lower(), dicto[k].lower())
+        text = text.replace(k.upper(), dicto[k].upper())
+    return text
+
 
 def is_raw(fn):
   """Check whether the input is raw and thus needs preprocecing or not"""
@@ -84,17 +98,32 @@ def disigi(sent, token_regexp=None):
       ret.append(Token(cur_id, t, misc={'SpaceAfter': i==len(token_group)-1}))
       cur_id+=1
   return ret
+
+def preprilabori(source):
+
+    #token_list = ['k.t.p.', 'i.e.', 'd-ro', '...']
+    #token_list = sorted(token_list, key=lambda x:-len(x))
+    #token_list = ['^'+t.replace('.', '\.') for t in token_list]
+    #token_list += ['^[A-Z]\.','^\d+', '^\w+','^.']
+
+    teksto = parse_source(source)
+    teksto = clean_text(teksto)
+    sents = sent_tokenize(teksto)
+    tokens = [disigi(sent) for sent in sents]
+    con = Conll(id=os.path.basename(source))
+    for t_sent in tokens:
+      sent = build_sent(t_sent)
+      con.add(sent)
+
+    con.update_sent_id()
+    con.update_text()
+
+    return con
     
 
 def main():
   args = sys.argv[1:]
   pipeline = args[:]
-
-  #token_list = ['k.t.p.', 'i.e.', 'd-ro', '...']
-  #token_list = sorted(token_list, key=lambda x:-len(x))
-  #token_list = ['^'+t.replace('.', '\.') for t in token_list]
-  #token_list += ['^[A-Z]\.','^\d+', '^\w+','^.']
-
   if not args: 
     pipeline.append('stdin')
   while len(pipeline):
@@ -103,20 +132,7 @@ def main():
     if not is_raw(source):
       print('Cxi programo laboras nur kun nedisigita teksto')
       quit()
-    text = parse_source(source)
-
-    sents = sent_tokenize(text)
-    tokens = [disigi(sent) for sent in sents]
-      
-    con = Conll(id=os.path.basename(source))
-    for t_sent in tokens:
-      sent = build_sent(t_sent)
-      con.add(sent)
-
-      print(sent)
-    
-    con.update_sent_id()
-    con.update_text()
+    con = preprilabori(source)
     con.exportu(out)
 
     if source == 'stdin':
