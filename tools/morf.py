@@ -1,12 +1,6 @@
 #/usr/bin/python3
 #coding=utf-8
 
-"""
-Author: Artemo Arbaletos
-https:github.com/Arbaletos
-Last change: 14.07.2019
-"""
-
 
 import sys
 import os
@@ -121,7 +115,7 @@ class Parser:
     
   def parse(self, sent, disamb=False):
     ret = []
-    for i, t in enumerate(sent):
+    for i, t in enumerate(sent.tokens):
       parsoj = self.get_tag(t, i==0)
       
       for p in parsoj:
@@ -130,6 +124,7 @@ class Parser:
           ret.append(p)
     if disamb:
         ret = self.disamb(ret)
+    sent.tokens = ret ## Faru interfacon
     return ret 
       
   def get_tag(self, token, new_sent):
@@ -215,22 +210,6 @@ class Parser:
     ret.upos = pos
     ret.xpos = tag
     return ret
-  
-  
-def sent_split(text):
-  """Dissects text into sentences"""
-  #Sent End Markers: . ! ? \n, next word begins from Capital
-  start = 0
-  text = text.replace('! ', '!\n').replace('? ', '?\n')
-  
-  for i in range(1, len(text)-2):
-    if text[i]=='.':
-      if text[i+1] == ' ' and text[i+2].isupper() and not text[i-1].isupper():
-        text = text[:i+1]+'\n'+text[i+2:]
-      #'Yes. Yes' - Du
-      #'L. M. Zamenhofo' - Unu
-  sents = text.split('\n')
-  return sents
     
     
 def kombiki(kom_dict, fin_dict):
@@ -278,20 +257,6 @@ def get_out(source, root='../out/conll/'):
     name = root+source.split(os.sep)[-1].replace('.xml', '').replace('.txt', '').replace('.con', '')+'.con'
   return name
 
-def clean_text(text):
-    """Sxangxos la x-sisteme skribitaj cxapelliteroj per cxapele skribitaj"""
-    dicto = {'Cx':'Ĉ',
-             'Gx':'Ĝ',
-             'Hx':'Ĥ',
-             'Jx':'Ĵ',
-             'Sx':'Ŝ',
-             'Ux':'Ŭ'} # POZOR! tux -> tŭ!!!
-    for k in dicto:
-        text = text.replace(k, dicto[k])
-        text = text.replace(k.lower(), dicto[k].lower())
-        text = text.replace(k.upper(), dicto[k].upper())
-    return text
-
 
 def get_source(fn, root='../data'):
   if fn=='stdin':
@@ -307,12 +272,6 @@ def is_raw(fn):
   if fn.endswith('.con'):
     return False
   return True
-
-def build_sent(sent):
-  ret = Sent()
-  for s in sent:
-    ret.add(s)
-  return ret
   
   
 def main():
@@ -323,27 +282,26 @@ def main():
     pipeline.append('stdin')
   parser = Parser()
   while len(pipeline):
+
     source = get_source(pipeline.pop())
     out = get_out(source)
-    if is_raw(source):
-      text = parse_source(source)
-      text = clean_text(text)
-      sents = sent_split(text)
-      tokens = [parser.tokenize(sent) for sent in sents]
-    else:
-      tokens = parse_source(source)
-    con = Conll(id=os.path.basename(source))
-    for t_sent in tokens:
-      seg = parser.parse(t_sent)
-      sent = build_sent(seg)
-      con.add(sent)
 
+    if is_raw(source):
+      print('Cxi programo laboras nur kun prilaborita teksto en CONLL-formato')
+      quit()
+
+
+    con = Conll(id=os.path.splitext(os.path.basename(source))[0])
+    con.load_from_file(source)
+
+    for sent in con.sentaro:
+      parser.parse(sent)
       print(sent)
+
     con.update_sent_id()
     con.update_text()
+
     con.exportu(out)
-    if source == 'stdin':
-      pipeline.append('stdin')
       
 
 if __name__=='__main__':
