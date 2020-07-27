@@ -3,15 +3,10 @@
 
 import sys
 import os
-import re
-
-from copy import deepcopy as copy
 
 from conll.conll import Token, Conll, Sent
 
-from bs4 import BeautifulSoup
-
-from disigilo import preprilabori
+import disigilo
 import morf
 
 
@@ -74,7 +69,7 @@ def main():
     out = get_out(source)
 
     if is_raw(source): # Disigado
-      con = preprilabori(source)
+      con = disigilo.preprilabori(source)
     else:
       con = Conll(id=os.path.splitext(os.path.basename(source))[0])
       con.load_from_file(source)

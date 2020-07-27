@@ -5,32 +5,13 @@ import sys
 import os
 import re
 
-from copy import deepcopy as copy
-
 from conll.conll import Token, Conll, Sent
 
 from bs4 import BeautifulSoup
 
 from nltk import word_tokenize, sent_tokenize
 
-
-def get_source(fn, root='../data'):
-  if fn=='stdin':
-    return fn
-  if fn.endswith('.xml'):
-    return os.path.join(root,'xml',fn)
-  if fn.endswith('.con'):
-    return os.path.join(root,'conll',fn)
-  return os.path.join(root,'txt',fn)
-
-
-def get_out(source, root='../out/conll/'):
-  """get output filename to write for selected source"""
-  if source=='stdin':
-    name = root + 'out.con'
-  else:
-    name = root+source.split(os.sep)[-1].replace('.xml', '').replace('.txt', '').replace('.con', '')+'.con'
-  return name
+import ilo
 
 
 def parse_source(source):
@@ -70,13 +51,6 @@ def clean_text(text):
         text = text.replace(k.lower(), dicto[k].lower())
         text = text.replace(k.upper(), dicto[k].upper())
     return text
-
-
-def is_raw(fn):
-  """Check whether the input is raw and thus needs preprocecing or not"""
-  if fn.endswith('.con'):
-    return False
-  return True
 
 
 def build_sent(sent):
@@ -127,9 +101,9 @@ def main():
   if not args: 
     pipeline.append('stdin')
   while len(pipeline):
-    source = get_source(pipeline.pop())
-    out = get_out(source)
-    if not is_raw(source):
+    source = ilo.get_source(pipeline.pop())
+    out = ilo.get_out(source)
+    if not ilo.is_raw(source):
       print('Cxi programo laboras nur kun nedisigita teksto')
       quit()
     con = preprilabori(source)

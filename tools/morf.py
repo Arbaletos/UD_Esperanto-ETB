@@ -4,12 +4,10 @@
 
 import sys
 import os
-import re
 
 from copy import deepcopy as copy
 
 from conll.conll import Token, Conll, Sent
-
 
 import ilo
     
