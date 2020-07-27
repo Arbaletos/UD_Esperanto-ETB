@@ -10,7 +10,7 @@ from copy import deepcopy as copy
 
 from conll.conll import Token, Conll, Sent
 
-from bs4 import BeautifulSoup
+import ilo
     
     
 class Parser:
@@ -91,27 +91,7 @@ class Parser:
     self.token_list = ['k.t.p.', 'i.e.', 'd-ro', '...']
     self.token_list = sorted(self.token_list, key=lambda x:-len(x))
     self.token_list = ['^'+t.replace('.', '\.') for t in self.token_list]
-    self.token_list = self.token_list + ['^[A-Z]\.','^\d+', '^\w+','^.']
-    
-    
-  def tokenize(self, sent):
-    """Split sent into tokens sequence, with spaces also."""
-    ret = []
-    spaced_toks = sent.split(' ')
-    cur_id = 1
-    for tok in spaced_toks:
-      while len(tok):
-        for reg in self.token_list:
-          regres = re.search(reg, tok)
-          if regres is not None:
-            w = regres.group(0)
-            space = len(w)==len(tok)
-            ret.append(Token(cur_id, w, misc={'SpaceAfter':space}))
-            cur_id+=1
-            tok = tok[len(w):]
-            break
-    #qtrick()
-    return ret    
+    self.token_list = self.token_list + ['^[A-Z]\.','^\d+', '^\w+','^.'] 
     
   def parse(self, sent, disamb=False):
     ret = []
@@ -223,70 +203,19 @@ def kombiki(kom_dict, fin_dict):
         ret[kom+fin] = [kom_dict[kom]+fin_dict[fin]]  
   return ret
 
-
-def parse_source(source):
-  """Makes text from .txt or .xml file"""
-  if source=='stdin':
-    text = input('Enter your text or q to exit!\n')
-    if text == 'q': sys.exit()
-    return text
-  elif source.endswith('.xml'):
-    with open(source, 'r') as reader:
-      content = reader.read()
-    soup = BeautifulSoup(content)
-    p = soup.find_all('p')
-    text = [t.get_text() for t in p]
-    #Necesas parsi la fremdlangan segmentajxon
-    return '\n'.join(text)
-    pass
-  elif source.endswith('con'):
-    data = Conll()
-    data.load_from_file(source)
-    return [s.tokens for s in data.sentaro]
-  else:
-    ###All other text files.###
-    with open(source, 'r') as reader:
-      return reader.read()
-
-
-def get_out(source, root='../out/conll/'):
-  """get output filename to write for selected source"""
-  if source=='stdin':
-    name = root + 'out.con'
-  else:
-    name = root+source.split(os.sep)[-1].replace('.xml', '').replace('.txt', '').replace('.con', '')+'.con'
-  return name
-
-
-def get_source(fn, root='../data'):
-  if fn=='stdin':
-    return fn
-  if fn.endswith('.xml'):
-    return os.path.join(root,'xml',fn)
-  if fn.endswith('.con'):
-    return os.path.join(root,'conll',fn)
-  return os.path.join(root,'txt',fn)
-
-def is_raw(fn):
-  """Check whether the input is raw and thus needs preprocecing or not"""
-  if fn.endswith('.con'):
-    return False
-  return True
-  
   
 def main():
   """Main function Loop, containing every step"""
   args = sys.argv[1:]
   pipeline = args[:]
-  if not args: 
-    pipeline.append('stdin')
+
   parser = Parser()
   while len(pipeline):
 
-    source = get_source(pipeline.pop())
-    out = get_out(source)
+    source = ilo.get_source(pipeline.pop())
+    out = ilo.get_out(source)
 
-    if is_raw(source):
+    if ilo.is_raw(source):
       print('Cxi programo laboras nur kun prilaborita teksto en CONLL-formato')
       quit()
 
