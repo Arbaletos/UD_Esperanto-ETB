@@ -10,10 +10,11 @@ from copy import deepcopy as copy
 
 from conll.conll import Token, Conll, Sent
 
+
 import ilo
     
     
-class Parser:
+class MorfParser:
 
   def __init__(self, q_trick=False, y_trick=False, diakr_sys=False):
     """Initializes required for work dicts
@@ -209,7 +210,7 @@ def main():
   args = sys.argv[1:]
   pipeline = args[:]
 
-  parser = Parser()
+  parser = MorfParser()
   while len(pipeline):
 
     source = ilo.get_source(pipeline.pop())

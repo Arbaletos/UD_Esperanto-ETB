@@ -12,27 +12,7 @@ from conll.conll import Token, Conll, Sent
 from bs4 import BeautifulSoup
 
 from disigilo import preprilabori
-
-from morf import Parser
-
-
-def get_source(fn, root='../data'):
-  if fn=='stdin':
-    return fn
-  if fn.endswith('.xml'):
-    return os.path.join(root,'xml',fn)
-  if fn.endswith('.con'):
-    return os.path.join(root,'conll',fn)
-  return os.path.join(root,'txt',fn)
-
-
-def get_out(source, root='../out/conll/'):
-  """get output filename to write for selected source"""
-  if source=='stdin':
-    name = root + 'out.con'
-  else:
-    name = root+source.split(os.sep)[-1].replace('.xml', '').replace('.txt', '').replace('.con', '')+'.con'
-  return name
+import morf
 
 
 def parse_source(source):
@@ -55,19 +35,37 @@ def parse_source(source):
     with open(source, 'r') as reader:
       return reader.read()
 
-
 def is_raw(fn):
   """Check whether the input is raw and thus needs preprocecing or not"""
   if fn.endswith('.con'):
     return False
   return True
-    
 
+
+def get_source(fn, root='../data'):
+  if fn=='stdin':
+    return fn
+  if fn.endswith('.xml'):
+    return os.path.join(root,'xml',fn)
+  if fn.endswith('.con'):
+    return os.path.join(root,'conll',fn)
+  return os.path.join(root,'txt',fn)
+
+
+def get_out(source, root='../out/conll/'):
+  """get output filename to write for selected source"""
+  if source=='stdin':
+    name = root + 'out.con'
+  else:
+    name = root+source.split(os.sep)[-1].replace('.xml', '').replace('.txt', '').replace('.con', '')+'.con'
+  return name
+
+  
 def main():
   args = sys.argv[1:]
   pipeline = args[:]
 
-  parser = Parser()
+  parser = morf.MorfParser()
 
   if not args: 
     pipeline.append('stdin')
