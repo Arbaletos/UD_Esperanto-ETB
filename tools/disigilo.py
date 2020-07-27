@@ -110,7 +110,7 @@ def preprilabori(source):
     #teksto = clean_text(teksto)
     sents = sent_tokenize(teksto)
     tokens = [disigi(sent) for sent in sents]
-    con = Conll(id=os.path.basename(source))
+    con = Conll(id=os.path.splitext(os.path.basename(source))[0])
     for t_sent in tokens:
       sent = build_sent(t_sent)
       con.add(sent)
