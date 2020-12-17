@@ -69,7 +69,7 @@ class MorfParser:
     'PRSPPA':('DET',3),'PRPPPA':('DET',3),'PRUPPA':('DET',3),
     'PROPSN':('PROPN',0), 'PROPSA':('PROPN',1)}
 
-    kom = ['INT','IND','TOT','NEG','DEM']
+    kom = ['KOR','DEM']
     fin = ['ASN','PRUN','DSN','ADV','ADV',\
     'ADD','DPS','DQU','ADV','ADV','PRUA',\
     'APN','ASA','APA','DPN','DSA','DPA']
