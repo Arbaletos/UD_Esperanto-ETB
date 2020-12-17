@@ -120,9 +120,9 @@ class MorfParser:
     ret = []
       
     if self.cls_dict.get(token.form.lower(), None): #word from closed class
-      poss = self.cls_dict[token.form.lower()]
-      for pos in poss:
-        tag, ind = self.conv_dict.get(pos,(pos,0))
+      tags = self.cls_dict[token.form.lower()]
+      for tag in tags:
+        pos, ind = self.conv_dict.get(tag,(tag,0))
         lemm = token.form.lower()[:len(token.form) - ind]
         ret.append(self.add_pos(token, pos, tag, lemm))
       return ret
