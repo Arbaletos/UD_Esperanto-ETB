@@ -61,7 +61,7 @@ class MorfParser:
     'ADE':('ADV',1),   'ADD':('ADV',2),   'VPR':('VERB',2),
     'VFT':('VERB',2),  'VPS':('VERB',2),  'VIN':('VERB',1),
     'VDM':('VERB',1),  'VCN':('VERB',2),
-    'PRSN':('PRON',0), 'PRPN':('PRON',0),'PRUN':('PRUN',0),
+    'PRSN':('PRON',0), 'PRPN':('PRON',0),'PRUN':('PRON',0),
     'PRSA':('PRON',1), 'PRPA':('PRON',1),'PRUA':('PRON',1),
     'PRSPSN':('DET',1),'PRPPSN':('DET',1),'PRUPSN':('DET',1),
     'PRSPSA':('DET',2),'PRPPSA':('DET',2),'PRUPSA':('DET',2),
