@@ -1,275 +1,426 @@
-# sent_id = fundamenta-ekzercaro_0
+# sent_id = fundamenta_ekzercaro_morf_0
 # text = Citrono. 
 1	Citrono	citron	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_1
+# sent_id = fundamenta_ekzercaro_morf_1
 # text = Cento. 
 1	Cento	cent	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_2
+# sent_id = fundamenta_ekzercaro_morf_2
 # text = Sceno. 
 1	Sceno	scen	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_3
+# sent_id = fundamenta_ekzercaro_morf_3
 # text = Scio. 
 1	Scio	sci	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_4
+# sent_id = fundamenta_ekzercaro_morf_4
 # text = Balau. 
 1	Balau	bala	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_5
+# sent_id = fundamenta_ekzercaro_morf_5
 # text = Ŝanceli. 
 1	Ŝanceli	ŝancel	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_6
+# sent_id = fundamenta_ekzercaro_morf_6
 # text = Neniel. 
 1	Neniel	neniel	ADV	KORADV	_	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_7
+# sent_id = fundamenta_ekzercaro_morf_7
 # text = Embaraso. 
 1	Embaraso	embaras	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_8
+# sent_id = fundamenta_ekzercaro_morf_8
 # text = Zoologio. 
 1	Zoologio	zoologi	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_9
+# sent_id = fundamenta_ekzercaro_morf_9
 # text = Reservi. 
 1	Reservi	reserv	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_10
+# sent_id = fundamenta_ekzercaro_morf_10
 # text = Traire. 
 1	Traire	trair	ADV	ADE	_	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_11
+# sent_id = fundamenta_ekzercaro_morf_11
 # text = Hodiaŭ. 
 1	Hodiaŭ	hodiaŭ	ADV	ADV	_	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_12
+# sent_id = fundamenta_ekzercaro_morf_12
 # text = Disŝiri. 
 1	Disŝiri	disŝir	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_13
+# sent_id = fundamenta_ekzercaro_morf_13
 # text = Neulo. 
 1	Neulo	neul	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_14
+# sent_id = fundamenta_ekzercaro_morf_14
 # text = Majesta. 
 1	Majesta	majest	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_15
+# sent_id = fundamenta_ekzercaro_morf_15
 # text = Packapo. 
 1	Packapo	packap	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_16
+# sent_id = fundamenta_ekzercaro_morf_16
 # text = Heroino. 
 1	Heroino	heroin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_17
+# sent_id = fundamenta_ekzercaro_morf_17
 # text = Pezo. 
 1	Pezo	pez	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_18
+# sent_id = fundamenta_ekzercaro_morf_18
 # text = Internacia. 
 1	Internacia	internaci	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_19
+# sent_id = fundamenta_ekzercaro_morf_19
 # text = Seshora. 
 1	Seshora	seshor	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_20
+# sent_id = fundamenta_ekzercaro_morf_20
 # text = Cipreso. 
 1	Cipreso	cipres	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_21
+# sent_id = fundamenta_ekzercaro_morf_21
 # text = Stalo. 
 1	Stalo	stal	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_22
+# sent_id = fundamenta_ekzercaro_morf_22
 # text = Feino. 
 1	Feino	fein	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_23
+# sent_id = fundamenta_ekzercaro_morf_23
 # text = Plu. 
 1	Plu	plu	ADV	ADV	_	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_24
+# sent_id = fundamenta_ekzercaro_morf_24
 # text = Sukero. 
 1	Sukero	suker	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_25
+# sent_id = fundamenta_ekzercaro_morf_25
 # text = Gento. 
 1	Gento	gent	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_26
+# sent_id = fundamenta_ekzercaro_morf_26
 # text = Indigni. 
 1	Indigni	indign	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_27
+# sent_id = fundamenta_ekzercaro_morf_27
 # text = Sigelo. 
 1	Sigelo	sigel	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_28
+# sent_id = fundamenta_ekzercaro_morf_28
 # text = Krajono. 
 1	Krajono	krajon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_29
+# sent_id = fundamenta_ekzercaro_morf_29
 # text = Ruino. 
 1	Ruino	ruin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_30
+# sent_id = fundamenta_ekzercaro_morf_30
 # text = Pesilo. 
 1	Pesilo	pesil	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_31
+# sent_id = fundamenta_ekzercaro_morf_31
 # text = Lipharo. 
 1	Lipharo	liphar	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_32
+# sent_id = fundamenta_ekzercaro_morf_32
 # text = Metio. 
 1	Metio	meti	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_33
+# sent_id = fundamenta_ekzercaro_morf_33
 # text = Ĝardeno. 
 1	Ĝardeno	ĝarden	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_34
+# sent_id = fundamenta_ekzercaro_morf_34
 # text = Sono. 
 1	Sono	son	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_35
+# sent_id = fundamenta_ekzercaro_morf_35
 # text = Laŭdi. 
 1	Laŭdi	laŭd	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_36
+# sent_id = fundamenta_ekzercaro_morf_36
 # text = Pale. 
 1	Pale	pal	ADV	ADE	_	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_37
+# sent_id = fundamenta_ekzercaro_morf_37
 # text = Facila. 
 1	Facila	facil	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_38
+# sent_id = fundamenta_ekzercaro_morf_38
 # text = Insekto. 
 1	Insekto	insekt	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_39
+# sent_id = fundamenta_ekzercaro_morf_39
 # text = Kiu. 
 1	Kiu	kiu	DET	DEMDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_40
+# sent_id = fundamenta_ekzercaro_morf_40
 # text = Zorgi. 
 1	Zorgi	zorg	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_41
+# sent_id = fundamenta_ekzercaro_morf_41
 # text = Cikano. 
 1	Cikano	cikan	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_42
+# sent_id = fundamenta_ekzercaro_morf_42
 # text = Traetera. 
 1	Traetera	traeter	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_43
+# sent_id = fundamenta_ekzercaro_morf_43
 # text = Sofismo. 
 1	Sofismo	sofism	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_44
+# sent_id = fundamenta_ekzercaro_morf_44
 # text = Domoj. 
 1	Domoj	dom	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_45
+# sent_id = fundamenta_ekzercaro_morf_45
 # text = Spino. 
 1	Spino	spin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_46
+# sent_id = fundamenta_ekzercaro_morf_46
 # text = Majo. 
 1	Majo	maj	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_47
+# sent_id = fundamenta_ekzercaro_morf_47
 # text = Signi. 
 1	Signi	sign	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_48
+# sent_id = fundamenta_ekzercaro_morf_48
 # text = Ec. 
 1	Ec	ec	X	X	_	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_49
+# sent_id = fundamenta_ekzercaro_morf_49
 # text = Bonaĵo. 
 1	Bonaĵo	bonaĵ	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_50
+# sent_id = fundamenta_ekzercaro_morf_50
 # text = Legi. 
 1	Legi	leg	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_51
+# sent_id = fundamenta_ekzercaro_morf_51
 # text = Iel. 
 1	Iel	iel	ADV	KORADV	_	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_52
+# sent_id = fundamenta_ekzercaro_morf_52
 # text = Juristo. 
 1	Juristo	jurist	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_53
+# sent_id = fundamenta_ekzercaro_morf_53
 # text = Ĉielo. 
 1	Ĉielo	ĉiel	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_54
+# sent_id = fundamenta_ekzercaro_morf_54
 # text = Ĥemio. 
 1	Ĥemio	ĥemi	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_55
+# text = Patro kaj frato. 
+1	Patro	patr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+3	frato	frat	NOUN	SPRNSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_56
+# text = Leono estas besto. 
+1	Leono	leono	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	besto	best	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_57
+# text = Rozo estas floro kaj kolombo estas birdo. 
+1	Rozo	roz	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	floro	flor	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+4	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+5	kolombo	kolomb	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+6	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+7	birdo	bird	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_58
+# text = La rozo apartenas al Teodoro. 
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	rozo	roz	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	apartenas	aparten	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+5	Teodoro	teodoro	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_59
+# text = La suno brilas. 
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	suno	sun	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	brilas	bril	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_60
+# text = La patro estas sana. 
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	patro	patr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	sana	san	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_61
+# text = La patro estas tajloro. 
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	patro	patr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	tajloro	tajlor	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_62
+# text = Infano ne estas matura homo. 
+1	Infano	infan	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	matura	matur	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+5	homo	hom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_63
+# text = La infano jam ne ploras. 
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	infano	infan	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	jam	jam	ADV	ADV	_	_	_	_	SpaceAfter=Yes
+4	ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
+5	ploras	plor	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_64
+# text = La ĉielo estas blua. 
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	ĉielo	ĉiel	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	blua	blu	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_65
+# text = Kie estas la libro kaj la krajono? 
+1	Kie	kie	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+4	libro	libr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+5	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+6	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+7	krajono	krajon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+8	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_66
+# text = La libro estas sur la tablo, kaj la krajono kuŝas sur la fenestro. 
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	libro	libr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+5	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+6	tablo	tabl	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+8	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+9	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+10	krajono	krajon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+11	kuŝas	kuŝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+12	sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+13	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+14	fenestro	fenestr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_67
+# text = Sur la fenestro kuŝas krajono kaj plumo. 
+1	Sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+3	fenestro	fenestr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+4	kuŝas	kuŝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+5	krajono	krajon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+6	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+7	plumo	plum	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_68
+# text = Jen estas pomo. 
+1	Jen	jen	PART	PART	_	_	_	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	pomo	pom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_69
+# text = Jen estas la pomo, kiun mi trovis. 
+1	Jen	jen	PART	PART	_	_	_	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+4	pomo	pom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+6	kiun	kiu	DET	DEMDSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+7	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+8	trovis	trov	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta_ekzercaro_morf_70
+# text = Sur la tero kuŝas ŝtono. 
+1	Sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+3	tero	ter	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+4	kuŝas	kuŝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+5	ŝtono	ŝton	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
