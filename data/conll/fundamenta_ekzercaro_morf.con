@@ -1,0 +1,275 @@
+# sent_id = fundamenta-ekzercaro_0
+# text = Citrono. 
+1	Citrono	citron	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_1
+# text = Cento. 
+1	Cento	cent	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_2
+# text = Sceno. 
+1	Sceno	scen	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_3
+# text = Scio. 
+1	Scio	sci	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_4
+# text = Balau. 
+1	Balau	bala	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_5
+# text = Ŝanceli. 
+1	Ŝanceli	ŝancel	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_6
+# text = Neniel. 
+1	Neniel	neniel	ADV	KORADV	_	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_7
+# text = Embaraso. 
+1	Embaraso	embaras	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_8
+# text = Zoologio. 
+1	Zoologio	zoologi	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_9
+# text = Reservi. 
+1	Reservi	reserv	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_10
+# text = Traire. 
+1	Traire	trair	ADV	ADE	_	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_11
+# text = Hodiaŭ. 
+1	Hodiaŭ	hodiaŭ	ADV	ADV	_	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_12
+# text = Disŝiri. 
+1	Disŝiri	disŝir	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_13
+# text = Neulo. 
+1	Neulo	neul	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_14
+# text = Majesta. 
+1	Majesta	majest	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_15
+# text = Packapo. 
+1	Packapo	packap	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_16
+# text = Heroino. 
+1	Heroino	heroin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_17
+# text = Pezo. 
+1	Pezo	pez	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_18
+# text = Internacia. 
+1	Internacia	internaci	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_19
+# text = Seshora. 
+1	Seshora	seshor	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_20
+# text = Cipreso. 
+1	Cipreso	cipres	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_21
+# text = Stalo. 
+1	Stalo	stal	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_22
+# text = Feino. 
+1	Feino	fein	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_23
+# text = Plu. 
+1	Plu	plu	ADV	ADV	_	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_24
+# text = Sukero. 
+1	Sukero	suker	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_25
+# text = Gento. 
+1	Gento	gent	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_26
+# text = Indigni. 
+1	Indigni	indign	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_27
+# text = Sigelo. 
+1	Sigelo	sigel	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_28
+# text = Krajono. 
+1	Krajono	krajon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_29
+# text = Ruino. 
+1	Ruino	ruin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_30
+# text = Pesilo. 
+1	Pesilo	pesil	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_31
+# text = Lipharo. 
+1	Lipharo	liphar	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_32
+# text = Metio. 
+1	Metio	meti	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_33
+# text = Ĝardeno. 
+1	Ĝardeno	ĝarden	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_34
+# text = Sono. 
+1	Sono	son	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_35
+# text = Laŭdi. 
+1	Laŭdi	laŭd	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_36
+# text = Pale. 
+1	Pale	pal	ADV	ADE	_	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_37
+# text = Facila. 
+1	Facila	facil	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_38
+# text = Insekto. 
+1	Insekto	insekt	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_39
+# text = Kiu. 
+1	Kiu	kiu	DET	DEMDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_40
+# text = Zorgi. 
+1	Zorgi	zorg	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_41
+# text = Cikano. 
+1	Cikano	cikan	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_42
+# text = Traetera. 
+1	Traetera	traeter	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_43
+# text = Sofismo. 
+1	Sofismo	sofism	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_44
+# text = Domoj. 
+1	Domoj	dom	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_45
+# text = Spino. 
+1	Spino	spin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_46
+# text = Majo. 
+1	Majo	maj	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_47
+# text = Signi. 
+1	Signi	sign	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_48
+# text = Ec. 
+1	Ec	ec	X	X	_	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_49
+# text = Bonaĵo. 
+1	Bonaĵo	bonaĵ	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_50
+# text = Legi. 
+1	Legi	leg	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_51
+# text = Iel. 
+1	Iel	iel	ADV	KORADV	_	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_52
+# text = Juristo. 
+1	Juristo	jurist	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_53
+# text = Ĉielo. 
+1	Ĉielo	ĉiel	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_54
+# text = Ĥemio. 
+1	Ĥemio	ĥemi	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
