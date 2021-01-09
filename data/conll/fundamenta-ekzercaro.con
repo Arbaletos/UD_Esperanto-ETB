@@ -1,284 +1,4 @@
-# sent_id = fundamenta-ekzercaro_0
-# text = Papero estas blanka. 
-1	Papero	paper	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-3	blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_1
-# text = — Blanka papero kuŝas sur la tablo. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	Blanka	blanka	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-2	Blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	papero	paper	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-4	kuŝas	kuŝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-5	sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-6	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-7	tablo	tabl	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_2
-# text = — La blanka papero jam ne kuŝas sur la tablo. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-3	blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-4	papero	paper	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-5	jam	jam	ADV	ADV	_	_	_	_	SpaceAfter=Yes
-6	ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
-7	kuŝas	kuŝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-8	sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-9	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-10	tablo	tabl	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_3
-# text = — Jen estas la kajero de la juna fraŭlino. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	Jen	jen	PART	PART	_	_	_	_	SpaceAfter=Yes
-3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-4	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-5	kajero	kajer	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-6	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-7	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-8	juna	jun	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-9	fraŭlino	fraŭlin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_4
-# text = — La patro donis al mi dolĉan pomon. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-3	patro	patr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-4	donis	don	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
-5	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-6	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-7	dolĉan	dolĉ	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
-8	pomon	pom	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
-9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_5
-# text = — Rakontu al mia juna amiko belan historion. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	Rakontu	rakontu	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-2	Rakontu	rakont	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=Yes
-3	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-4	mia	mi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-5	juna	jun	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-6	amiko	amik	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-7	belan	bel	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
-8	historion	histori	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
-9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_6
-# text = — Mi ne amas obstinajn homojn. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
-4	amas	am	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-5	obstinajn	obstin	ADJ	APA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=Yes
-6	homojn	hom	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
-7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_7
-# text = — Mi deziras al vi bonan tagon, sinjoro! 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	deziras	dezir	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-4	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-5	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
-6	bonan	bon	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
-7	tagon	tag	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
-8	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-9	sinjoro	sinjor	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-10	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_8
-# text = — Bonan matenon! 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	Bonan	bonan	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-2	Bonan	bon	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
-3	matenon	maten	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
-4	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_9
-# text = — Ĝojan feston! 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	Ĝojan	ĝojan	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-2	Ĝojan	ĝoj	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
-3	feston	fest	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
-4	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_10
-# text = (mi deziras al vi). 
-1	(	(	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
-2	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	deziras	dezir	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-4	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-5	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=No
-6	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
-7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_11
-# text = — Kia ĝoja festo! 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	Kia	kia	DET	DEMASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	ĝoja	ĝoj	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-4	festo	fest	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-5	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_12
-# text = (estas hodiaŭ). 
-1	(	(	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
-2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-3	hodiaŭ	hodiaŭ	ADV	ADV	_	_	_	_	SpaceAfter=No
-4	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
-5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_13
-# text = — Sur la ĉielo staras la bela suno. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	Sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-3	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-4	ĉielo	ĉiel	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-5	staras	star	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-6	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-7	bela	bel	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-8	suno	sun	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_14
-# text = — En la tago ni vidas la helan sunon, kaj en la nokto ni vidas la palan lunon kaj la belajn stelojn. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-3	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-4	tago	tag	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-5	ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
-6	vidas	vid	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-7	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-8	helan	hel	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
-9	sunon	sun	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
-10	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-11	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
-12	en	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-13	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-14	nokto	nokt	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-15	ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
-16	vidas	vid	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-17	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-18	palan	pal	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
-19	lunon	lun	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
-20	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
-21	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-22	belajn	bel	ADJ	APA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=Yes
-23	stelojn	stel	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
-24	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_15
-# text = — La papero estas tre blanka, sed la neĝo estas pli blanka. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-3	papero	paper	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-4	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-5	tre	tre	PART	PART	_	_	_	_	SpaceAfter=Yes
-6	blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-7	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-8	sed	sed	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
-9	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-10	neĝo	neĝ	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-11	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-12	pli	pli	PART	PART	_	_	_	_	SpaceAfter=Yes
-13	blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_16
-# text = — Lakto estas pli nutra, ol vino. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	Lakto	lakto	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-2	Lakto	lakt	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-4	pli	pli	PART	PART	_	_	_	_	SpaceAfter=Yes
-5	nutra	nutr	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-6	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-7	ol	ol	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
-8	vino	vin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_17
-# text = — Mi havas pli freŝan panon, ol vi. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	havas	hav	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-4	pli	pli	PART	PART	_	_	_	_	SpaceAfter=Yes
-5	freŝan	freŝ	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
-6	panon	pan	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
-7	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-8	ol	ol	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
-9	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=No
-10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_18
-# text = — Ne, vi eraras, sinjoro: via pano estas malpli freŝa, ol mia. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	Ne	ne	PART	PART	_	_	_	_	SpaceAfter=No
-3	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-4	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
-5	eraras	erar	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-6	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-7	sinjoro	sinjor	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-8	:	:	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-9	via	vi	DET	PRUPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-10	pano	pan	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-11	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-12	malpli	malpli	PART	PART	_	_	_	_	SpaceAfter=Yes
-13	freŝa	freŝ	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-14	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-15	ol	ol	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
-16	mia	mi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_19
-# text = — El ĉiuj miaj infanoj Ernesto estas la plej juna. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	El	el	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-3	ĉiuj	ĉiu	DET	KORDPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
-4	miaj	mi	DET	PRSPPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
-5	infanoj	infan	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
-6	Ernesto	ernesto	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-6	Ernesto	ernest	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-7	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-8	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-9	plej	plej	PART	PART	_	_	_	_	SpaceAfter=Yes
-10	juna	jun	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
 # sent_id = fundamenta-ekzercaro_20
-# text = — Mi estas tiel forta, kiel vi. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-4	tiel	tiel	ADV	KORADV	_	_	_	_	SpaceAfter=Yes
-5	forta	fort	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-6	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-7	kiel	kiel	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
-8	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=No
-9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_21
-# text = — El ĉiuj siaj fratoj Antono estas la malplej saĝa. 
-1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
-2	El	el	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-3	ĉiuj	ĉiu	DET	KORDPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
-4	siaj	si	DET	PRSPPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
-5	fratoj	frat	NOUN	SPRNPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
-6	Antono	antono	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-6	Antono	anton	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-7	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-8	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-9	malplej	malplej	PART	PART	_	_	_	_	SpaceAfter=Yes
-10	saĝa	saĝ	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-
-# sent_id = fundamenta-ekzercaro_22
 # text = Unu vidvino havis du filinojn. 
 1	Unu	unu	NUM	NUM	_	_	_	_	SpaceAfter=Yes
 2	vidvino	vidvin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -287,7 +7,7 @@
 5	filinojn	filin	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_23
+# sent_id = fundamenta-ekzercaro_21
 # text = La pli maljuna estis tiel simila al la patrino per sia karaktero kaj vizaĝo, ke ĉiu, kiu ŝin vidis, povis pensi, ke li vidas la patrinon; ili ambaŭ estis tiel malagrablaj kaj tiel fieraj, ke oni ne povis vivi kun ili. 
 1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
 2	pli	pli	PART	PART	_	_	_	_	SpaceAfter=Yes
@@ -338,7 +58,7 @@
 47	ili	ili	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 48	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_24
+# sent_id = fundamenta-ekzercaro_22
 # text = La pli juna filino, kiu estis la plena portreto de sia patro laŭ sia boneco kaj honesteco, estis krom tio unu el la plej belaj knabinoj, kiujn oni povis trovi. 
 1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
 2	pli	pli	PART	PART	_	_	_	_	SpaceAfter=Yes
@@ -375,7 +95,7 @@
 33	trovi	trov	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 34	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_25
+# sent_id = fundamenta-ekzercaro_23
 # text = Du homoj povas pli multe fari ol unu. 
 1	Du	du	NUM	NUM	_	_	_	_	SpaceAfter=Yes
 2	homoj	hom	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -387,7 +107,7 @@
 8	unu	unu	NUM	NUM	_	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_26
+# sent_id = fundamenta-ekzercaro_24
 # text = — Mi havas nur unu buŝon, sed mi havas du orelojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -403,7 +123,7 @@
 12	orelojn	orel	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_27
+# sent_id = fundamenta-ekzercaro_25
 # text = — Li promenas kun tri hundoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -413,7 +133,7 @@
 6	hundoj	hund	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_28
+# sent_id = fundamenta-ekzercaro_26
 # text = — Li faris ĉion per la dek fingroj de siaj manoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -428,7 +148,7 @@
 11	manoj	man	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_29
+# sent_id = fundamenta-ekzercaro_27
 # text = — El ŝiaj multaj infanoj unuj estas bonaj kaj aliaj estas malbonaj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	El	el	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -444,7 +164,7 @@
 12	malbonaj	malbon	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_30
+# sent_id = fundamenta-ekzercaro_28
 # text = — Kvin kaj sep faras dek du. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kvin	kvin	NUM	NUM	_	_	_	_	SpaceAfter=Yes
@@ -455,7 +175,7 @@
 7	du	du	NUM	NUM	_	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_31
+# sent_id = fundamenta-ekzercaro_29
 # text = — Dek kaj dek faras dudek. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Dek	dek	NUM	NUM	_	_	_	_	SpaceAfter=Yes
@@ -465,7 +185,7 @@
 6	dudek	dudek	NUM	NUM	_	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_32
+# sent_id = fundamenta-ekzercaro_30
 # text = — Kvar kaj dek ok faras dudek du. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kvar	kvar	NUM	NUM	_	_	_	_	SpaceAfter=Yes
@@ -477,7 +197,7 @@
 8	du	du	NUM	NUM	_	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_33
+# sent_id = fundamenta-ekzercaro_31
 # text = — Tridek kaj kvardek kvin faras sepdek kvin. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Tridek	tridek	NUM	NUM	_	_	_	_	SpaceAfter=Yes
@@ -489,7 +209,7 @@
 8	kvin	kvin	NUM	NUM	_	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_34
+# sent_id = fundamenta-ekzercaro_32
 # text = — Mil okcent naŭdek tri. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mil	mil	NUM	NUM	_	_	_	_	SpaceAfter=Yes
@@ -498,7 +218,7 @@
 5	tri	tri	NUM	NUM	_	_	_	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_35
+# sent_id = fundamenta-ekzercaro_33
 # text = — Li havas dek unu infanojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -508,7 +228,7 @@
 6	infanojn	infan	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_36
+# sent_id = fundamenta-ekzercaro_34
 # text = — Sesdek minutoj faras unu horon, kaj unu minuto konsistas el sesdek sekundoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sesdek	sesdek	NUM	NUM	_	_	_	_	SpaceAfter=Yes
@@ -526,7 +246,7 @@
 14	sekundoj	sekund	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_37
+# sent_id = fundamenta-ekzercaro_35
 # text = — Januaro estas la unua monato de la jaro, Aprilo estas la kvara, Novembro estas la dek-unua, Decembro estas la dek-dua. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Januaro	januaro	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -558,7 +278,7 @@
 24	dek-dua	dek-dua	SYM	SYM	_	_	_	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_38
+# sent_id = fundamenta-ekzercaro_36
 # text = — La dudeka (tago) de Februaro estas la kvindek-unua tago de la jaro. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -578,7 +298,7 @@
 15	jaro	jar	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_39
+# sent_id = fundamenta-ekzercaro_37
 # text = — La sepan tagon de la semajno Dio elektis, ke ĝi estu pli sankta, ol la ses unuaj tagoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -604,7 +324,7 @@
 21	tagoj	tag	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_40
+# sent_id = fundamenta-ekzercaro_38
 # text = — Kion Dio kreis en la sesa tago? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kion	kio	PRON	DEMPRUA	Case=Acc	_	_	_	SpaceAfter=Yes
@@ -617,7 +337,7 @@
 8	tago	tag	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 9	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_41
+# sent_id = fundamenta-ekzercaro_39
 # text = — Kiun daton ni havas hodiaŭ? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kiun	kiu	DET	DEMDSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -627,7 +347,7 @@
 6	hodiaŭ	hodiaŭ	ADV	ADV	_	_	_	_	SpaceAfter=No
 7	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_42
+# sent_id = fundamenta-ekzercaro_40
 # text = — Hodiaŭ estas la dudek sepa (tago) de Marto. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Hodiaŭ	hodiaŭ	ADV	ADV	_	_	_	_	SpaceAfter=Yes
@@ -643,7 +363,7 @@
 11	Marto	mart	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_43
+# sent_id = fundamenta-ekzercaro_41
 # text = — Georgo Vaŝington estis naskita la dudek duan de Februaro de la jaro mil sepcent tridek dua. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Georgo	georgo	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -668,7 +388,7 @@
 17	dua	du	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_44
+# sent_id = fundamenta-ekzercaro_42
 # text = Ĉar ĉiu amas ordinare personon, kiu estas simila al li, tial tiu ĉi patrino varmege amis sian pli maljunan filinon, kaj en tiu sama tempo ŝi havis teruran malamon kontraŭ la pli juna. 
 1	Ĉar	ĉar	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
 2	ĉiu	ĉiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -708,7 +428,7 @@
 36	juna	jun	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 37	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_45
+# sent_id = fundamenta-ekzercaro_43
 # text = Ŝi devigis ŝin manĝi en la kuirejo kaj laboradi senĉese. 
 1	Ŝi	ŝi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	devigis	devig	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
@@ -722,7 +442,7 @@
 10	senĉese	senĉes	ADV	ADE	_	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_46
+# sent_id = fundamenta-ekzercaro_44
 # text = Inter aliaj aferoj tiu ĉi malfeliĉa infano devis du fojojn en ĉiu tago iri ĉerpi akvon en tre malproksima loko kaj alporti domen plenan grandan kruĉon. 
 1	Inter	inter	ADP	ADP	_	_	_	_	SpaceAfter=Yes
 2	aliaj	ali	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -752,7 +472,7 @@
 26	kruĉon	kruĉ	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 27	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_47
+# sent_id = fundamenta-ekzercaro_45
 # text = Mi havas cent pomojn. 
 1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	havas	hav	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
@@ -760,7 +480,7 @@
 4	pomojn	pom	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_48
+# sent_id = fundamenta-ekzercaro_46
 # text = — Mi havas centon da pomoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -770,7 +490,7 @@
 6	pomoj	pom	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_49
+# sent_id = fundamenta-ekzercaro_47
 # text = — Tiu ĉi urbo havas milionon da loĝantoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -782,7 +502,7 @@
 8	loĝantoj	loĝant	NOUN	DPRNPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_50
+# sent_id = fundamenta-ekzercaro_48
 # text = — Mi aĉetis dekduon (aŭ dek-duon) da kuleroj kaj du dekduojn da forkoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -801,7 +521,7 @@
 15	forkoj	fork	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_51
+# sent_id = fundamenta-ekzercaro_49
 # text = — Mil jaroj (aŭ milo da jaroj) faras miljaron. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mil	mil	NUM	NUM	_	_	_	_	SpaceAfter=Yes
@@ -816,7 +536,7 @@
 11	miljaron	miljar	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_52
+# sent_id = fundamenta-ekzercaro_50
 # text = — Unue mi redonas al vi la monon, kiun vi pruntis al mi; due mi dankas vin por la prunto; trie mi petas vin ankaŭ poste prunti al mi, kiam mi bezonos monon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Unue	unue	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -859,7 +579,7 @@
 37	monon	mon	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 38	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_53
+# sent_id = fundamenta-ekzercaro_51
 # text = — Por ĉiu tago mi ricevas kvin frankojn, sed por la hodiaŭa tago mi ricevis duoblan pagon, t. e. (= tio estas) dek frankojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Por	por	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -895,7 +615,7 @@
 30	frankojn	frank	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 31	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_54
+# sent_id = fundamenta-ekzercaro_52
 # text = — Kvinoble sep estas tridek kvin. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kvinoble	kvinoble	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -906,7 +626,7 @@
 6	kvin	kvin	NUM	NUM	_	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_55
+# sent_id = fundamenta-ekzercaro_53
 # text = — Tri estas duono de ses. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Tri	tri	NUM	NUM	_	_	_	_	SpaceAfter=Yes
@@ -916,7 +636,7 @@
 6	ses	ses	NUM	NUM	_	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_56
+# sent_id = fundamenta-ekzercaro_54
 # text = — Ok estas kvar kvinonoj de dek. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ok	ok	NUM	NUM	_	_	_	_	SpaceAfter=Yes
@@ -927,7 +647,7 @@
 7	dek	dek	NUM	NUM	_	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_57
+# sent_id = fundamenta-ekzercaro_55
 # text = — Kvar metroj da tiu ĉi ŝtofo kostas naŭ frankojn; tial du metroj kostas kvar kaj duonon frankojn (aŭ da frankoj). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kvar	kvar	NUM	NUM	_	_	_	_	SpaceAfter=Yes
@@ -955,7 +675,7 @@
 24	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_58
+# sent_id = fundamenta-ekzercaro_56
 # text = — Unu tago estas tricent-sesdek-kvinono aŭ tricent-sesdek-sesono de jaro. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Unu	unu	NUM	NUM	_	_	_	_	SpaceAfter=Yes
@@ -968,7 +688,7 @@
 9	jaro	jar	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_59
+# sent_id = fundamenta-ekzercaro_57
 # text = — Tiuj ĉi du amikoj promenas ĉiam duope. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Tiuj	tiu	DET	KORDPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -980,7 +700,7 @@
 8	duope	duop	ADV	ADE	_	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_60
+# sent_id = fundamenta-ekzercaro_58
 # text = — Kvinope ili sin ĵetis sur min, sed mi venkis ĉiujn kvin atakantojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kvinope	kvinope	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -999,7 +719,7 @@
 14	atakantojn	atakant	NOUN	DPRNPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_61
+# sent_id = fundamenta-ekzercaro_59
 # text = — Por miaj kvar infanoj mi aĉetis dek du pomojn, kaj al ĉiu el la infanoj mi donis po tri pomoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Por	por	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -1026,7 +746,7 @@
 22	pomoj	pom	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_62
+# sent_id = fundamenta-ekzercaro_60
 # text = — Tiu ĉi libro havas sesdek paĝojn; tial, se mi legos en ĉiu tago po dek kvin paĝoj, mi finos la tutan libron en kvar tagoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1059,7 +779,7 @@
 29	tagoj	tag	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 30	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_63
+# sent_id = fundamenta-ekzercaro_61
 # text = En unu tago, kiam ŝi estis apud tiu fonto, venis al ŝi malriĉa virino, kiu petis ŝin, ke ŝi donu al ŝi trinki. 
 1	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
 2	unu	unu	NUM	NUM	_	_	_	_	SpaceAfter=Yes
@@ -1090,7 +810,7 @@
 27	trinki	trink	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 28	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_64
+# sent_id = fundamenta-ekzercaro_62
 # text = “Tre volonte, mia bona,”; diris la bela knabino. 
 1	“	“	SYM	SYM	_	_	_	_	SpaceAfter=No
 2	Tre	tre	PART	PART	_	_	_	_	SpaceAfter=Yes
@@ -1107,7 +827,7 @@
 13	knabino	knabin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_65
+# sent_id = fundamenta-ekzercaro_63
 # text = Kaj ŝi tuj lavis sian kruĉon kaj ĉerpis akvon en la plej pura loko de la fonto kaj alportis al la virino, ĉiam subtenante la kruĉon, por ke la virino povu trinki pli oportune. 
 1	Kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
 2	ŝi	ŝi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1148,7 +868,7 @@
 36	oportune	oportun	ADV	ADE	_	_	_	_	SpaceAfter=No
 37	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_66
+# sent_id = fundamenta-ekzercaro_64
 # text = Kiam la bona virino trankviligis sian soifon, ŝi diris al la knabino: “Vi estas tiel bela, tiel bona kaj tiel honesta, ke mi devas fari al vi donacon” (ĉar tio ĉi estis feino, kiu prenis sur sin la formon de malriĉa vilaĝa virino, por vidi, kiel granda estos la ĝentileco de tiu ĉi juna knabino). 
 1	Kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
 2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -1219,7 +939,7 @@
 66	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 67	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_67
+# sent_id = fundamenta-ekzercaro_65
 # text = “Mi faras al vi donacon,” daŭrigis la feino, “ke ĉe ĉiu vorto, kiun vi diros, el via buŝo eliros aŭ floro aŭ multekosta ŝtono.”Mi legas. 
 1	“	“	SYM	SYM	_	_	_	_	SpaceAfter=No
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1257,7 +977,7 @@
 34	legas	leg	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 35	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_68
+# sent_id = fundamenta-ekzercaro_66
 # text = — Ci skribas (anstataŭ “ci” oni uzas ordinare “vi”). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ci	ci	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1277,7 +997,7 @@
 15	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_69
+# sent_id = fundamenta-ekzercaro_67
 # text = — Li estas knabo, kaj ŝi estas knabino. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1290,7 +1010,7 @@
 9	knabino	knabin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_70
+# sent_id = fundamenta-ekzercaro_68
 # text = — La tranĉilo tranĉas bone, ĉar ĝi estas akra. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -1304,7 +1024,7 @@
 10	akra	akr	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_71
+# sent_id = fundamenta-ekzercaro_69
 # text = — Ni estas homoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -1312,7 +1032,7 @@
 4	homoj	hom	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_72
+# sent_id = fundamenta-ekzercaro_70
 # text = — Vi estas infanoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
@@ -1320,7 +1040,7 @@
 4	infanoj	infan	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_73
+# sent_id = fundamenta-ekzercaro_71
 # text = — Ili estas rusoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ili	ili	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -1328,7 +1048,7 @@
 4	rusoj	rus	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_74
+# sent_id = fundamenta-ekzercaro_72
 # text = — Kie estas la knaboj? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kie	kie	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -1337,7 +1057,7 @@
 5	knaboj	knab	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 6	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_75
+# sent_id = fundamenta-ekzercaro_73
 # text = — Ili estas en la ĝardeno. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ili	ili	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -1347,7 +1067,7 @@
 6	ĝardeno	ĝarden	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_76
+# sent_id = fundamenta-ekzercaro_74
 # text = — Kie estas la knabinoj? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kie	kie	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -1356,7 +1076,7 @@
 5	knabinoj	knabin	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 6	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_77
+# sent_id = fundamenta-ekzercaro_75
 # text = — Ili ankaŭ estas en la ĝardeno. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ili	ili	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -1367,7 +1087,7 @@
 7	ĝardeno	ĝarden	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_78
+# sent_id = fundamenta-ekzercaro_76
 # text = — Kie estas la tranĉiloj? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kie	kie	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -1376,7 +1096,7 @@
 5	tranĉiloj	tranĉil	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 6	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_79
+# sent_id = fundamenta-ekzercaro_77
 # text = — Ili kuŝas sur la tablo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ili	ili	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -1386,7 +1106,7 @@
 6	tablo	tabl	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_80
+# sent_id = fundamenta-ekzercaro_78
 # text = — Mi vokas la knabon, kaj li venas. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1399,7 +1119,7 @@
 9	venas	ven	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_81
+# sent_id = fundamenta-ekzercaro_79
 # text = — Mi vokas la knabinon, kaj ŝi venas. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1412,7 +1132,7 @@
 9	venas	ven	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_82
+# sent_id = fundamenta-ekzercaro_80
 # text = — La infano ploras, ĉar ĝi volas manĝi. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -1425,7 +1145,7 @@
 9	manĝi	manĝ	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_83
+# sent_id = fundamenta-ekzercaro_81
 # text = — La infanoj ploras, ĉar ili volas manĝi. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -1438,7 +1158,7 @@
 9	manĝi	manĝ	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_84
+# sent_id = fundamenta-ekzercaro_82
 # text = — Knabo, vi estas neĝentila. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Knabo	knabo	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -1449,7 +1169,7 @@
 6	neĝentila	neĝentil	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_85
+# sent_id = fundamenta-ekzercaro_83
 # text = — Sinjoro, vi estas neĝentila. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sinjoro	sinjoro	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -1460,7 +1180,7 @@
 6	neĝentila	neĝentil	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_86
+# sent_id = fundamenta-ekzercaro_84
 # text = — Sinjoroj, vi estas neĝentilaj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sinjoroj	sinjoroj	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -1471,7 +1191,7 @@
 6	neĝentilaj	neĝentil	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_87
+# sent_id = fundamenta-ekzercaro_85
 # text = — Mia hundo, vi estas tre fidela. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mia	mi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1483,7 +1203,7 @@
 8	fidela	fidel	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_88
+# sent_id = fundamenta-ekzercaro_86
 # text = — Oni diras, ke la vero ĉiam venkas. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Oni	oni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -1496,7 +1216,7 @@
 9	venkas	venk	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_89
+# sent_id = fundamenta-ekzercaro_87
 # text = — En la vintro oni hejtas la fornojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -1508,7 +1228,7 @@
 8	fornojn	forn	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_90
+# sent_id = fundamenta-ekzercaro_88
 # text = — Kiam oni estas riĉa (aŭ riĉaj), oni havas multajn amikojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -1526,7 +1246,7 @@
 14	amikojn	amik	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_91
+# sent_id = fundamenta-ekzercaro_89
 # text = Kiam tiu ĉi bela knabino venis domen, ŝia patrino insultis ŝin, kial ŝi revenis tiel malfrue de la fonto. 
 1	Kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
 2	tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1551,7 +1271,7 @@
 21	fonto	font	NOUN	DFTNSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_92
+# sent_id = fundamenta-ekzercaro_90
 # text = “Pardonu al mi, patrino,” diris la malfeliĉa knabino, “ke mi restis tiel longe”. 
 1	“	“	SYM	SYM	_	_	_	_	SpaceAfter=No
 2	Pardonu	pardonu	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1576,7 +1296,7 @@
 20	”	”	SYM	SYM	_	_	_	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_93
+# sent_id = fundamenta-ekzercaro_91
 # text = Kaj kiam ŝi parolis tiujn ĉi vortojn, elsaltis el ŝia buŝo tri rozoj, tri perloj kaj tri grandaj diamantoj. 
 1	Kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
 2	kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -1601,7 +1321,7 @@
 21	diamantoj	diamant	NOUN	DPRNPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_94
+# sent_id = fundamenta-ekzercaro_92
 # text = “Kion mi vidas!” diris ŝia patrino kun grandega miro. 
 1	“	“	SYM	SYM	_	_	_	_	SpaceAfter=No
 2	Kion	kio	PRON	DEMPRUA	Case=Acc	_	_	_	SpaceAfter=Yes
@@ -1617,7 +1337,7 @@
 12	miro	mir	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_95
+# sent_id = fundamenta-ekzercaro_93
 # text = “Ŝajnas al mi, ke el ŝia buŝo elsaltas perloj kaj diamantoj! 
 1	“	“	SYM	SYM	_	_	_	_	SpaceAfter=No
 2	Ŝajnas	ŝajnas	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1635,7 +1355,7 @@
 13	diamantoj	diamant	NOUN	DPRNPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 14	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_96
+# sent_id = fundamenta-ekzercaro_94
 # text = De kio tio ĉi venas, mia filino?” (Tio ĉi estis la unua fojo, ke ŝi nomis ŝin sia filino). 
 1	De	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
 2	kio	kio	PRON	DEMPRUN	Case=Nom	_	_	_	SpaceAfter=Yes
@@ -1664,7 +1384,7 @@
 25	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 26	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_97
+# sent_id = fundamenta-ekzercaro_95
 # text = La malfeliĉa infano rakontis al ŝi naive ĉion, kio okazis al ŝi, kaj, dum ŝi parolis, elfalis el ŝia buŝo multego da diamantoj. 
 1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
 2	malfeliĉa	malfeliĉ	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1696,7 +1416,7 @@
 27	diamantoj	diamant	NOUN	DPRNPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 28	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_98
+# sent_id = fundamenta-ekzercaro_96
 # text = “Se estas tiel,” diris la patrino, “mi devas tien sendi mian filinon. 
 1	“	“	SYM	SYM	_	_	_	_	SpaceAfter=No
 2	Se	se	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
@@ -1717,7 +1437,7 @@
 17	filinon	filin	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_99
+# sent_id = fundamenta-ekzercaro_97
 # text = Marinjo, rigardu, kio eliras el la buŝo de via fratino, kiam ŝi parolas; ĉu ne estus al vi agrable havi tian saman kapablon? 
 1	Marinjo	marinj	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
@@ -1749,7 +1469,7 @@
 27	kapablon	kapabl	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 28	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_100
+# sent_id = fundamenta-ekzercaro_98
 # text = Vi devas nur iri al la fonto ĉerpi akvon; kaj kiam malriĉa virino petos de vi trinki, vi donos ĝin al ŝi ĝentile.”Li amas min, sed mi lin ne amas. 
 1	Vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
 2	devas	dev	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
@@ -1788,7 +1508,7 @@
 35	amas	am	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 36	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_101
+# sent_id = fundamenta-ekzercaro_99
 # text = — Mi volis lin bati, sed li forkuris de mi. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1803,7 +1523,7 @@
 11	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_102
+# sent_id = fundamenta-ekzercaro_100
 # text = — Diru al mi vian nomon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Diru	diru	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1814,7 +1534,7 @@
 6	nomon	nom	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_103
+# sent_id = fundamenta-ekzercaro_101
 # text = — Ne skribu al mi tiajn longajn leterojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
@@ -1826,7 +1546,7 @@
 8	leterojn	leter	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_104
+# sent_id = fundamenta-ekzercaro_102
 # text = — Venu al mi hodiaŭ vespere. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Venu	venu	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1837,7 +1557,7 @@
 6	vespere	vesper	ADV	ADE	_	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_105
+# sent_id = fundamenta-ekzercaro_103
 # text = — Mi rakontos al vi historion. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1847,7 +1567,7 @@
 6	historion	histori	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_106
+# sent_id = fundamenta-ekzercaro_104
 # text = — Ĉu vi diros al mi la veron? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ĉu	ĉu	PART	PART	_	_	_	_	SpaceAfter=Yes
@@ -1860,7 +1580,7 @@
 8	veron	ver	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 9	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_107
+# sent_id = fundamenta-ekzercaro_105
 # text = — La domo apartenas al li. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -1870,7 +1590,7 @@
 6	li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_108
+# sent_id = fundamenta-ekzercaro_106
 # text = — Li estas mia onklo, ĉar mia patro estas lia frato. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1886,7 +1606,7 @@
 12	frato	frat	NOUN	SPRNSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_109
+# sent_id = fundamenta-ekzercaro_107
 # text = — Sinjoro Petro kaj lia edzino tre amas miajn infanojn; mi ankaŭ tre amas iliajn (infanojn). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sinjoro	sinjoro	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1911,7 +1631,7 @@
 19	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_110
+# sent_id = fundamenta-ekzercaro_108
 # text = — Montru al ili vian novan veston. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Montru	montru	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1923,7 +1643,7 @@
 7	veston	vest	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_111
+# sent_id = fundamenta-ekzercaro_109
 # text = — Mi amas min mem, vi amas vin mem, li amas sin mem, kaj ĉiu homo amas sin mem. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1949,7 +1669,7 @@
 22	mem	mem	PART	PART	_	_	_	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_112
+# sent_id = fundamenta-ekzercaro_110
 # text = — Mia frato diris al Stefano, ke li amas lin pli, ol sin mem. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mia	mi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -1970,7 +1690,7 @@
 16	mem	mem	PART	PART	_	_	_	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_113
+# sent_id = fundamenta-ekzercaro_111
 # text = — Mi zorgas pri ŝi tiel, kiel mi zorgas pri mi mem; sed ŝi mem tute ne zorgas pri si kaj tute sin ne gardas. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2001,7 +1721,7 @@
 27	gardas	gard	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 28	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_114
+# sent_id = fundamenta-ekzercaro_112
 # text = — Miaj fratoj havis hodiaŭ gastojn; post la vespermanĝo niaj fratoj eliris kun la gastoj el sia domo kaj akompanis ilin ĝis ilia domo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Miaj	mi	DET	PRSPPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -2031,7 +1751,7 @@
 25	domo	dom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 26	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_115
+# sent_id = fundamenta-ekzercaro_113
 # text = — Mi jam havas mian ĉapelon; nun serĉu vi vian. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2046,7 +1766,7 @@
 11	vian	vi	DET	PRUPSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_116
+# sent_id = fundamenta-ekzercaro_114
 # text = — Mi lavis min en mia ĉambro, kaj ŝi lavis sin en sia ĉambro. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2065,7 +1785,7 @@
 15	ĉambro	ĉambr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_117
+# sent_id = fundamenta-ekzercaro_115
 # text = — La infano serĉis sian pupon; mi montris al la infano, kie kuŝas ĝia pupo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -2086,7 +1806,7 @@
 17	pupo	pup	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_118
+# sent_id = fundamenta-ekzercaro_116
 # text = — Oni ne forgesas facile sian unuan amon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Oni	oni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -2098,7 +1818,7 @@
 8	amon	am	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_119
+# sent_id = fundamenta-ekzercaro_117
 # text = “Estus tre bele,” respondis la filino malĝentile, “ke mi iru al la fonto!” — “Mi volas ke vi tien iru,” diris la patrino, “kaj iru tuj!” La filino iris, sed ĉiam murmurante. 
 1	“	“	SYM	SYM	_	_	_	_	SpaceAfter=No
 2	Estus	estus	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2150,7 +1870,7 @@
 47	murmurante	murmurant	ADV	DPRADE	_	_	_	_	SpaceAfter=No
 48	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_120
+# sent_id = fundamenta-ekzercaro_118
 # text = Ŝi prenis la plej belan arĝentan vazon, kiu estis en la loĝejo. 
 1	Ŝi	ŝi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	prenis	pren	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
@@ -2167,11 +1887,11 @@
 13	loĝejo	loĝej	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_121
+# sent_id = fundamenta-ekzercaro_119
 # text = Apenaŭ 
 1	Apenaŭ	apenaŭ	PART	PART	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_122
+# sent_id = fundamenta-ekzercaro_120
 # text = Apenaŭ ŝi venis al la fonto, ŝi vidis unu sinjorinon, tre riĉe vestitan, kiu eliris el la arbaro kaj petis de ŝi trinki (tio ĉi estis tiu sama feino, kiu prenis sur sin la formon kaj la vestojn de princino, por vidi, kiel granda estos la malboneco de tiu ĉi knabino). 
 1	Apenaŭ	apenaŭ	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
 2	ŝi	ŝi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2235,7 +1955,7 @@
 59	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 60	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_123
+# sent_id = fundamenta-ekzercaro_121
 # text = “Ĉu mi venis tien ĉi,” diris al ŝi la malĝentila kaj fiera knabino, “por doni al vi trinki? 
 1	“	“	SYM	SYM	_	_	_	_	SpaceAfter=No
 2	Ĉu	ĉu	PART	PART	_	_	_	_	SpaceAfter=Yes
@@ -2264,7 +1984,7 @@
 23	trinki	trink	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 24	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_124
+# sent_id = fundamenta-ekzercaro_122
 # text = Certe, mi alportis arĝentan vazon speciale por tio, por doni trinki al tiu ĉi sinjorino! 
 1	Certe	cert	ADV	ADE	_	_	_	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
@@ -2287,7 +2007,7 @@
 17	sinjorino	sinjorin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 18	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_125
+# sent_id = fundamenta-ekzercaro_123
 # text = Mia opinio estas: prenu mem akvon, se vi volas trinki.” — “Vi tute ne estas ĝentila,” diris la feino sen kolero. 
 1	Mia	mi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	opinio	opini	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2319,7 +2039,7 @@
 28	kolero	koler	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 29	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_126
+# sent_id = fundamenta-ekzercaro_124
 # text = “Bone, ĉar vi estas tiel servema, mi faras al vi donacon, ke ĉe ĉiu vorto, kiun vi parolos, eliros el via buŝo aŭ serpento aŭ rano.”Nun mi legas, vi legas kaj li legas; ni ĉiuj legas. 
 1	“	“	SYM	SYM	_	_	_	_	SpaceAfter=No
 2	Bone	bone	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -2370,7 +2090,7 @@
 46	legas	leg	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 47	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_127
+# sent_id = fundamenta-ekzercaro_125
 # text = — Vi skribas, kaj la infanoj skribas; ili ĉiuj sidas silente kaj skribas. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
@@ -2389,7 +2109,7 @@
 15	skribas	skrib	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_128
+# sent_id = fundamenta-ekzercaro_126
 # text = — Hieraŭ mi renkontis vian filon, kaj li ĝentile salutis min. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Hieraŭ	hieraŭ	ADV	ADV	_	_	_	_	SpaceAfter=Yes
@@ -2405,7 +2125,7 @@
 12	min	mi	PRON	PRSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_129
+# sent_id = fundamenta-ekzercaro_127
 # text = — Hodiaŭ estas sabato, kaj morgaŭ estos dimanĉo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Hodiaŭ	hodiaŭ	ADV	ADV	_	_	_	_	SpaceAfter=Yes
@@ -2418,7 +2138,7 @@
 9	dimanĉo	dimanĉ	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_130
+# sent_id = fundamenta-ekzercaro_128
 # text = — Hieraŭ estis vendredo, kaj postmorgaŭ estos lundo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Hieraŭ	hieraŭ	ADV	ADV	_	_	_	_	SpaceAfter=Yes
@@ -2431,7 +2151,7 @@
 9	lundo	lund	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_131
+# sent_id = fundamenta-ekzercaro_129
 # text = — Antaŭ tri tagoj mi vizitis vian kuzon kaj mia vizito faris al li plezuron. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Antaŭ	antaŭ	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -2450,7 +2170,7 @@
 15	plezuron	plezur	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_132
+# sent_id = fundamenta-ekzercaro_130
 # text = — Ĉu vi jam trovis vian horloĝon? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ĉu	ĉu	PART	PART	_	_	_	_	SpaceAfter=Yes
@@ -2462,7 +2182,7 @@
 7	horloĝon	horloĝ	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 8	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_133
+# sent_id = fundamenta-ekzercaro_131
 # text = — Mi ĝin ankoraŭ ne serĉis; kiam mi finos mian laboron, mi serĉos mian horloĝon, sed mi timas, ke mi ĝin jam ne trovos. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2494,7 +2214,7 @@
 28	trovos	trov	VERB	VFT	Mood=Ind|Tense=Fut	_	_	_	SpaceAfter=No
 29	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_134
+# sent_id = fundamenta-ekzercaro_132
 # text = — Kiam mi venis al li, li dormis; sed mi lin vekis. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -2512,7 +2232,7 @@
 14	vekis	vek	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_135
+# sent_id = fundamenta-ekzercaro_133
 # text = — Se mi estus sana, mi estus feliĉa. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Se	se	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
@@ -2525,7 +2245,7 @@
 9	feliĉa	feliĉ	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_136
+# sent_id = fundamenta-ekzercaro_134
 # text = — Se li scius, ke mi estas tie ĉi, li tuj venus al mi. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Se	se	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
@@ -2545,7 +2265,7 @@
 16	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_137
+# sent_id = fundamenta-ekzercaro_135
 # text = — Se la lernanto scius bone sian lecionon, la instruanto lin ne punus. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Se	se	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
@@ -2563,7 +2283,7 @@
 14	punus	pun	VERB	VCN	Mood=Cnd	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_138
+# sent_id = fundamenta-ekzercaro_136
 # text = — Kial vi ne respondas al mi? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kial	kial	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -2574,7 +2294,7 @@
 7	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_139
+# sent_id = fundamenta-ekzercaro_137
 # text = — Ĉu vi estas surda aŭ muta? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ĉu	ĉu	PART	PART	_	_	_	_	SpaceAfter=Yes
@@ -2586,7 +2306,7 @@
 7	muta	mut	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_140
+# sent_id = fundamenta-ekzercaro_138
 # text = — Iru for! 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Iru	iru	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2594,7 +2314,7 @@
 3	for	for	ADV	ADV	_	_	_	_	SpaceAfter=No
 4	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_141
+# sent_id = fundamenta-ekzercaro_139
 # text = — Infano, ne tuŝu la spegulon! 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Infano	infano	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -2606,7 +2326,7 @@
 7	spegulon	spegul	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 8	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_142
+# sent_id = fundamenta-ekzercaro_140
 # text = — Karaj infanoj, estu ĉiam honestaj! 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Karaj	karaj	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2618,7 +2338,7 @@
 7	honestaj	honest	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 8	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_143
+# sent_id = fundamenta-ekzercaro_141
 # text = — Li venu, kaj mi pardonos al li. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2631,7 +2351,7 @@
 9	li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_144
+# sent_id = fundamenta-ekzercaro_142
 # text = Ordonu al li, ke li ne babilu. 
 1	Ordonu	ordon	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=Yes
 2	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -2643,7 +2363,7 @@
 8	babilu	babil	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_145
+# sent_id = fundamenta-ekzercaro_143
 # text = — Petu ŝin, ke ŝi sendu al mi kandelon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Petu	petu	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2658,7 +2378,7 @@
 10	kandelon	kandel	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_146
+# sent_id = fundamenta-ekzercaro_144
 # text = — Ni estu gajaj, ni uzu bone la vivon, ĉar la vivo ne estas longa. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -2679,7 +2399,7 @@
 17	longa	long	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_147
+# sent_id = fundamenta-ekzercaro_145
 # text = — Ŝi volas danci. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ŝi	ŝi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2687,7 +2407,7 @@
 4	danci	danc	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_148
+# sent_id = fundamenta-ekzercaro_146
 # text = — Morti pro la patrujo estas agrable. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Morti	morti	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2699,7 +2419,7 @@
 7	agrable	agrabl	ADV	ADE	_	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_149
+# sent_id = fundamenta-ekzercaro_147
 # text = — La infano ne ĉesas petoli. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -2709,11 +2429,11 @@
 6	petoli	petol	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_150
+# sent_id = fundamenta-ekzercaro_148
 # text = Apenaŭ 
 1	Apenaŭ	apenaŭ	PART	PART	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_151
+# sent_id = fundamenta-ekzercaro_149
 # text = Apenaŭ ŝia patrino ŝin rimarkis, ŝi kriis al ŝi: “Nu, mia filino?” — “Jes, patrino”, respondis al ŝi la malĝentilulino, elĵetante unu serpenton kaj unu ranon. 
 1	Apenaŭ	apenaŭ	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
 2	ŝia	ŝi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2754,7 +2474,7 @@
 37	ranon	ran	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 38	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_152
+# sent_id = fundamenta-ekzercaro_150
 # text = — “Ho, ĉielo!” ekkriis la patrino, “kion mi vidas? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	“	“	SYM	SYM	_	_	_	_	SpaceAfter=No
@@ -2773,7 +2493,7 @@
 15	vidas	vid	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 16	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_153
+# sent_id = fundamenta-ekzercaro_151
 # text = Ŝia fratino en ĉio estas kulpa; mi pagos al ŝi por tio ĉi!” Kaj ŝi tuj kuris bati ŝin. 
 1	Ŝia	ŝi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	fratino	fratin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2800,7 +2520,7 @@
 22	ŝin	ŝi	PRON	PRSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_154
+# sent_id = fundamenta-ekzercaro_152
 # text = La malfeliĉa infano forkuris kaj kaŝis sin en la plej proksima arbaro. 
 1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
 2	malfeliĉa	malfeliĉ	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2816,7 +2536,7 @@
 12	arbaro	arbar	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_155
+# sent_id = fundamenta-ekzercaro_153
 # text = La filo de la reĝo, kiu revenis de ĉaso, ŝin renkontis; kaj, vidante, ke ŝi estas tiel bela, li demandis ŝin, kion ŝi faras tie ĉi tute sola kaj pro kio ŝi ploras. 
 1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
 2	filo	fil	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2860,7 +2580,7 @@
 40	ploras	plor	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 41	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_156
+# sent_id = fundamenta-ekzercaro_154
 # text = — “Ho ve, sinjoro, mia patrino forpelis min el la domo”. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	“	“	SYM	SYM	_	_	_	_	SpaceAfter=No
@@ -2879,7 +2599,7 @@
 15	”	”	SYM	SYM	_	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_157
+# sent_id = fundamenta-ekzercaro_155
 # text = Fluanta akvo estas pli pura, ol akvo staranta senmove. 
 1	Fluanta	fluant	ADJ	DPRASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	akvo	akv	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2893,7 +2613,7 @@
 10	senmove	senmov	ADV	ADE	_	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_158
+# sent_id = fundamenta-ekzercaro_156
 # text = — Promenante sur la strato, mi falis. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Promenante	promenante	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2906,7 +2626,7 @@
 8	falis	fal	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_159
+# sent_id = fundamenta-ekzercaro_157
 # text = — Kiam Nikodemo batas Jozefon, tiam Nikodemo estas la batanto kaj Jozefo estas la batato. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -2931,7 +2651,7 @@
 16	batato	batat	NOUN	SPRNSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_160
+# sent_id = fundamenta-ekzercaro_158
 # text = — Al homo, pekinta senintence, Dio facile pardonas. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -2946,7 +2666,7 @@
 10	pardonas	pardon	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_161
+# sent_id = fundamenta-ekzercaro_159
 # text = — Trovinte pomon, mi ĝin manĝis. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Trovinte	trovinte	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -2958,7 +2678,7 @@
 7	manĝis	manĝ	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_162
+# sent_id = fundamenta-ekzercaro_160
 # text = — La falinta homo ne povis sin levi. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -2970,7 +2690,7 @@
 8	levi	lev	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_163
+# sent_id = fundamenta-ekzercaro_161
 # text = Ne riproĉu vian amikon, ĉar vi mem plimulte meritas riproĉon; li estas nur unufoja mensoginto dum vi estas ankoraŭ nun ĉiam mensoganto. 
 1	Ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
 2	riproĉu	riproĉ	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=Yes
@@ -2999,7 +2719,7 @@
 24	mensoganto	mensogant	NOUN	DPRNSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_164
+# sent_id = fundamenta-ekzercaro_162
 # text = — La tempo pasinta jam neniam revenos; la tempon venontan neniu ankoraŭ konas. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -3017,7 +2737,7 @@
 14	konas	kon	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_165
+# sent_id = fundamenta-ekzercaro_163
 # text = — Venu, ni atendas vin, Savonto de la mondo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Venu	venu	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -3034,7 +2754,7 @@
 11	mondo	mond	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_166
+# sent_id = fundamenta-ekzercaro_164
 # text = — En la lingvo “Esperanto” ni vidas la estontan lingvon de la tuta mondo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -3055,7 +2775,7 @@
 16	mondo	mond	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_167
+# sent_id = fundamenta-ekzercaro_165
 # text = — Aŭgusto estas mia plej amata filo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Aŭgusto	aŭgusto	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3067,7 +2787,7 @@
 7	filo	fil	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_168
+# sent_id = fundamenta-ekzercaro_166
 # text = — Mono havata estas pli grava ol havita. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mono	mono	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3080,7 +2800,7 @@
 8	havita	havit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_169
+# sent_id = fundamenta-ekzercaro_167
 # text = — Pasero kaptita estas pli bona, ol aglo kaptota. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Pasero	pasero	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3095,7 +2815,7 @@
 10	kaptota	kaptot	ADJ	SFTASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_170
+# sent_id = fundamenta-ekzercaro_168
 # text = — La soldatoj kondukis la arestitojn tra la stratoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -3108,7 +2828,7 @@
 9	stratoj	strat	NOUN	SPRNPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_171
+# sent_id = fundamenta-ekzercaro_169
 # text = — Li venis al mi tute ne atendite. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3120,7 +2840,7 @@
 8	atendite	atendit	ADV	SPSADE	_	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_172
+# sent_id = fundamenta-ekzercaro_170
 # text = — Homo, kiun oni devas juĝi, estas juĝoto. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Homo	homo	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -3135,7 +2855,7 @@
 10	juĝoto	juĝot	NOUN	SFTNSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_173
+# sent_id = fundamenta-ekzercaro_171
 # text = La reĝido, kiu vidis, ke el ŝia buŝo eliris kelke da perloj kaj kelke da diamantoj, petis ŝin, ke ŝi diru al li, de kie tio ĉi venas. 
 1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
 2	reĝido	reĝid	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -3172,7 +2892,7 @@
 33	venas	ven	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 34	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_174
+# sent_id = fundamenta-ekzercaro_172
 # text = Ŝi rakontis al li sian tutan aventuron. 
 1	Ŝi	ŝi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	rakontis	rakont	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
@@ -3183,7 +2903,7 @@
 7	aventuron	aventur	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_175
+# sent_id = fundamenta-ekzercaro_173
 # text = La reĝido konsideris, ke tia kapablo havas pli grandan indon, ol ĉio, kion oni povus doni dote al alia fraŭlino, forkondukis ŝin al la palaco de sia patro, la reĝo, kie li edziĝis je ŝi. 
 1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
 2	reĝido	reĝid	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3228,7 +2948,7 @@
 41	ŝi	ŝi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 42	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_176
+# sent_id = fundamenta-ekzercaro_174
 # text = Sed pri ŝia fratino ni povas diri, ke ŝi fariĝis tiel malaminda, ke ŝia propra patrino ŝin forpelis de si; kaj la malfeliĉa knabino, multe kurinte kaj trovinte neniun, kiu volus ŝin akcepti, baldaŭ mortis en angulo de arbaro. 
 1	Sed	sed	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
 2	pri	pri	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -3277,7 +2997,7 @@
 45	arbaro	arbar	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 46	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_177
+# sent_id = fundamenta-ekzercaro_175
 # text = Nun li diras al mi la veron. 
 1	Nun	nun	ADV	ADV	_	_	_	_	SpaceAfter=Yes
 2	li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3288,7 +3008,7 @@
 7	veron	ver	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_178
+# sent_id = fundamenta-ekzercaro_176
 # text = — Hieraŭ li diris al mi la veron. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Hieraŭ	hieraŭ	ADV	ADV	_	_	_	_	SpaceAfter=Yes
@@ -3300,7 +3020,7 @@
 8	veron	ver	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_179
+# sent_id = fundamenta-ekzercaro_177
 # text = — Li ĉiam diradis al mi la veron. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3312,7 +3032,7 @@
 8	veron	ver	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_180
+# sent_id = fundamenta-ekzercaro_178
 # text = — Kiam vi vidis nin en la salono, li jam antaŭe diris al mi la veron (aŭ li estis dirinta al mi la veron). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -3343,7 +3063,7 @@
 27	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 28	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_181
+# sent_id = fundamenta-ekzercaro_179
 # text = — Li diros al mi la veron. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3354,7 +3074,7 @@
 7	veron	ver	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_182
+# sent_id = fundamenta-ekzercaro_180
 # text = — Kiam vi venos al mi, li jam antaŭe diros al mi la veron (aŭ li estos dirinta al mi la veron; aŭ antaŭ ol vi venos al mi, li diros al mi la veron). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -3398,7 +3118,7 @@
 40	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 41	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_183
+# sent_id = fundamenta-ekzercaro_181
 # text = — Se mi petus lin, li dirus al mi la veron. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Se	se	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
@@ -3414,7 +3134,7 @@
 12	veron	ver	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_184
+# sent_id = fundamenta-ekzercaro_182
 # text = — Mi ne farus la eraron, se li antaŭe dirus al mi la veron (aŭ se li estus dirinta al mi la veron). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3444,7 +3164,7 @@
 26	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 27	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_185
+# sent_id = fundamenta-ekzercaro_183
 # text = — Kiam mi venos, diru al mi la veron. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -3458,7 +3178,7 @@
 10	veron	ver	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_186
+# sent_id = fundamenta-ekzercaro_184
 # text = — Kiam mia patro venos, diru al mi antaŭe la veron (aŭ estu dirinta al mi la veron). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -3483,7 +3203,7 @@
 21	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_187
+# sent_id = fundamenta-ekzercaro_185
 # text = — Mi volas diri al vi la veron. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3495,7 +3215,7 @@
 8	veron	ver	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_188
+# sent_id = fundamenta-ekzercaro_186
 # text = — Mi volas, ke tio, kion mi diris, estu vera (aŭ mi volas esti dirinta la veron). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3521,47 +3241,47 @@
 22	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_189
+# sent_id = fundamenta-ekzercaro_187
 # text = Mi estas amata. 
 1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
 3	amata	amat	ADJ	SPRASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_190
+# sent_id = fundamenta-ekzercaro_188
 # text = Mi estis amata. 
 1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	estis	est	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
 3	amata	amat	ADJ	SPRASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_191
+# sent_id = fundamenta-ekzercaro_189
 # text = Mi estos amata. 
 1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	estos	est	VERB	VFT	Mood=Ind|Tense=Fut	_	_	_	SpaceAfter=Yes
 3	amata	amat	ADJ	SPRASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_192
+# sent_id = fundamenta-ekzercaro_190
 # text = Mi estus amata. 
 1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	estus	est	VERB	VCN	Mood=Cnd	_	_	_	SpaceAfter=Yes
 3	amata	amat	ADJ	SPRASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_193
+# sent_id = fundamenta-ekzercaro_191
 # text = Estu amata. 
 1	Estu	est	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=Yes
 2	amata	amat	ADJ	SPRASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_194
+# sent_id = fundamenta-ekzercaro_192
 # text = Esti amata. 
 1	Esti	est	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
 2	amata	amat	ADJ	SPRASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_195
+# sent_id = fundamenta-ekzercaro_193
 # text = — Vi estas lavita. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
@@ -3569,40 +3289,40 @@
 4	lavita	lavit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_196
+# sent_id = fundamenta-ekzercaro_194
 # text = Vi estis lavita. 
 1	Vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
 2	estis	est	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
 3	lavita	lavit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_197
+# sent_id = fundamenta-ekzercaro_195
 # text = Vi estos lavita. 
 1	Vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
 2	estos	est	VERB	VFT	Mood=Ind|Tense=Fut	_	_	_	SpaceAfter=Yes
 3	lavita	lavit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_198
+# sent_id = fundamenta-ekzercaro_196
 # text = Vi estus lavita. 
 1	Vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
 2	estus	est	VERB	VCN	Mood=Cnd	_	_	_	SpaceAfter=Yes
 3	lavita	lavit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_199
+# sent_id = fundamenta-ekzercaro_197
 # text = Estu lavita. 
 1	Estu	est	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=Yes
 2	lavita	lavit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_200
+# sent_id = fundamenta-ekzercaro_198
 # text = Esti lavita. 
 1	Esti	est	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
 2	lavita	lavit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_201
+# sent_id = fundamenta-ekzercaro_199
 # text = — Li estas invitota. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3610,40 +3330,40 @@
 4	invitota	invitot	ADJ	SFTASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_202
+# sent_id = fundamenta-ekzercaro_200
 # text = Li estis invitota. 
 1	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	estis	est	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
 3	invitota	invitot	ADJ	SFTASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_203
+# sent_id = fundamenta-ekzercaro_201
 # text = Li estos invitota. 
 1	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	estos	est	VERB	VFT	Mood=Ind|Tense=Fut	_	_	_	SpaceAfter=Yes
 3	invitota	invitot	ADJ	SFTASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_204
+# sent_id = fundamenta-ekzercaro_202
 # text = Li estus invitota. 
 1	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	estus	est	VERB	VCN	Mood=Cnd	_	_	_	SpaceAfter=Yes
 3	invitota	invitot	ADJ	SFTASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_205
+# sent_id = fundamenta-ekzercaro_203
 # text = Estu invitota. 
 1	Estu	est	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=Yes
 2	invitota	invitot	ADJ	SFTASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_206
+# sent_id = fundamenta-ekzercaro_204
 # text = Esti invitota. 
 1	Esti	est	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
 2	invitota	invitot	ADJ	SFTASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_207
+# sent_id = fundamenta-ekzercaro_205
 # text = — Tiu ĉi komercaĵo estas ĉiam volonte aĉetata de mi. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3657,7 +3377,7 @@
 10	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_208
+# sent_id = fundamenta-ekzercaro_206
 # text = — La surtuto estas aĉetita de mi, sekve ĝi apartenas al mi. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -3674,7 +3394,7 @@
 13	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_209
+# sent_id = fundamenta-ekzercaro_207
 # text = — Kiam via domo estis konstruata, mia domo estis jam longe konstruita. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -3691,7 +3411,7 @@
 13	konstruita	konstruit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_210
+# sent_id = fundamenta-ekzercaro_208
 # text = — Mi sciigas, ke de nun la ŝuldoj de mia filo ne estos pagataj de mi. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3712,7 +3432,7 @@
 17	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_211
+# sent_id = fundamenta-ekzercaro_209
 # text = — Estu trankvila, mia tuta ŝuldo estos pagita al vi baldaŭ. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Estu	estu	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3729,7 +3449,7 @@
 12	baldaŭ	baldaŭ	ADV	ADV	_	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_212
+# sent_id = fundamenta-ekzercaro_210
 # text = — Mia ora ringo ne estus nun tiel longe serĉata, se ĝi ne estus tiel lerte kaŝita de vi. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mia	mi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3753,7 +3473,7 @@
 20	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_213
+# sent_id = fundamenta-ekzercaro_211
 # text = — Laŭ la projekto de la inĝenieroj tiu ĉi fervojo estas konstruota en la daŭro de du jaroj; sed mi pensas, ke ĝi estos konstruata pli ol tri jarojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Laŭ	laŭ	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -3788,7 +3508,7 @@
 31	jarojn	jar	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 32	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_214
+# sent_id = fundamenta-ekzercaro_212
 # text = — Honesta homo agas honeste. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Honesta	honesta	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3798,7 +3518,7 @@
 5	honeste	honest	ADV	ADE	_	_	_	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_215
+# sent_id = fundamenta-ekzercaro_213
 # text = — La pastro, kiu mortis antaŭ nelonge (aŭ antaŭ nelonga tempo), loĝis longe en nia urbo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -3822,7 +3542,7 @@
 20	urbo	urb	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_216
+# sent_id = fundamenta-ekzercaro_214
 # text = — Ĉu hodiaŭ estas varme aŭ malvarme? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ĉu	ĉu	PART	PART	_	_	_	_	SpaceAfter=Yes
@@ -3834,7 +3554,7 @@
 7	malvarme	malvarm	ADV	ADE	_	_	_	_	SpaceAfter=No
 8	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_217
+# sent_id = fundamenta-ekzercaro_215
 # text = — Sur la kameno inter du potoj staras fera kaldrono; el la kaldrono, en kiu sin trovas bolanta akvo, eliras vaporo; tra la fenestro, kiu sin trovas apud la pordo, la vaporo iras sur la korton. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -3880,14 +3600,14 @@
 42	korton	kort	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 43	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_218
+# sent_id = fundamenta-ekzercaro_216
 # text = Kie vi estas? 
 1	Kie	kie	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
 2	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
 3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 4	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_219
+# sent_id = fundamenta-ekzercaro_217
 # text = — Mi estas en la ĝardeno. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3897,7 +3617,7 @@
 6	ĝardeno	ĝarden	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_220
+# sent_id = fundamenta-ekzercaro_218
 # text = — Kien vi iras? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kien	kie	ADV	DEMADD	_	_	_	_	SpaceAfter=Yes
@@ -3905,7 +3625,7 @@
 4	iras	ir	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 5	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_221
+# sent_id = fundamenta-ekzercaro_219
 # text = — Mi iras en la ĝardenon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3915,7 +3635,7 @@
 6	ĝardenon	ĝarden	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_222
+# sent_id = fundamenta-ekzercaro_220
 # text = — La birdo flugas en la ĉambro (= ĝi estas en la ĉambro kaj flugas en ĝi). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -3938,7 +3658,7 @@
 19	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_223
+# sent_id = fundamenta-ekzercaro_221
 # text = — La birdo flugas en la ĉambron (= ĝi estas ekster la ĉambro kaj flugas nun en ĝin). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -3962,7 +3682,7 @@
 20	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_224
+# sent_id = fundamenta-ekzercaro_222
 # text = — Mi vojaĝas en Hispanujo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3972,7 +3692,7 @@
 5	Hispanujo	hispanuj	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_225
+# sent_id = fundamenta-ekzercaro_223
 # text = — Mi vojaĝas en Hispanujon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3983,7 +3703,7 @@
 5	Hispanujon	hispanuj	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_226
+# sent_id = fundamenta-ekzercaro_224
 # text = — Mi sidas sur seĝo kaj tenas la piedojn sur benketo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -3998,7 +3718,7 @@
 11	benketo	benket	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_227
+# sent_id = fundamenta-ekzercaro_225
 # text = — Mi metis la manon sur la tablon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -4010,7 +3730,7 @@
 8	tablon	tabl	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_228
+# sent_id = fundamenta-ekzercaro_226
 # text = — El sub la kanapo la muso kuris sub la liton, kaj nun ĝi kuras sub la lito. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	El	el	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -4033,7 +3753,7 @@
 19	lito	lit	NOUN	SPSNSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_229
+# sent_id = fundamenta-ekzercaro_227
 # text = — Super la tero sin trovas aero. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Super	super	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -4044,7 +3764,7 @@
 7	aero	aer	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_230
+# sent_id = fundamenta-ekzercaro_228
 # text = — Anstataŭ kafo li donis al mi teon kun sukero, sed sen kremo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Anstataŭ	anstataŭ	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -4063,7 +3783,7 @@
 14	kremo	krem	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_231
+# sent_id = fundamenta-ekzercaro_229
 # text = — Mi staras ekster la domo, kaj li estas interne. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -4078,7 +3798,7 @@
 11	interne	intern	ADV	ADE	_	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_232
+# sent_id = fundamenta-ekzercaro_230
 # text = — En la salono estis neniu krom li kaj lia fianĉino. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -4093,7 +3813,7 @@
 11	fianĉino	fianĉin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_233
+# sent_id = fundamenta-ekzercaro_231
 # text = — La hirundo flugis trans la riveron, ĉar trans la rivero sin trovis aliaj hirundoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -4113,7 +3833,7 @@
 16	hirundoj	hirund	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_234
+# sent_id = fundamenta-ekzercaro_232
 # text = — Mi restas tie ĉi laŭ la ordono de mia estro. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -4128,7 +3848,7 @@
 11	estro	estr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_235
+# sent_id = fundamenta-ekzercaro_233
 # text = — Kiam li estis ĉe mi, li staris tutan horon apud la fenestro. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -4146,7 +3866,7 @@
 14	fenestro	fenestr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_236
+# sent_id = fundamenta-ekzercaro_234
 # text = — Li diras, ke mi estas atenta. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -4158,7 +3878,7 @@
 8	atenta	atent	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_237
+# sent_id = fundamenta-ekzercaro_235
 # text = — Li petas, ke mi estu atenta. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -4170,7 +3890,7 @@
 8	atenta	atent	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_238
+# sent_id = fundamenta-ekzercaro_236
 # text = — Kvankam vi estas riĉa, mi dubas, ĉu vi estas feliĉa. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kvankam	kvankam	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
@@ -4188,7 +3908,7 @@
 13	feliĉa	feliĉ	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_239
+# sent_id = fundamenta-ekzercaro_237
 # text = — Se vi scius, kiu li estas, vi lin pli estimus. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Se	se	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
@@ -4205,7 +3925,7 @@
 13	estimus	estim	VERB	VCN	Mood=Cnd	_	_	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_240
+# sent_id = fundamenta-ekzercaro_238
 # text = — Se li jam venis, petu lin al mi. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Se	se	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
@@ -4219,7 +3939,7 @@
 10	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_241
+# sent_id = fundamenta-ekzercaro_239
 # text = — Ho, Dio! 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ho	ho	INTJ	INTJ	_	_	_	_	SpaceAfter=No
@@ -4228,14 +3948,14 @@
 4	Dio	di	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 5	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_242
+# sent_id = fundamenta-ekzercaro_240
 # text = kion vi faras! 
 1	kion	kio	PRON	DEMPRUA	Case=Acc	_	_	_	SpaceAfter=Yes
 2	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
 3	faras	far	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 4	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_243
+# sent_id = fundamenta-ekzercaro_241
 # text = — Ha, kiel bele! 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ha	ha	INTJ	INTJ	_	_	_	_	SpaceAfter=No
@@ -4244,7 +3964,7 @@
 5	bele	bel	ADV	ADE	_	_	_	_	SpaceAfter=No
 6	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_244
+# sent_id = fundamenta-ekzercaro_242
 # text = — For de tie ĉi! 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	For	for	ADV	ADV	_	_	_	_	SpaceAfter=Yes
@@ -4253,7 +3973,7 @@
 5	ĉi	ĉi	PART	PART	_	_	_	_	SpaceAfter=No
 6	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_245
+# sent_id = fundamenta-ekzercaro_243
 # text = — Fi, kiel abomene! 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Fi	fi	INTJ	INTJ	_	_	_	_	SpaceAfter=No
@@ -4262,7 +3982,7 @@
 5	abomene	abomen	ADV	ADE	_	_	_	_	SpaceAfter=No
 6	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_246
+# sent_id = fundamenta-ekzercaro_244
 # text = — Nu, iru pli rapide! 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Nu	nu	INTJ	INTJ	_	_	_	_	SpaceAfter=No
@@ -4272,7 +3992,7 @@
 6	rapide	rapid	ADV	ADE	_	_	_	_	SpaceAfter=No
 7	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_247
+# sent_id = fundamenta-ekzercaro_245
 # text = La artikolo “la” estas uzata tiam, kiam ni parolas pri personoj aŭ objektoj konataj. 
 1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
 2	artikolo	artikol	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -4293,7 +4013,7 @@
 17	konataj	konat	ADJ	SPRAPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_248
+# sent_id = fundamenta-ekzercaro_246
 # text = Ĝia uzado estas tia sama kiel en la aliaj lingvoj. 
 1	Ĝia	ĝi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	uzado	uzad	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -4307,7 +4027,7 @@
 10	lingvoj	lingv	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_249
+# sent_id = fundamenta-ekzercaro_247
 # text = La personoj, kiuj ne komprenas la uzadon de la artikolo (ekzemple rusoj aŭ poloj, kiuj ne scias alian lingvon krom sia propra), povas en la unua tempo tute ne uzi la artikolon, ĉar ĝi estas oportuna sed ne necesa. 
 1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
 2	personoj	person	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
@@ -4356,11 +4076,11 @@
 45	necesa	neces	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 46	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_250
+# sent_id = fundamenta-ekzercaro_248
 # text = Anstataŭ 
 1	Anstataŭ	anstataŭ	ADP	ADP	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_251
+# sent_id = fundamenta-ekzercaro_249
 # text = Anstataŭ “la” oni povas ankaŭ diri “l’” (sed nur post prepozicio, kiu finiĝas per vokalo). 
 1	Anstataŭ	anstataŭ	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
 2	“	“	SYM	SYM	_	_	_	_	SpaceAfter=No
@@ -4387,7 +4107,7 @@
 23	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 24	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_252
+# sent_id = fundamenta-ekzercaro_250
 # text = — Vortoj kunmetitaj estas kreataj per simpla kunligado de vortoj; oni prenas ordinare la purajn radikojn, sed, se la bonsoneco aŭ la klareco postulas, oni povas ankaŭ preni la tutan vorton, t. e. la radikon kune kun ĝia gramatika finiĝo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Vortoj	vortoj	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -4439,7 +4159,7 @@
 47	finiĝo	finiĝ	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 48	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_253
+# sent_id = fundamenta-ekzercaro_251
 # text = Ekzemploj: skribtablo aŭ skribotablo (= tablo, sur kiu oni skribas); internacia (= kiu estas inter diversaj nacioj); tutmonda (= de la tuta mondo); unutaga (= kiu daŭras unu tagon); unuataga (= kiu estas en la unua tago); vaporŝipo (= ŝipo, kiu sin movas per vaporo); matenmanĝi, tagmanĝi, vespermanĝi; abonpago (= pago por la abono). 
 1	Ekzemploj	ekzempl	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 2	:	:	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
@@ -4524,7 +4244,7 @@
 80	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 81	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_254
+# sent_id = fundamenta-ekzercaro_252
 # text = Ĉiuj prepozicioj per si mem postulas ĉiam nur la nominativon. 
 1	Ĉiuj	ĉiu	DET	KORDPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
 2	prepozicioj	prepozici	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -4538,7 +4258,7 @@
 10	nominativon	nominativ	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_255
+# sent_id = fundamenta-ekzercaro_253
 # text = Se ni iam post prepozicio uzas la akuzativon, la akuzativo tie dependas ne de la prepozicio, sed de aliaj kaŭzoj. 
 1	Se	se	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
 2	ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -4564,7 +4284,7 @@
 22	kaŭzoj	kaŭz	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_256
+# sent_id = fundamenta-ekzercaro_254
 # text = Ekzemple: por esprimi direkton, ni aldonas al la vorto la finon “n”; sekve: tie (= en tiu loko), tien (= al tiu loko); tiel same ni ankaŭ diras: “la birdo flugis en la ĝardenon, sur la tablon”, kaj la vortoj “ĝardenon”, “tablon” staras tie ĉi en akuzativo ne ĉar la prepozicioj “en” kaj “sur” tion ĉi postulas, sed nur ĉar ni volis esprimi direkton, t. e. montri, ke la birdo sin ne trovis antaŭe en la ĝardeno aŭ sur la tablo kaj tie flugis, sed ke ĝi de alia loko flugis al la ĝardeno, al la tablo (ni volas montri, ke la ĝardeno kaj tablo ne estis la loko de la flugado, sed nur la celo de la flugado); en tiaj okazoj ni uzus la finiĝon “n” tute egale ĉu ia prepozicio starus aŭ ne. 
 1	Ekzemple	ekzempl	ADV	ADE	_	_	_	_	SpaceAfter=No
 2	:	:	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
@@ -4745,7 +4465,7 @@
 175	ne	ne	PART	PART	_	_	_	_	SpaceAfter=No
 176	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_257
+# sent_id = fundamenta-ekzercaro_255
 # text = — Morgaŭ mi veturos Parizon (aŭ en Parizon). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Morgaŭ	morgaŭ	ADV	ADV	_	_	_	_	SpaceAfter=Yes
@@ -4763,7 +4483,7 @@
 10	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_258
+# sent_id = fundamenta-ekzercaro_256
 # text = — Mi restos hodiaŭ dome. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -4772,7 +4492,7 @@
 5	dome	dom	ADV	ADE	_	_	_	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_259
+# sent_id = fundamenta-ekzercaro_257
 # text = — Jam estas tempo iri domen. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Jam	jam	ADV	ADV	_	_	_	_	SpaceAfter=Yes
@@ -4782,7 +4502,7 @@
 6	domen	dom	ADV	ADD	_	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_260
+# sent_id = fundamenta-ekzercaro_258
 # text = — Ni disiĝis kaj iris en diversajn flankojn: mi iris dekstren, kaj li iris maldekstren. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -4803,7 +4523,7 @@
 17	maldekstren	maldekstr	ADV	ADD	_	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_261
+# sent_id = fundamenta-ekzercaro_259
 # text = — Flanken, sinjoro! 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Flanken	flanken	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -4812,7 +4532,7 @@
 4	sinjoro	sinjor	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 5	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_262
+# sent_id = fundamenta-ekzercaro_260
 # text = — Mi konas neniun en tiu ĉi urbo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -4824,7 +4544,7 @@
 8	urbo	urb	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_263
+# sent_id = fundamenta-ekzercaro_261
 # text = — Mi neniel povas kompreni, kion vi parolas. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -4837,7 +4557,7 @@
 9	parolas	parol	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_264
+# sent_id = fundamenta-ekzercaro_262
 # text = — Mi renkontis nek lin, nek lian fraton (aŭ mi ne renkontis lin, nek lian fraton). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -4861,7 +4581,7 @@
 20	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_265
+# sent_id = fundamenta-ekzercaro_263
 # text = Se ni bezonas uzi prepozicion kaj la senco ne montras al ni, kian prepozicion uzi, tiam ni povas uzi la komunan prepozicion “je”. 
 1	Se	se	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
 2	ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -4892,7 +4612,7 @@
 27	”	”	SYM	SYM	_	_	_	_	SpaceAfter=No
 28	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_266
+# sent_id = fundamenta-ekzercaro_264
 # text = Sed estas bone uzadi la vorton “je” kiel eble pli malofte. 
 1	Sed	sed	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
 2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
@@ -4909,11 +4629,11 @@
 13	malofte	maloft	ADV	ADE	_	_	_	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_267
+# sent_id = fundamenta-ekzercaro_265
 # text = Anstataŭ 
 1	Anstataŭ	anstataŭ	ADP	ADP	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_268
+# sent_id = fundamenta-ekzercaro_266
 # text = Anstataŭ la vorto “je” ni povas ankaŭ uzi akuzativon sen prepozicio. 
 1	Anstataŭ	anstataŭ	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
 2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -4930,7 +4650,7 @@
 13	prepozicio	prepozici	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_269
+# sent_id = fundamenta-ekzercaro_267
 # text = — Mi ridas je lia naiveco (aŭ mi ridas pro lia naiveco, aŭ: mi ridas lian naivecon). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -4955,7 +4675,7 @@
 21	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_270
+# sent_id = fundamenta-ekzercaro_268
 # text = — Je la lasta fojo mi vidas lin ĉe vi (aŭ: la lastan fojon). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Je	je	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -4976,7 +4696,7 @@
 17	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_271
+# sent_id = fundamenta-ekzercaro_269
 # text = — Mi veturis du tagojn kaj unu nokton. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -4988,7 +4708,7 @@
 8	nokton	nokt	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_272
+# sent_id = fundamenta-ekzercaro_270
 # text = — Mi sopiras je mia perdita feliĉo (aŭ: mian perditan feliĉon). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5006,7 +4726,7 @@
 14	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_273
+# sent_id = fundamenta-ekzercaro_271
 # text = — El la dirita regulo sekvas, ke se ni pri ia verbo ne scias, ĉu ĝi postulas post si la akuzativon (t. e. ĉu ĝi estas aktiva) aŭ ne, ni povas ĉiam uzi la akuzativon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	El	el	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -5054,7 +4774,7 @@
 42	akuzativon	akuzativ	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 43	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_274
+# sent_id = fundamenta-ekzercaro_272
 # text = Ekzemple, ni povas diri “obei al la patro” kaj “obei la patron” (anstataŭ “obei je la patro”). 
 1	Ekzemple	ekzempl	ADV	ADE	_	_	_	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
@@ -5085,7 +4805,7 @@
 26	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 27	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_275
+# sent_id = fundamenta-ekzercaro_273
 # text = Sed ni ne uzas la akuzativon tiam, kiam la klareco de la senco tion ĉi malpermesas; ekzemple: ni povas diri “pardoni al la malamiko” kaj “pardoni la malamikon”, sed ni devas diri ĉiam “pardoni al la malamiko lian kulpon”. 
 1	Sed	sed	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
 2	ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -5138,7 +4858,7 @@
 49	”	”	SYM	SYM	_	_	_	_	SpaceAfter=No
 50	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_276
+# sent_id = fundamenta-ekzercaro_274
 # text = Ia, ial, iam, ie, iel, ies, io, iom, iu. 
 1	Ia	ia	DET	KORASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
@@ -5159,7 +4879,7 @@
 17	iu	iu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_277
+# sent_id = fundamenta-ekzercaro_275
 # text = — La montritajn naŭ vortojn ni konsilas bone ellerni, ĉar el ili ĉiu povas jam fari al si grandan serion da aliaj pronomoj kaj adverboj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -5189,7 +4909,7 @@
 26	adverboj	adverb	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 27	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_278
+# sent_id = fundamenta-ekzercaro_276
 # text = Se ni aldonas al ili la literon “k”, ni ricevas vortojn demandajn aŭ rilatajn: kia, kial, kiam, kie, kiel, kies, kio, kiom, kiu. 
 1	Se	se	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
 2	ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -5228,7 +4948,7 @@
 35	kiu	kiu	DET	DEMDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 36	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_279
+# sent_id = fundamenta-ekzercaro_277
 # text = Se ni aldonas la literon “t”, ni ricevas vortojn montrajn: tia, tial, tiam, tie, tiel, ties, tio, tiom, tiu. 
 1	Se	se	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
 2	ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -5263,7 +4983,7 @@
 31	tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 32	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_280
+# sent_id = fundamenta-ekzercaro_278
 # text = Aldonante la literon “ĉ”, ni ricevas vortojn komunajn: ĉia, ĉial, ĉiam, ĉie, ĉiel, ĉies, ĉio, ĉiom, ĉiu. 
 1	Aldonante	aldonant	ADV	DPRADE	_	_	_	_	SpaceAfter=Yes
 2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -5296,7 +5016,7 @@
 29	ĉiu	ĉiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 30	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_281
+# sent_id = fundamenta-ekzercaro_279
 # text = Aldonante la prefikson “nen”, ni ricevas vortojn neajn: nenia, nenial, neniam, nenie, neniel, nenies, nenio, neniom, neniu. 
 1	Aldonante	aldonant	ADV	DPRADE	_	_	_	_	SpaceAfter=Yes
 2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -5329,7 +5049,7 @@
 29	neniu	neniu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 30	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_282
+# sent_id = fundamenta-ekzercaro_280
 # text = Aldonante al la vortoj montraj la vorton “ĉi”, ni ricevas montron pli proksiman; ekzemple: tiu (pli malproksima), tiu ĉi (aŭ ĉi tiu) (pli proksima); tie (malproksime), tie ĉi aŭ ĉi tie (proksime). 
 1	Aldonante	aldonant	ADV	DPRADE	_	_	_	_	SpaceAfter=Yes
 2	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -5383,7 +5103,7 @@
 50	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 51	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_283
+# sent_id = fundamenta-ekzercaro_281
 # text = Aldonante al la vortoj demandaj la vorton “ajn”, ni ricevas vortojn sendiferencajn: kia ajn, kial ajn, kiam ajn, kie ajn, kiel ajn, kies ajn, kio ajn, kiom ajn, kiu ajn. 
 1	Aldonante	aldonant	ADV	DPRADE	_	_	_	_	SpaceAfter=Yes
 2	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -5429,7 +5149,7 @@
 42	ajn	ajn	PART	PART	_	_	_	_	SpaceAfter=No
 43	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_284
+# sent_id = fundamenta-ekzercaro_282
 # text = Ekster tio el la diritaj vortoj ni povas ankoraŭ fari aliajn vortojn, per helpo de gramatikaj finiĝoj kaj aliaj vortoj (sufiksoj); ekzemple: tiama, ĉiama, kioma, tiea, ĉi-tiea, tieulo, tiamulo k. t. p. (= kaj tiel plu). 
 1	Ekster	ekster	ADP	ADP	_	_	_	_	SpaceAfter=Yes
 2	tio	tio	PRON	KORPRUN	Case=Nom	_	_	_	SpaceAfter=Yes
@@ -5485,7 +5205,7 @@
 52	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 53	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_285
+# sent_id = fundamenta-ekzercaro_283
 # text = Lia kolero longe daŭris. 
 1	Lia	li	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	kolero	koler	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5493,7 +5213,7 @@
 4	daŭris	daŭr	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_286
+# sent_id = fundamenta-ekzercaro_284
 # text = — Li estas hodiaŭ en kolera humoro. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5504,7 +5224,7 @@
 7	humoro	humor	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_287
+# sent_id = fundamenta-ekzercaro_285
 # text = — Li koleras kaj insultas. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5513,7 +5233,7 @@
 5	insultas	insult	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_288
+# sent_id = fundamenta-ekzercaro_286
 # text = — Li fermis kolere la pordon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5523,7 +5243,7 @@
 6	pordon	pord	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_289
+# sent_id = fundamenta-ekzercaro_287
 # text = — Lia filo mortis kaj estas nun malviva. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Lia	li	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5535,7 +5255,7 @@
 8	malviva	malviv	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_290
+# sent_id = fundamenta-ekzercaro_288
 # text = — La korpo estas morta, la animo estas senmorta. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -5549,7 +5269,7 @@
 10	senmorta	senmort	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_291
+# sent_id = fundamenta-ekzercaro_289
 # text = — Li estas morte malsana, li ne vivos pli, ol unu tagon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5567,7 +5287,7 @@
 14	tagon	tag	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_292
+# sent_id = fundamenta-ekzercaro_290
 # text = — Li parolas, kaj lia parolo fluas dolĉe kaj agrable. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5582,7 +5302,7 @@
 11	agrable	agrabl	ADV	ADE	_	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_293
+# sent_id = fundamenta-ekzercaro_291
 # text = — Ni faris la kontrakton ne skribe, sed parole. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -5596,7 +5316,7 @@
 10	parole	parol	ADV	ADE	_	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_294
+# sent_id = fundamenta-ekzercaro_292
 # text = — Li estas bona parolanto. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5605,7 +5325,7 @@
 5	parolanto	parolant	NOUN	DPRNSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_295
+# sent_id = fundamenta-ekzercaro_293
 # text = — Starante ekstere, li povis vidi nur la eksteran flankon de nia domo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Starante	starante	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5624,7 +5344,7 @@
 14	domo	dom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_296
+# sent_id = fundamenta-ekzercaro_294
 # text = — Li loĝas ekster la urbo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5634,7 +5354,7 @@
 6	urbo	urb	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_297
+# sent_id = fundamenta-ekzercaro_295
 # text = — La ekstero de tiu ĉi homo estas pli bona, ol lia interno. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -5652,7 +5372,7 @@
 14	interno	intern	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_298
+# sent_id = fundamenta-ekzercaro_296
 # text = — Li tuj faris, kion mi volis, kaj mi dankis lin por la tuja plenumo de mia deziro. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5677,7 +5397,7 @@
 20	deziro	dezir	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_299
+# sent_id = fundamenta-ekzercaro_297
 # text = — Kia granda brulo! 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kia	kia	DET	DEMASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5685,13 +5405,13 @@
 4	brulo	brul	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 5	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_300
+# sent_id = fundamenta-ekzercaro_298
 # text = kio brulas? 
 1	kio	kio	PRON	DEMPRUN	Case=Nom	_	_	_	SpaceAfter=Yes
 2	brulas	brul	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 3	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_301
+# sent_id = fundamenta-ekzercaro_299
 # text = — Ligno estas bona brula materialo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ligno	ligno	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5702,7 +5422,7 @@
 6	materialo	material	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_302
+# sent_id = fundamenta-ekzercaro_300
 # text = — La fera bastono, kiu kuŝis en la forno, estas nun brule varmega. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -5721,7 +5441,7 @@
 15	varmega	varmeg	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_303
+# sent_id = fundamenta-ekzercaro_301
 # text = — Ĉu li donis al vi jesan respondon aŭ nean? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ĉu	ĉu	PART	PART	_	_	_	_	SpaceAfter=Yes
@@ -5736,7 +5456,7 @@
 10	nean	ne	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 11	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_304
+# sent_id = fundamenta-ekzercaro_302
 # text = Li eliris el la dormoĉambro kaj eniris en la manĝoĉambron. 
 1	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	eliris	elir	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
@@ -5750,7 +5470,7 @@
 10	manĝoĉambron	manĝoĉambr	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_305
+# sent_id = fundamenta-ekzercaro_303
 # text = — La birdo ne forflugis: ĝi nur deflugis de la arbo, alflugis al la domo kaj surflugis sur la tegmenton. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -5776,7 +5496,7 @@
 22	tegmenton	tegment	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_306
+# sent_id = fundamenta-ekzercaro_304
 # text = — Por ĉiu aĉetita funto da teo tiu ĉi komercisto aldonas senpage funton da sukero. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Por	por	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -5796,7 +5516,7 @@
 15	sukero	suker	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_307
+# sent_id = fundamenta-ekzercaro_305
 # text = — Lernolibron oni devas ne tralegi, sed tralerni. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Lernolibron	Lernolibro	PROPN	PROPSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5811,7 +5531,7 @@
 9	tralerni	tralern	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_308
+# sent_id = fundamenta-ekzercaro_306
 # text = — Li portas rozokoloran superveston kaj teleroforman ĉapelon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5823,7 +5543,7 @@
 8	ĉapelon	ĉapel	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_309
+# sent_id = fundamenta-ekzercaro_307
 # text = — En mia skribotablo sin trovas kvar tirkestoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -5835,7 +5555,7 @@
 8	tirkestoj	tirkest	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_310
+# sent_id = fundamenta-ekzercaro_308
 # text = — Liaj lipharoj estas pli grizaj, ol liaj vangharoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Liaj	li	DET	PRSPPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -5849,7 +5569,7 @@
 10	vangharoj	vanghar	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_311
+# sent_id = fundamenta-ekzercaro_309
 # text = Teatramanto ofte vizitas la teatron kaj ricevas baldaŭ teatrajn manierojn. 
 1	Teatramanto	teatramant	NOUN	DPRNSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	ofte	oft	ADV	ADE	_	_	_	_	SpaceAfter=Yes
@@ -5863,7 +5583,7 @@
 10	manierojn	manier	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_312
+# sent_id = fundamenta-ekzercaro_310
 # text = — Kiu okupas sin je meĥaniko, estas meĥanikisto, kaj kiu okupas sin je ĥemio, estas ĥemiisto. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kiu	kiu	DET	DEMDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5886,7 +5606,7 @@
 19	ĥemiisto	ĥemiist	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 20	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_313
+# sent_id = fundamenta-ekzercaro_311
 # text = — Diplomatiiston oni povas ankaŭ nomi diplomato, sed fizikiston oni ne povas nomi fiziko, ĉar fiziko estas la nomo de la scienco mem. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Diplomatiiston	Diplomatiisto	PROPN	PROPSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5917,7 +5637,7 @@
 25	mem	mem	PART	PART	_	_	_	_	SpaceAfter=No
 26	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_314
+# sent_id = fundamenta-ekzercaro_312
 # text = — La fotografisto fotografis min, kaj mi sendis mian fotografaĵon al mia patro. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -5935,7 +5655,7 @@
 14	patro	patr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_315
+# sent_id = fundamenta-ekzercaro_313
 # text = — Glaso de vino estas glaso, en kiu antaŭe sin trovis vino, aŭ kiun oni uzas por vino; glaso da vino estas glaso plena je vino. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Glaso	glaso	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -5970,7 +5690,7 @@
 29	vino	vin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 30	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_316
+# sent_id = fundamenta-ekzercaro_314
 # text = — Alportu al mi metron da nigra drapo (Metro de drapo signifus metron, kiu kuŝis sur drapo, aŭ kiu estas uzata por drapo). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Alportu	alportu	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6004,7 +5724,7 @@
 27	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 28	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_317
+# sent_id = fundamenta-ekzercaro_315
 # text = — Mi aĉetis dekon da ovoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6014,7 +5734,7 @@
 6	ovoj	ov	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_318
+# sent_id = fundamenta-ekzercaro_316
 # text = — Tiu ĉi rivero havas ducent kilometrojn da longo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6027,7 +5747,7 @@
 9	longo	long	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_319
+# sent_id = fundamenta-ekzercaro_317
 # text = — Sur la bordo de la maro staris amaso da homoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -6042,7 +5762,7 @@
 11	homoj	hom	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_320
+# sent_id = fundamenta-ekzercaro_318
 # text = — Multaj birdoj flugas en la aŭtuno en pli varmajn landojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Multaj	multaj	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6058,7 +5778,7 @@
 11	landojn	land	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_321
+# sent_id = fundamenta-ekzercaro_319
 # text = — Sur la arbo sin trovis multe (aŭ multo) da birdoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -6075,7 +5795,7 @@
 13	birdoj	bird	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_322
+# sent_id = fundamenta-ekzercaro_320
 # text = — Kelkaj homoj sentas sin la plej feliĉaj, kiam ili vidas la suferojn de siaj najbaroj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kelkaj	kelkaj	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6097,7 +5817,7 @@
 17	najbaroj	najbar	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_323
+# sent_id = fundamenta-ekzercaro_321
 # text = — En la ĉambro sidis nur kelke da homoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -6110,7 +5830,7 @@
 9	homoj	hom	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_324
+# sent_id = fundamenta-ekzercaro_322
 # text = — “Da” post ia vorto montras, ke tiu ĉi vorto havas signifon de mezuro. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	“	“	SYM	SYM	_	_	_	_	SpaceAfter=No
@@ -6131,7 +5851,7 @@
 17	mezuro	mezur	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_325
+# sent_id = fundamenta-ekzercaro_323
 # text = Mia frato ne estas granda, sed li ne estas ankaŭ malgranda: li estas de meza kresko. 
 1	Mia	mi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	frato	frat	NOUN	SPRNSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6153,7 +5873,7 @@
 18	kresko	kresk	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_326
+# sent_id = fundamenta-ekzercaro_324
 # text = — Li estas tiel dika, ke li ne povas trairi tra nia mallarĝa pordo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6172,7 +5892,7 @@
 15	pordo	pord	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_327
+# sent_id = fundamenta-ekzercaro_325
 # text = — Haro estas tre maldika. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Haro	haro	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6182,7 +5902,7 @@
 5	maldika	maldik	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_328
+# sent_id = fundamenta-ekzercaro_326
 # text = — La nokto estis tiel malluma, ke ni nenion povis vidi eĉ antaŭ nia nazo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -6202,7 +5922,7 @@
 16	nazo	naz	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_329
+# sent_id = fundamenta-ekzercaro_327
 # text = — Tiu ĉi malfreŝa pano estas malmola, kiel ŝtono. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6216,7 +5936,7 @@
 10	ŝtono	ŝton	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_330
+# sent_id = fundamenta-ekzercaro_328
 # text = — Malbonaj infanoj amas turmenti bestojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Malbonaj	malbonaj	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6227,7 +5947,7 @@
 6	bestojn	best	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_331
+# sent_id = fundamenta-ekzercaro_329
 # text = — Li sentis sin tiel malfeliĉa, ke li malbenis la tagon, en kiu li estis naskita. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6249,7 +5969,7 @@
 18	naskita	naskit	ADJ	SPSASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_332
+# sent_id = fundamenta-ekzercaro_330
 # text = — Ni forte malestimas tiun ĉi malnoblan homon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -6261,7 +5981,7 @@
 8	homon	hom	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_333
+# sent_id = fundamenta-ekzercaro_331
 # text = — La fenestro longe estis nefermita; mi ĝin fermis, sed mia frato tuj ĝin denove malfermis. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -6283,7 +6003,7 @@
 18	malfermis	malferm	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_334
+# sent_id = fundamenta-ekzercaro_332
 # text = — Rekta vojo estas pli mallonga, ol kurba. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Rekta	rekta	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6297,7 +6017,7 @@
 9	kurba	kurb	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_335
+# sent_id = fundamenta-ekzercaro_333
 # text = — La tablo staras malrekte kaj kredeble baldaŭ renversiĝos. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -6310,7 +6030,7 @@
 9	renversiĝos	renversiĝ	VERB	VFT	Mood=Ind|Tense=Fut	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_336
+# sent_id = fundamenta-ekzercaro_334
 # text = — Li staras supre sur la monto kaj rigardas malsupren sur la kampon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6327,7 +6047,7 @@
 13	kampon	kamp	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_337
+# sent_id = fundamenta-ekzercaro_335
 # text = — Malamiko venis en nian landon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Malamiko	malamiko	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6338,7 +6058,7 @@
 6	landon	land	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_338
+# sent_id = fundamenta-ekzercaro_336
 # text = — Oni tiel malhelpis al mi, ke mi malbonigis mian tutan laboron. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Oni	oni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -6355,7 +6075,7 @@
 13	laboron	labor	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_339
+# sent_id = fundamenta-ekzercaro_337
 # text = — La edzino de mia patro estas mia patrino kaj la avino de miaj infanoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -6374,7 +6094,7 @@
 15	infanoj	infan	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_340
+# sent_id = fundamenta-ekzercaro_338
 # text = — Sur la korto staras koko kun tri kokinoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -6387,7 +6107,7 @@
 9	kokinoj	kokin	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_341
+# sent_id = fundamenta-ekzercaro_339
 # text = — Mia fratino estas tre bela knabino. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mia	mi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6398,7 +6118,7 @@
 7	knabino	knabin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_342
+# sent_id = fundamenta-ekzercaro_340
 # text = — Mia onklino estas bona virino. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mia	mi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6408,7 +6128,7 @@
 6	virino	virin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_343
+# sent_id = fundamenta-ekzercaro_341
 # text = — Mi vidis vian avinon kun ŝiaj kvar nepinoj kaj kun mia nevino. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6425,7 +6145,7 @@
 13	nevino	nevin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_344
+# sent_id = fundamenta-ekzercaro_342
 # text = — Lia duonpatrino estas mia bofratino. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Lia	li	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6435,7 +6155,7 @@
 6	bofratino	bofratin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_345
+# sent_id = fundamenta-ekzercaro_343
 # text = — Mi havas bovon kaj bovinon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6445,7 +6165,7 @@
 6	bovinon	bovin	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_346
+# sent_id = fundamenta-ekzercaro_344
 # text = — La juna vidvino fariĝis denove fianĉino. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -6456,7 +6176,7 @@
 7	fianĉino	fianĉin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_347
+# sent_id = fundamenta-ekzercaro_345
 # text = La tranĉilo estis tiel malakra, ke mi ne povis tranĉi per ĝi la viandon kaj mi devis uzi mian poŝan tranĉilon. 
 1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
 2	tranĉilo	tranĉil	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6482,7 +6202,7 @@
 22	tranĉilon	tranĉil	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_348
+# sent_id = fundamenta-ekzercaro_346
 # text = — Ĉu vi havas korktirilon, por malŝtopi la botelon? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ĉu	ĉu	PART	PART	_	_	_	_	SpaceAfter=Yes
@@ -6498,7 +6218,7 @@
 10	botelon	botel	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 11	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_349
+# sent_id = fundamenta-ekzercaro_347
 # text = — Mi volis ŝlosi la pordon, sed mi perdis la ŝlosilon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6514,7 +6234,7 @@
 12	ŝlosilon	ŝlosil	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_350
+# sent_id = fundamenta-ekzercaro_348
 # text = — Ŝi kombas al si la harojn per arĝenta kombilo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ŝi	ŝi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6528,7 +6248,7 @@
 10	kombilo	kombil	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_351
+# sent_id = fundamenta-ekzercaro_349
 # text = — En somero ni veturas per diversaj veturiloj, kaj en vintro ni veturas per glitveturilo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -6548,7 +6268,7 @@
 16	glitveturilo	glitveturil	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_352
+# sent_id = fundamenta-ekzercaro_350
 # text = — Hodiaŭ estas bela frosta vetero, tial mi prenos miajn glitilojn kaj iros gliti. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Hodiaŭ	hodiaŭ	ADV	ADV	_	_	_	_	SpaceAfter=Yes
@@ -6567,7 +6287,7 @@
 15	gliti	glit	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_353
+# sent_id = fundamenta-ekzercaro_351
 # text = — Per hakilo ni hakas, per segilo ni segas, per fosilo ni fosas, per kudrilo ni kudras, per tondilo ni tondas, per sonorilo ni sonoras, per fajfilo ni fajfas. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Per	per	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -6606,7 +6326,7 @@
 35	fajfas	fajf	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 36	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_354
+# sent_id = fundamenta-ekzercaro_352
 # text = — Mia skribilaro konsistas el inkujo, sablujo, kelke da plumoj, krajono kaj inksorbilo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mia	mi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6626,7 +6346,7 @@
 16	inksorbilo	inksorbil	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_355
+# sent_id = fundamenta-ekzercaro_353
 # text = — Oni metis antaŭ mi manĝilaron, kiu konsistis el telero, kulero, tranĉilo, forko, glaseto por brando, glaso por vino kaj telertuketo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Oni	oni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -6659,7 +6379,7 @@
 27	telertuketo	telertuket	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 28	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_356
+# sent_id = fundamenta-ekzercaro_354
 # text = — En varmega tago mi amas promeni en arbaro. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -6672,7 +6392,7 @@
 9	arbaro	arbar	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_357
+# sent_id = fundamenta-ekzercaro_355
 # text = — Nia lando venkos, ĉar nia militistaro estas granda kaj brava. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Nia	ni	DET	PRPPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6688,7 +6408,7 @@
 12	brava	brav	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_358
+# sent_id = fundamenta-ekzercaro_356
 # text = — Sur kruta ŝtuparo li levis sin al la tegmento de la domo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -6705,7 +6425,7 @@
 13	domo	dom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_359
+# sent_id = fundamenta-ekzercaro_357
 # text = — Mi ne scias la lingvon hispanan, sed per helpo de vortaro hispana-germana mi tamen komprenis iom vian leteron. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6729,7 +6449,7 @@
 20	leteron	leter	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_360
+# sent_id = fundamenta-ekzercaro_358
 # text = — Sur tiuj ĉi vastaj kaj herboriĉaj kampoj paŝtas sin grandaj brutaroj, precipe aroj da bellanaj ŝafoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -6751,7 +6471,7 @@
 18	ŝafoj	ŝaf	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_361
+# sent_id = fundamenta-ekzercaro_359
 # text = Vi parolas sensencaĵon, mia amiko. 
 1	Vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
 2	parolas	parol	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
@@ -6761,7 +6481,7 @@
 6	amiko	amik	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_362
+# sent_id = fundamenta-ekzercaro_360
 # text = — Mi trinkis teon kun kuko kaj konfitaĵo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6773,7 +6493,7 @@
 8	konfitaĵo	konfitaĵ	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_363
+# sent_id = fundamenta-ekzercaro_361
 # text = — Akvo estas fluidaĵo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Akvo	akvo	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6782,7 +6502,7 @@
 4	fluidaĵo	fluidaĵ	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_364
+# sent_id = fundamenta-ekzercaro_362
 # text = — Mi ne volis trinki la vinon, ĉar ĝi enhavis en si ian suspektan malklaraĵon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6802,7 +6522,7 @@
 16	malklaraĵon	malklaraĵ	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_365
+# sent_id = fundamenta-ekzercaro_363
 # text = — Sur la tablo staris diversaj sukeraĵoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -6813,7 +6533,7 @@
 7	sukeraĵoj	sukeraĵ	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_366
+# sent_id = fundamenta-ekzercaro_364
 # text = — En tiuj ĉi boteletoj sin trovas diversaj acidoj: vinagro, sulfuracido, azotacido kaj aliaj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -6834,7 +6554,7 @@
 17	aliaj	ali	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_367
+# sent_id = fundamenta-ekzercaro_365
 # text = — Via vino estas nur ia abomena acidaĵo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Via	vi	DET	PRUPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6846,7 +6566,7 @@
 8	acidaĵo	acidaĵ	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_368
+# sent_id = fundamenta-ekzercaro_366
 # text = — La acideco de tiu ĉi vinagro estas tre malforta. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -6860,7 +6580,7 @@
 10	malforta	malfort	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_369
+# sent_id = fundamenta-ekzercaro_367
 # text = — Mi manĝis bongustan ovaĵon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6869,7 +6589,7 @@
 5	ovaĵon	ovaĵ	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_370
+# sent_id = fundamenta-ekzercaro_368
 # text = — Tiu ĉi granda altaĵo ne estas natura monto. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6882,7 +6602,7 @@
 9	monto	mont	NOUN	DFTNSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_371
+# sent_id = fundamenta-ekzercaro_369
 # text = — La alteco de tiu monto ne estas tre granda. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -6896,7 +6616,7 @@
 10	granda	grand	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_372
+# sent_id = fundamenta-ekzercaro_370
 # text = — Kiam mi ien veturas, mi neniam prenas kun mi multon da pakaĵo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -6914,7 +6634,7 @@
 14	pakaĵo	pakaĵ	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_373
+# sent_id = fundamenta-ekzercaro_371
 # text = — Ĉemizojn, kolumojn, manumojn kaj ceterajn similajn objektojn ni nomas tolaĵo, kvankam ili ne ĉiam estas faritaj el tolo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ĉemizojn	ĉemizojn	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -6941,7 +6661,7 @@
 22	tolo	tol	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_374
+# sent_id = fundamenta-ekzercaro_372
 # text = — Glaciaĵo estas dolĉa glaciigita frandaĵo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Glaciaĵo	glaciaĵo	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6952,7 +6672,7 @@
 6	frandaĵo	frandaĵ	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_375
+# sent_id = fundamenta-ekzercaro_373
 # text = — La riĉeco de tiu ĉi homo estas granda, sed lia malsaĝeco estas ankoraŭ pli granda. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -6973,7 +6693,7 @@
 17	granda	grand	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_376
+# sent_id = fundamenta-ekzercaro_374
 # text = — Li amas tiun ĉi knabinon pro ŝia beleco kaj boneco. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6988,7 +6708,7 @@
 11	boneco	bonec	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_377
+# sent_id = fundamenta-ekzercaro_375
 # text = — Lia heroeco tre plaĉis al mi. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Lia	li	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -6999,7 +6719,7 @@
 7	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_378
+# sent_id = fundamenta-ekzercaro_376
 # text = — La tuta supraĵo de la lago estis kovrita per naĝantaj folioj kaj diversaj aliaj kreskaĵoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7019,7 +6739,7 @@
 16	kreskaĵoj	kreskaĵ	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_379
+# sent_id = fundamenta-ekzercaro_377
 # text = — Mi vivas kun li en granda amikeco. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7031,7 +6751,7 @@
 8	amikeco	amikec	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_380
+# sent_id = fundamenta-ekzercaro_378
 # text = Patro kaj patrino kune estas nomataj gepatroj. 
 1	Patro	patr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
@@ -7042,7 +6762,7 @@
 7	gepatroj	gepatr	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_381
+# sent_id = fundamenta-ekzercaro_379
 # text = — Petro, Anno kaj Elizabeto estas miaj gefratoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Petro	petro	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -7058,7 +6778,7 @@
 9	gefratoj	gefrat	NOUN	SPRNPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_382
+# sent_id = fundamenta-ekzercaro_380
 # text = — Gesinjoroj N. hodiaŭ vespere venos al ni. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Gesinjoroj	gesinjoroj	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7073,7 +6793,7 @@
 9	ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_383
+# sent_id = fundamenta-ekzercaro_381
 # text = — Mi gratulis telegrafe la junajn geedzojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7084,7 +6804,7 @@
 7	geedzojn	geedz	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_384
+# sent_id = fundamenta-ekzercaro_382
 # text = — La gefianĉoj staris apud la altaro. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7095,7 +6815,7 @@
 7	altaro	altar	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_385
+# sent_id = fundamenta-ekzercaro_383
 # text = — La patro de mia edzino estas mia bopatro, mi estas lia bofilo, kaj mia patro estas la bopatro de mia edzino. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7123,7 +6843,7 @@
 24	edzino	edzin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_386
+# sent_id = fundamenta-ekzercaro_384
 # text = — Ĉiuj parencoj de mia edzino estas miaj boparencoj, sekve ŝia frato estas mia bofrato, ŝia fratino estas mia bofratino; mia frato kaj fratino (gefratoj) estas la bogefratoj de mia edzino. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ĉiuj	ĉiu	DET	KORDPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -7163,7 +6883,7 @@
 36	edzino	edzin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 37	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_387
+# sent_id = fundamenta-ekzercaro_385
 # text = — La edzino de mia nevo kaj la nevino de mia edzino estas miaj bonevinoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7182,7 +6902,7 @@
 15	bonevinoj	bonevin	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_388
+# sent_id = fundamenta-ekzercaro_386
 # text = — Virino, kiu kuracas, estas kuracistino; edzino de kuracisto estas kuracistedzino. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Virino	virino	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -7201,7 +6921,7 @@
 14	kuracistedzino	kuracistedzin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_389
+# sent_id = fundamenta-ekzercaro_387
 # text = — La doktoredzino A. vizitis hodiaŭ la gedoktorojn P. — Li ne estas lavisto, li estas lavistinedzo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7227,7 +6947,7 @@
 20	lavistinedzo	lavistinedz	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_390
+# sent_id = fundamenta-ekzercaro_388
 # text = — La filoj, nepoj kaj pranepoj de reĝo estas reĝidoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7242,7 +6962,7 @@
 11	reĝidoj	reĝid	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_391
+# sent_id = fundamenta-ekzercaro_389
 # text = — La hebreoj estas Izraelidoj, ĉar ili devenas de Izraelo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7259,7 +6979,7 @@
 11	Izraelo	izrael	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_392
+# sent_id = fundamenta-ekzercaro_390
 # text = — Ĉevalido estas nematura ĉevalo, kokido — nematura koko, bovido — nematura bovo, birdido — nematura birdo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ĉevalido	ĉevalido	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7284,7 +7004,7 @@
 20	birdo	bird	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_393
+# sent_id = fundamenta-ekzercaro_391
 # text = La ŝipanoj devas obei la ŝipestron. 
 1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
 2	ŝipanoj	ŝipan	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -7294,7 +7014,7 @@
 6	ŝipestron	ŝipestr	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_394
+# sent_id = fundamenta-ekzercaro_392
 # text = — Ĉiuj loĝantoj de regno estas regnanoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ĉiuj	ĉiu	DET	KORDPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -7305,7 +7025,7 @@
 7	regnanoj	regnan	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_395
+# sent_id = fundamenta-ekzercaro_393
 # text = — Urbanoj estas ordinare pli ruzaj, ol vilaĝanoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Urbanoj	urbanoj	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7319,7 +7039,7 @@
 9	vilaĝanoj	vilaĝan	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_396
+# sent_id = fundamenta-ekzercaro_394
 # text = — La regnestro de nia lando estas bona kaj saĝa reĝo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7334,7 +7054,7 @@
 11	reĝo	reĝ	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_397
+# sent_id = fundamenta-ekzercaro_395
 # text = — La Parizanoj estas gajaj homoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7345,7 +7065,7 @@
 6	homoj	hom	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_398
+# sent_id = fundamenta-ekzercaro_396
 # text = — Nia provincestro estas severa, sed justa. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Nia	ni	DET	PRPPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7357,7 +7077,7 @@
 8	justa	just	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_399
+# sent_id = fundamenta-ekzercaro_397
 # text = — Nia urbo havas bonajn policanojn, sed ne sufiĉe energian policestron. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Nia	ni	DET	PRPPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7373,7 +7093,7 @@
 12	policestron	policestr	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_400
+# sent_id = fundamenta-ekzercaro_398
 # text = — Luteranoj kaj Kalvinanoj estas kristanoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Luteranoj	luteranoj	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7385,7 +7105,7 @@
 6	kristanoj	kristan	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_401
+# sent_id = fundamenta-ekzercaro_399
 # text = — Germanoj kaj francoj, kiuj loĝas en Rusujo, estas Rusujanoj, kvankam ili ne estas rusoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Germanoj	germanoj	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7410,7 +7130,7 @@
 18	rusoj	rus	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_402
+# sent_id = fundamenta-ekzercaro_400
 # text = — Li estas nelerta kaj naiva provincano. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7421,7 +7141,7 @@
 7	provincano	provincan	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_403
+# sent_id = fundamenta-ekzercaro_401
 # text = — La loĝantoj de unu regno estas samregnanoj, la loĝantoj de unu urbo estas samurbanoj, la konfesantoj de unu religio estas samreligianoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7449,7 +7169,7 @@
 24	samreligianoj	samreligian	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_404
+# sent_id = fundamenta-ekzercaro_402
 # text = — Nia regimentestro estas por siaj soldatoj kiel bona patro. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Nia	ni	DET	PRPPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7464,7 +7184,7 @@
 10	patro	patr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_405
+# sent_id = fundamenta-ekzercaro_403
 # text = — La botisto faras botojn kaj ŝuojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7475,7 +7195,7 @@
 7	ŝuojn	ŝu	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_406
+# sent_id = fundamenta-ekzercaro_404
 # text = — La lignisto vendas lignon, kaj la lignaĵisto faras tablojn, seĝojn kaj aliajn lignajn objektojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7496,7 +7216,7 @@
 17	objektojn	objekt	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_407
+# sent_id = fundamenta-ekzercaro_405
 # text = — Ŝteliston neniu lasas en sian domon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ŝteliston	Ŝtelisto	PROPN	PROPSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7509,7 +7229,7 @@
 7	domon	dom	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_408
+# sent_id = fundamenta-ekzercaro_406
 # text = — La kuraĝa maristo dronis en la maro. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7521,7 +7241,7 @@
 8	maro	mar	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_409
+# sent_id = fundamenta-ekzercaro_407
 # text = — Verkisto verkas librojn, kaj skribisto simple transskribas paperojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Verkisto	verkisto	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7536,7 +7256,7 @@
 10	paperojn	paper	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_410
+# sent_id = fundamenta-ekzercaro_408
 # text = — Ni havas diversajn servantojn: kuiriston, ĉambristinon, infanistinon kaj veturigiston. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -7553,7 +7273,7 @@
 13	veturigiston	veturigist	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_411
+# sent_id = fundamenta-ekzercaro_409
 # text = — La riĉulo havas multe da mono. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7564,7 +7284,7 @@
 7	mono	mon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_412
+# sent_id = fundamenta-ekzercaro_410
 # text = — Malsaĝulon ĉiu batas. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Malsaĝulon	Malsaĝulo	PROPN	PROPSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7574,7 +7294,7 @@
 4	batas	bat	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_413
+# sent_id = fundamenta-ekzercaro_411
 # text = — Timulo timas eĉ sian propran ombron. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Timulo	timulo	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7586,7 +7306,7 @@
 7	ombron	ombr	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_414
+# sent_id = fundamenta-ekzercaro_412
 # text = — Li estas mensogisto kaj malnoblulo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7596,7 +7316,7 @@
 6	malnoblulo	malnoblul	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_415
+# sent_id = fundamenta-ekzercaro_413
 # text = — Preĝu al la Sankta Virgulino. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Preĝu	preĝu	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7609,7 +7329,7 @@
 6	Virgulino	virgulin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_416
+# sent_id = fundamenta-ekzercaro_414
 # text = Mi aĉetis por la infanoj tableton kaj kelke da seĝetoj. 
 1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	aĉetis	aĉet	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
@@ -7624,7 +7344,7 @@
 10	seĝetoj	seĝet	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_417
+# sent_id = fundamenta-ekzercaro_415
 # text = — En nia lando sin ne trovas montoj, sed nur montetoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -7640,7 +7360,7 @@
 12	montetoj	montet	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_418
+# sent_id = fundamenta-ekzercaro_416
 # text = — Tuj post la hejto la forno estis varmega, post unu horo ĝi estis jam nur varma, post du horoj ĝi estis nur iom varmeta, kaj post tri horoj ĝi estis jam tute malvarma. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Tuj	tuj	ADV	ADV	_	_	_	_	SpaceAfter=Yes
@@ -7681,7 +7401,7 @@
 37	malvarma	malvarm	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 38	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_419
+# sent_id = fundamenta-ekzercaro_417
 # text = — En somero ni trovas malvarmeton en densaj arbaroj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -7694,7 +7414,7 @@
 9	arbaroj	arbar	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_420
+# sent_id = fundamenta-ekzercaro_418
 # text = — Li sidas apud la tablo kaj dormetas. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7706,7 +7426,7 @@
 8	dormetas	dormet	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_421
+# sent_id = fundamenta-ekzercaro_419
 # text = — Mallarĝa vojeto kondukas tra tiu ĉi kampo al nia domo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mallarĝa	mallarĝa	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7722,7 +7442,7 @@
 11	domo	dom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_422
+# sent_id = fundamenta-ekzercaro_420
 # text = — Sur lia vizaĝo mi vidis ĝojan rideton. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -7734,7 +7454,7 @@
 8	rideton	ridet	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_423
+# sent_id = fundamenta-ekzercaro_421
 # text = — Kun bruo oni malfermis la pordegon, kaj la kaleŝo enveturis en la korton. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kun	kun	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -7753,7 +7473,7 @@
 15	korton	kort	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_424
+# sent_id = fundamenta-ekzercaro_422
 # text = Tio ĉi estis jam ne simpla pluvo, sed pluvego. 
 1	Tio	tio	PRON	KORPRUN	Case=Nom	_	_	_	SpaceAfter=Yes
 2	ĉi	ĉi	PART	PART	_	_	_	_	SpaceAfter=Yes
@@ -7767,7 +7487,7 @@
 10	pluvego	pluveg	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_425
+# sent_id = fundamenta-ekzercaro_423
 # text = — Grandega hundo metis sur min sian antaŭan piedegon, kaj mi de teruro ne sciis, kion fari, — Antaŭ nia militistaro staris granda serio da pafilegoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Grandega	grandega	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7801,7 +7521,7 @@
 29	pafilegoj	pafileg	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 30	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_426
+# sent_id = fundamenta-ekzercaro_424
 # text = — Johanon, Nikolaon, Erneston, Vilhelmon, Marion, Klaron kaj Sofion iliaj gepatroj nomas Johanĉjo (aŭ Joĉjo), Nikolĉjo (aŭ Nikoĉjo aŭ Nikĉjo aŭ Niĉjo), Erneĉjo (aŭ Erĉjo), Vilhelĉjo (aŭ Vilheĉjo aŭ Vilĉjo aŭ Viĉjo), Manjo (aŭ Marinjo), Klanjo kaj Sonjo (aŭ Sofinjo). 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Johanon	Johano	PROPN	PROPSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
@@ -7898,7 +7618,7 @@
 62	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
 63	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_427
+# sent_id = fundamenta-ekzercaro_425
 # text = En la kota vetero mia vesto forte malpuriĝis; tial mi prenis broson kaj purigis la veston. 
 1	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
 2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -7919,7 +7639,7 @@
 17	veston	vest	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_428
+# sent_id = fundamenta-ekzercaro_426
 # text = — Li paliĝis de timo kaj poste li ruĝiĝis de honto. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7934,7 +7654,7 @@
 11	honto	hont	NOUN	DFTNSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_429
+# sent_id = fundamenta-ekzercaro_427
 # text = — Li fianĉiĝis kun fraŭlino Berto; post tri monatoj estos la edziĝo; la edziĝa soleno estos en la nova preĝejo, kaj la edziĝa festo estos en la domo de liaj estontaj bogepatroj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7974,7 +7694,7 @@
 35	bogepatroj	bogepatr	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 36	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_430
+# sent_id = fundamenta-ekzercaro_428
 # text = — Tiu ĉi maljunulo tute malsaĝiĝis kaj infaniĝis. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -7986,7 +7706,7 @@
 8	infaniĝis	infaniĝ	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_431
+# sent_id = fundamenta-ekzercaro_429
 # text = — Post infekta malsano oni ofte bruligas la vestojn de la malsanulo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Post	post	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -8002,7 +7722,7 @@
 12	malsanulo	malsanul	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_432
+# sent_id = fundamenta-ekzercaro_430
 # text = — Forigu vian fraton, ĉar li malhelpas al ni. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Forigu	forigu	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8017,7 +7737,7 @@
 10	ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_433
+# sent_id = fundamenta-ekzercaro_431
 # text = — Ŝi edziniĝis kun sia kuzo, kvankam ŝiaj gepatroj volis ŝin edzinigi kun alia persono. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ŝi	ŝi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8037,7 +7757,7 @@
 16	persono	person	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_434
+# sent_id = fundamenta-ekzercaro_432
 # text = — En la printempo la glacio kaj la neĝo fluidiĝas. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -8051,7 +7771,7 @@
 10	fluidiĝas	fluidiĝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_435
+# sent_id = fundamenta-ekzercaro_433
 # text = — Venigu la kuraciston, ĉar mi estas malsana. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Venigu	venigu	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8065,7 +7785,7 @@
 9	malsana	malsan	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_436
+# sent_id = fundamenta-ekzercaro_434
 # text = — Li venigis al si el Berlino multajn librojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8079,7 +7799,7 @@
 9	librojn	libr	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_437
+# sent_id = fundamenta-ekzercaro_435
 # text = — Mia onklo ne mortis per natura morto, sed li tamen ne mortigis sin mem kaj ankaŭ estis mortigita de neniu; unu tagon, promenante apud la reloj de fervojo, li falis sub la radojn de veturanta vagonaro kaj mortiĝis. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mia	mi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8126,7 +7846,7 @@
 43	mortiĝis	mortiĝ	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=No
 44	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_438
+# sent_id = fundamenta-ekzercaro_436
 # text = — Mi ne pendigis mian ĉapon sur tiu ĉi arbeto; sed la vento forblovis de mia kapo la ĉapon, kaj ĝi, flugante, pendiĝis sur la branĉoj de la arbeto. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8163,7 +7883,7 @@
 33	arbeto	arbet	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 34	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_439
+# sent_id = fundamenta-ekzercaro_437
 # text = — Sidigu vin (aŭ sidiĝu), sinjoro! 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sidigu	sidigu	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8177,7 +7897,7 @@
 9	sinjoro	sinjor	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 10	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_440
+# sent_id = fundamenta-ekzercaro_438
 # text = — La junulo aliĝis al nia militistaro kaj kuraĝe batalis kune kun ni kontraŭ niaj malamikoj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -8197,7 +7917,7 @@
 16	malamikoj	malamik	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_441
+# sent_id = fundamenta-ekzercaro_439
 # text = En la daŭro de kelke da minutoj mi aŭdis du pafojn. 
 1	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
 2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -8212,7 +7932,7 @@
 11	pafojn	paf	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_442
+# sent_id = fundamenta-ekzercaro_440
 # text = — La pafado daŭris tre longe. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -8222,7 +7942,7 @@
 6	longe	long	ADV	ADE	_	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_443
+# sent_id = fundamenta-ekzercaro_441
 # text = — Mi eksaltis de surprizo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8231,7 +7951,7 @@
 5	surprizo	surpriz	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_444
+# sent_id = fundamenta-ekzercaro_442
 # text = — Mi saltas tre lerte. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8240,7 +7960,7 @@
 5	lerte	lert	ADV	ADE	_	_	_	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_445
+# sent_id = fundamenta-ekzercaro_443
 # text = — Mi saltadis la tutan tagon de loko al loko. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8254,7 +7974,7 @@
 10	loko	lok	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_446
+# sent_id = fundamenta-ekzercaro_444
 # text = — Lia hieraŭa parolo estis tre bela, sed la tro multa parolado lacigas lin. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Lia	li	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8273,7 +7993,7 @@
 15	lin	li	PRON	PRSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_447
+# sent_id = fundamenta-ekzercaro_445
 # text = — Kiam vi ekparolis, ni atendis aŭdi ion novan, sed baldaŭ ni vidis, ke ni trompiĝis, — Li kantas tre belan kanton. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
@@ -8303,7 +8023,7 @@
 26	kanton	kant	NOUN	DPRNSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 27	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_448
+# sent_id = fundamenta-ekzercaro_446
 # text = — La kantado estas agrabla okupo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -8313,7 +8033,7 @@
 6	okupo	okup	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_449
+# sent_id = fundamenta-ekzercaro_447
 # text = — La diamanto havas belan brilon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -8323,7 +8043,7 @@
 6	brilon	bril	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_450
+# sent_id = fundamenta-ekzercaro_448
 # text = — Du ekbriloj de fulmo trakuris tra la malluma ĉielo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Du	du	NUM	NUM	_	_	_	_	SpaceAfter=Yes
@@ -8337,7 +8057,7 @@
 10	ĉielo	ĉiel	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_451
+# sent_id = fundamenta-ekzercaro_449
 # text = — La domo, en kiu oni lernas, estas lernejo, kaj la domo, en kiu oni preĝas, estas preĝejo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -8364,7 +8084,7 @@
 23	preĝejo	preĝej	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 24	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_452
+# sent_id = fundamenta-ekzercaro_450
 # text = — La kuiristo sidas en la kuirejo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -8375,7 +8095,7 @@
 7	kuirejo	kuirej	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_453
+# sent_id = fundamenta-ekzercaro_451
 # text = — La kuracisto konsilis al mi iri en ŝvitbanejon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -8388,7 +8108,7 @@
 9	ŝvitbanejon	ŝvitbanej	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_454
+# sent_id = fundamenta-ekzercaro_452
 # text = — Magazeno, en kiu oni vendas cigarojn, aŭ ĉambro, en kiu oni tenas cigarojn, estas cigarejo; skatoleto aŭ alia objekto, en kiu oni tenas cigarojn, estas cigarujo; tubeto, en kiun oni metas cigaron, kiam oni ĝin fumas, estas cigaringo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Magazeno	magazeno	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -8443,7 +8163,7 @@
 50	cigaringo	cigaring	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 51	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_455
+# sent_id = fundamenta-ekzercaro_453
 # text = — Skatolo, en kiu oni tenas plumojn, estas plumujo, kaj bastoneto, sur kiu oni tenas plumon por skribado, estas plumingo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Skatolo	skatolo	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -8474,7 +8194,7 @@
 25	plumingo	pluming	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 26	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_456
+# sent_id = fundamenta-ekzercaro_454
 # text = — En la kandelingo sidis brulanta kandelo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -8485,7 +8205,7 @@
 7	kandelo	kandel	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_457
+# sent_id = fundamenta-ekzercaro_455
 # text = — En la poŝo de mia pantalono mi portas monujon, kaj en la poŝo de mia surtuto mi portas paperujon; pli grandan paperujon mi portas sub la brako. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -8519,7 +8239,7 @@
 30	brako	brak	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 31	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_458
+# sent_id = fundamenta-ekzercaro_456
 # text = — La rusoj loĝas en Rusujo kaj la germanoj en Germanujo. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -8536,7 +8256,7 @@
 11	Germanujo	germanuj	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_459
+# sent_id = fundamenta-ekzercaro_457
 # text = Ŝtalo estas fleksebla, sed fero ne estas fleksebla. 
 1	Ŝtalo	ŝtal	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
@@ -8549,7 +8269,7 @@
 9	fleksebla	fleksebl	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_460
+# sent_id = fundamenta-ekzercaro_458
 # text = — Vitro estas rompebla kaj travidebla. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Vitro	vitro	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8560,7 +8280,7 @@
 6	travidebla	travidebl	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_461
+# sent_id = fundamenta-ekzercaro_459
 # text = — Ne ĉiu kreskaĵo estas manĝebla. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
@@ -8570,7 +8290,7 @@
 6	manĝebla	manĝebl	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_462
+# sent_id = fundamenta-ekzercaro_460
 # text = — Via parolo estas tute nekomprenebla kaj viaj leteroj estas ĉiam skribitaj tute nelegeble. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Via	vi	DET	PRUPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8588,7 +8308,7 @@
 14	nelegeble	nelegebl	ADV	ADE	_	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_463
+# sent_id = fundamenta-ekzercaro_461
 # text = — Rakontu al mi vian malfeliĉon, ĉar eble mi povos helpi al vi. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Rakontu	rakontu	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8607,7 +8327,7 @@
 14	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_464
+# sent_id = fundamenta-ekzercaro_462
 # text = — Li rakontis al mi historion tute nekredeblan. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8619,7 +8339,7 @@
 8	nekredeblan	nekredebl	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_465
+# sent_id = fundamenta-ekzercaro_463
 # text = — Ĉu vi amas vian patron? 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Ĉu	ĉu	PART	PART	_	_	_	_	SpaceAfter=Yes
@@ -8630,13 +8350,13 @@
 6	patron	patr	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 7	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_466
+# sent_id = fundamenta-ekzercaro_464
 # text = Kia demando! 
 1	Kia	kia	DET	DEMASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	demando	demand	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 3	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_467
+# sent_id = fundamenta-ekzercaro_465
 # text = kompreneble, ke mi lin amas. 
 1	kompreneble	komprenebl	ADV	ADE	_	_	_	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
@@ -8646,7 +8366,7 @@
 6	amas	am	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_468
+# sent_id = fundamenta-ekzercaro_466
 # text = — Mi kredeble ne povos veni al vi hodiaŭ, ĉar mi pensas, ke mi mem havos hodiaŭ gastojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8670,7 +8390,7 @@
 20	gastojn	gast	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_469
+# sent_id = fundamenta-ekzercaro_467
 # text = — Li estas homo ne kredinda. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8680,7 +8400,7 @@
 6	kredinda	kredind	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_470
+# sent_id = fundamenta-ekzercaro_468
 # text = — Via ago estas tre laŭdinda. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Via	vi	DET	PRUPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8690,7 +8410,7 @@
 6	laŭdinda	laŭdind	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_471
+# sent_id = fundamenta-ekzercaro_469
 # text = — Tiu ĉi grava tago restos por mi ĉiam memorinda. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8705,7 +8425,7 @@
 10	memorinda	memorind	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_472
+# sent_id = fundamenta-ekzercaro_470
 # text = — Lia edzino estas tre laborema kaj ŝparema, sed ŝi estas ankaŭ tre babilema kaj kriema. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Lia	li	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8726,7 +8446,7 @@
 17	kriema	kriem	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_473
+# sent_id = fundamenta-ekzercaro_471
 # text = Li estas tre ekkolerema kaj ekscitiĝas ofte ĉe la plej malgranda bagatelo; tamen li estas tre pardonema, li ne portas longe la koleron kaj li tute ne estas venĝema. 
 1	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
@@ -8761,7 +8481,7 @@
 31	venĝema	venĝem	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 32	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_474
+# sent_id = fundamenta-ekzercaro_472
 # text = — Li estas tre kredema: eĉ la plej nekredeblajn aferojn, kiujn rakontas al li la plej nekredindaj homoj, li tuj kredas. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8789,7 +8509,7 @@
 24	kredas	kred	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_475
+# sent_id = fundamenta-ekzercaro_473
 # text = — Centimo, pfenigo kaj kopeko estas moneroj. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Centimo	centimo	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
@@ -8802,7 +8522,7 @@
 8	moneroj	moner	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_476
+# sent_id = fundamenta-ekzercaro_474
 # text = — Sablero enfalis en mian okulon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sablero	sablero	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8813,7 +8533,7 @@
 6	okulon	okul	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_477
+# sent_id = fundamenta-ekzercaro_475
 # text = — Li estas tre purema, kaj eĉ unu polveron vi ne trovos sur lia vesto. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8833,7 +8553,7 @@
 16	vesto	vest	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_478
+# sent_id = fundamenta-ekzercaro_476
 # text = — Unu fajrero estas sufiĉa, por eksplodigi pulvon. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Unu	unu	NUM	NUM	_	_	_	_	SpaceAfter=Yes
@@ -8847,7 +8567,7 @@
 9	pulvon	pulv	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_479
+# sent_id = fundamenta-ekzercaro_477
 # text = Ni ĉiuj kunvenis, por priparoli tre gravan aferon; sed ni ne povis atingi ian rezultaton, kaj ni disiris. 
 1	Ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
 2	ĉiuj	ĉiu	DET	KORDPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
@@ -8873,7 +8593,7 @@
 21	disiris	disir	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=No
 22	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_480
+# sent_id = fundamenta-ekzercaro_478
 # text = — Malfeliĉo ofte kunigas la homojn, kaj feliĉo ofte disigas ilin. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Malfeliĉo	malfeliĉo	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8890,7 +8610,7 @@
 12	ilin	ili	PRON	PRPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_481
+# sent_id = fundamenta-ekzercaro_479
 # text = — Mi disŝiris la leteron kaj disĵetis ĝiajn pecetojn en ĉiujn angulojn de la ĉambro. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8909,7 +8629,7 @@
 15	ĉambro	ĉambr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_482
+# sent_id = fundamenta-ekzercaro_480
 # text = — Li donis al mi monon, sed mi ĝin tuj redonis al li. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8927,7 +8647,7 @@
 14	li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_483
+# sent_id = fundamenta-ekzercaro_481
 # text = — Mi foriras, sed atendu min, ĉar mi baldaŭ revenos. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8943,7 +8663,7 @@
 12	revenos	reven	VERB	VFT	Mood=Ind|Tense=Fut	_	_	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_484
+# sent_id = fundamenta-ekzercaro_482
 # text = — La suno rebrilas en la klara akvo de la rivero. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
@@ -8958,7 +8678,7 @@
 11	rivero	river	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_485
+# sent_id = fundamenta-ekzercaro_483
 # text = — Mi diris al la reĝo: via reĝa moŝto, pardonu min! 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -8975,7 +8695,7 @@
 13	min	mi	PRON	PRSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 14	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_486
+# sent_id = fundamenta-ekzercaro_484
 # text = — El la tri leteroj unu estis adresita: al Lia Episkopa Moŝto, Sinjoro N.; la dua: al Lia Grafa Moŝto, Sinjoro P.; la tria: al Lia Moŝto, Sinjoro D. — La sufikso “um” ne havas difinitan signifon, kaj tial la (tre malmultajn) vortojn kun “um” oni devas lerni, kiel simplajn vortojn. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	El	el	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -9056,7 +8776,7 @@
 68	vortojn	vort	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
 69	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_487
+# sent_id = fundamenta-ekzercaro_485
 # text = Ekzemple: plenumi, kolumo, manumo. 
 1	Ekzemple	ekzempl	ADV	ADE	_	_	_	_	SpaceAfter=No
 2	:	:	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
@@ -9067,7 +8787,7 @@
 7	manumo	manum	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_488
+# sent_id = fundamenta-ekzercaro_486
 # text = — Mi volonte plenumis lian deziron. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
@@ -9077,7 +8797,7 @@
 6	deziron	dezir	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_489
+# sent_id = fundamenta-ekzercaro_487
 # text = — En malbona vetero oni povas facile malvarmumi. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
@@ -9089,7 +8809,7 @@
 8	malvarmumi	malvarmum	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
-# sent_id = fundamenta-ekzercaro_490
+# sent_id = fundamenta-ekzercaro_488
 # text = — Sano, sana, sane, sani, sanu, saniga, saneco, sanilo, sanigi, saniĝi, sanejo, sanisto, sanulo, malsano, malsana, malsane, malsani, malsanulo, malsaniga, malsaniĝi, malsaneta, malsanema, malsanulejo, malsanulisto, malsanero, malsaneraro, sanigebla, sanigisto, sanigilo, resanigi, resaniĝanto, sanigilejo, sanigejo, malsanemulo, sanilaro, malsanaro, malsanulido, nesana, malsanado, sanulaĵo, malsaneco, malsanemeco, saniginda, sanilujo, sanigilujo, remalsano, remalsaniĝo, malsanulino, sanigista, sanigilista, sanilista, malsanulista k. t. p. 
 1	—	—	SYM	SYM	_	_	_	_	SpaceAfter=Yes
 2	Sano	sano	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No

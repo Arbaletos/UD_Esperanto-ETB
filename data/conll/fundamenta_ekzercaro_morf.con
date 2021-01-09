@@ -736,3 +736,250 @@
 10	leteron	leter	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
+# sent_id = fundamenta-ekzercaro_0
+# text = Papero estas blanka. 
+1	Papero	paper	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_1
+# text = Blanka papero kuŝas sur la tablo. 
+1	Blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	papero	paper	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	kuŝas	kuŝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+5	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+6	tablo	tabl	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_2
+# text = La blanka papero jam ne kuŝas sur la tablo. 
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	papero	paper	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+4	jam	jam	ADV	ADV	_	_	_	_	SpaceAfter=Yes
+5	ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
+6	kuŝas	kuŝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+7	sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+8	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+9	tablo	tabl	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_3
+# text = Jen estas la kajero de la juna fraŭlino. 
+1	Jen	jen	PART	PART	_	_	_	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+4	kajero	kajer	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+5	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+6	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+7	juna	jun	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+8	fraŭlino	fraŭlin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_4
+# text = La patro donis al mi dolĉan pomon. 
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	patro	patr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	donis	don	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
+4	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+5	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+6	dolĉan	dolĉ	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+7	pomon	pom	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_5
+# text = Rakontu al mia juna amiko belan historion. 
+1	Rakontu	rakont	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=Yes
+2	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+3	mia	mi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+4	juna	jun	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+5	amiko	amik	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+6	belan	bel	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+7	historion	histori	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_6
+# text = Mi ne amas obstinajn homojn. 
+1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
+3	amas	am	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	obstinajn	obstin	ADJ	APA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=Yes
+5	homojn	hom	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_7
+# text = Mi deziras al vi bonan tagon, sinjoro! 
+1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	deziras	dezir	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+4	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
+5	bonan	bon	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+6	tagon	tag	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+8	sinjoro	sinjor	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+9	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_8
+# text = Bonan matenon! 
+1	Bonan	bon	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+2	matenon	maten	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+3	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_9
+# text = Ĝojan feston! (mi deziras al vi). 
+1	Ĝojan	ĝoj	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+2	feston	fest	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+3	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+4	(	(	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+5	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+6	deziras	dezir	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+7	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+8	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=No
+9	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_10
+# text = Kia ĝoja festo! (estas hodiaŭ). 
+1	Kia	kia	DET	DEMASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	ĝoja	ĝoj	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	festo	fest	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+4	!	!	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+5	(	(	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+6	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+7	hodiaŭ	hodiaŭ	ADV	ADV	_	_	_	_	SpaceAfter=No
+8	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_11
+# text = Sur la ĉielo staras la bela suno. 
+1	Sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+3	ĉielo	ĉiel	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+4	staras	star	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+5	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+6	bela	bel	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+7	suno	sun	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_12
+# text = En la tago ni vidas la helan sunon, kaj en la nokto ni vidas la palan lunon kaj la belajn stelojn. 
+1	En	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+3	tago	tag	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+4	ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+5	vidas	vid	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+6	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+7	helan	hel	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+8	sunon	sun	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+10	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+11	en	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+12	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+13	nokto	nokt	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+14	ni	ni	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+15	vidas	vid	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+16	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+17	palan	pal	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+18	lunon	lun	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+19	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+20	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+21	belajn	bel	ADJ	APA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=Yes
+22	stelojn	stel	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_13
+# text = La papero estas tre blanka, sed la neĝo estas pli blanka. 
+1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+2	papero	paper	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	tre	tre	PART	PART	_	_	_	_	SpaceAfter=Yes
+5	blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+7	sed	sed	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+8	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+9	neĝo	neĝ	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+10	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+11	pli	pli	PART	PART	_	_	_	_	SpaceAfter=Yes
+12	blanka	blank	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_14
+# text = Lakto estas pli nutra, ol vino. 
+1	Lakto	lakt	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	pli	pli	PART	PART	_	_	_	_	SpaceAfter=Yes
+4	nutra	nutr	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+6	ol	ol	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+7	vino	vin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_15
+# text = Mi havas pli freŝan panon, ol vi. 
+1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	havas	hav	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	pli	pli	PART	PART	_	_	_	_	SpaceAfter=Yes
+4	freŝan	freŝ	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+5	panon	pan	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+7	ol	ol	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+8	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_16
+# text = Ne, vi eraras, sinjoro: via pano estas malpli freŝa, ol mia. 
+1	Ne	ne	PART	PART	_	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+3	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
+4	eraras	erar	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+6	sinjoro	sinjor	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+7	:	:	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+8	via	vi	DET	PRUPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+9	pano	pan	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+10	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+11	malpli	malpli	PART	PART	_	_	_	_	SpaceAfter=Yes
+12	freŝa	freŝ	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+14	ol	ol	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+15	mia	mi	DET	PRSPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_17
+# text = El ĉiuj miaj infanoj Ernesto estas la plej juna. 
+1	El	el	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+2	ĉiuj	ĉiu	DET	KORDPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+3	miaj	mi	DET	PRSPPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+4	infanoj	infan	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+5	Ernesto	Ernesto	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+6	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+7	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+8	plej	plej	PART	PART	_	_	_	_	SpaceAfter=Yes
+9	juna	jun	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_18
+# text = Mi estas tiel forta, kiel vi. 
+1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	tiel	tiel	ADV	KORADV	_	_	_	_	SpaceAfter=Yes
+4	forta	fort	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+6	kiel	kiel	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
+7	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_19
+# text = El ĉiuj siaj fratoj Antono estas la malplej saĝa. 
+1	El	el	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+2	ĉiuj	ĉiu	DET	KORDPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+3	siaj	si	DET	PRSPPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+4	fratoj	frat	NOUN	SPRNPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+5	Antono	Antono	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+6	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+7	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+8	malplej	malplej	PART	PART	_	_	_	_	SpaceAfter=Yes
+9	saĝa	saĝ	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
