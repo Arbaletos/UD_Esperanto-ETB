@@ -130,7 +130,7 @@ class MorfParser:
     if token.is_capital() and not new_sent: #If this word definetely proper
       if token.form.endswith('on'):
         ret.append(self.add_pos(token, 'PROPN', 'PROPSA', token.form[:-1]))
-      ret.append(self.add_pos(token, 'PROPN', 'PROPSN'))
+      ret.append(self.add_pos(token, 'PROPN', 'PROPSN', token.form[:]))
       
     if token.is_foreign(): #Don't parse foreign word by ending.
       return ret+[self.add_pos(token, 'X')]
