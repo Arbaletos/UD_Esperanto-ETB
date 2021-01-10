@@ -95,7 +95,7 @@ class MorfParser:
   def parse(self, sent, disamb=False):
     ret = []
     for i, t in enumerate(sent.tokens):
-      parsoj = self.get_tag(t, i==0)
+      parsoj = self.get_tag(t, i==0 or all([r.upos in ['PUNCT', 'SYM', 'X'] for r in ret]))
       
       for p in parsoj:
           self.get_feats(p)
