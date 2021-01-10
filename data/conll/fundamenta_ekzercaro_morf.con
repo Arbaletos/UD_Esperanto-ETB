@@ -304,7 +304,7 @@
 2	rozo	roz	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
 3	apartenas	aparten	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
 4	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-5	Teodoro	teodoro	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+5	Teodoro	Teodoro	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 
 # sent_id = fundamenta_ekzercaro_morf_59
@@ -562,7 +562,7 @@
 
 # sent_id = fundamenta_ekzercaro_morf_86
 # text = Ludoviko, donu al mi panon. 
-1	Ludoviko	ludoviko	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+1	Ludoviko	Ludoviko	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
 3	donu	don	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=Yes
 4	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
