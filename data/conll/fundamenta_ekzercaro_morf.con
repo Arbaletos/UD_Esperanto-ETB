@@ -1343,3 +1343,369 @@
 15	tridek	tridek	NUM	NUM	_	_	_	_	SpaceAfter=Yes
 16	dua	du	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_0
+# text = Ĉar ĉiu amas ordinare personon, kiu estas simila al li, tial tiu ĉi patrino varmege amis sian pli maljunan filinon, kaj en tiu sama tempo ŝi havis teruran malamon kontraŭ la pli juna. 
+1	Ĉar	ĉar	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+2	ĉiu	ĉiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	amas	am	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	ordinare	ordinar	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+5	personon	person	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+7	kiu	kiu	DET	DEMDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+8	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+9	simila	simil	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+10	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+11	li	li	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+13	tial	tial	ADV	KORADV	_	_	_	_	SpaceAfter=Yes
+14	tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+15	ĉi	ĉi	PART	PART	_	_	_	_	SpaceAfter=Yes
+16	patrino	patrin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+17	varmege	varmeg	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+18	amis	am	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
+19	sian	si	DET	PRSPSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+20	pli	pli	PART	PART	_	_	_	_	SpaceAfter=Yes
+21	maljunan	maljun	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+22	filinon	filin	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+24	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+25	en	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+26	tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+27	sama	sam	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+28	tempo	temp	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+29	ŝi	ŝi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+30	havis	hav	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
+31	teruran	terur	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+32	malamon	malam	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+33	kontraŭ	kontraŭ	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+34	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+35	pli	pli	PART	PART	_	_	_	_	SpaceAfter=Yes
+36	juna	jun	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+37	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_1
+# text = Ŝi devigis ŝin manĝi en la kuirejo kaj laboradi senĉese. 
+1	Ŝi	ŝi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	devigis	devig	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
+3	ŝin	ŝi	PRON	PRSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+4	manĝi	manĝ	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
+5	en	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+6	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+7	kuirejo	kuirej	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+8	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+9	laboradi	laborad	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
+10	senĉese	senĉes	ADV	ADE	_	_	_	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_2
+# text = Inter aliaj aferoj tiu ĉi malfeliĉa infano devis du fojojn en ĉiu tago iri ĉerpi akvon en tre malproksima loko kaj alporti domen plenan grandan kruĉon. 
+1	Inter	inter	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+2	aliaj	ali	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+3	aferoj	afer	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+4	tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+5	ĉi	ĉi	PART	PART	_	_	_	_	SpaceAfter=Yes
+6	malfeliĉa	malfeliĉ	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+7	infano	infan	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+8	devis	dev	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
+9	du	du	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+10	fojojn	foj	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=Yes
+11	en	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+12	ĉiu	ĉiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+13	tago	tag	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+14	iri	ir	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
+15	ĉerpi	ĉerp	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
+16	akvon	akv	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+17	en	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+18	tre	tre	PART	PART	_	_	_	_	SpaceAfter=Yes
+19	malproksima	malproksim	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+20	loko	lok	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+21	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+22	alporti	alport	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
+23	domen	dom	ADV	ADD	_	_	_	_	SpaceAfter=Yes
+24	plenan	plen	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+25	grandan	grand	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+26	kruĉon	kruĉ	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_3
+# text = Mi havas cent pomojn. 
+1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	havas	hav	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	cent	cent	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+4	pomojn	pom	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_4
+# text = Mi havas centon da pomoj. 
+1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	havas	hav	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	centon	cent	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+4	da	da	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+5	pomoj	pom	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_5
+# text = Tiu ĉi urbo havas milionon da loĝantoj. 
+1	Tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	ĉi	ĉi	PART	PART	_	_	_	_	SpaceAfter=Yes
+3	urbo	urb	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+4	havas	hav	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+5	milionon	milion	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+6	da	da	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+7	loĝantoj	loĝant	NOUN	DPRNPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_6
+# text = Mi aĉetis dekduon (aŭ dek-duon) da kuleroj kaj du dekduojn da forkoj. 
+1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	aĉetis	aĉet	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
+3	dekduon	dekdu	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+4	(	(	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+5	aŭ	aŭ	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+6	dek-duon	dek-duon	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+7	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+8	da	da	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+9	kuleroj	kuler	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+10	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+11	du	du	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+12	dekduojn	dekdu	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=Yes
+13	da	da	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+14	forkoj	fork	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_7
+# text = Mil jaroj (aŭ milo da jaroj) faras miljaron. 
+1	Mil	mil	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+2	jaroj	jar	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+3	(	(	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+4	aŭ	aŭ	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+5	milo	mil	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+6	da	da	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+7	jaroj	jar	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+8	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+9	faras	far	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+10	miljaron	miljar	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_8
+# text = Unue mi redonas al vi la monon, kiun vi pruntis al mi; due mi dankas vin por la prunto; trie mi petas vin ankaŭ poste prunti al mi, kiam mi bezonos monon. 
+1	Unue	unu	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+2	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	redonas	redon	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+5	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
+6	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+7	monon	mon	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+9	kiun	kiu	DET	DEMDSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+10	vi	vi	PRON	PRUN	Case=Nom	_	_	_	SpaceAfter=Yes
+11	pruntis	prunt	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
+12	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+13	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+14	;	;	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+15	due	du	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+16	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+17	dankas	dank	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+18	vin	vi	PRON	PRUA	Case=Acc	_	_	_	SpaceAfter=Yes
+19	por	por	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+20	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+21	prunto	prunt	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+22	;	;	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+23	trie	tri	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+24	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+25	petas	pet	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+26	vin	vi	PRON	PRUA	Case=Acc	_	_	_	SpaceAfter=Yes
+27	ankaŭ	ankaŭ	PART	PART	_	_	_	_	SpaceAfter=Yes
+28	poste	post	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+29	prunti	prunt	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
+30	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+31	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+33	kiam	kiam	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
+34	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+35	bezonos	bezon	VERB	VFT	Mood=Ind|Tense=Fut	_	_	_	SpaceAfter=Yes
+36	monon	mon	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+37	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_9
+# text = Por ĉiu tago mi ricevas kvin frankojn, sed por la hodiaŭa tago mi ricevis duoblan pagon, t. e. (= tio estas) dek frankojn. 
+1	Por	por	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+2	ĉiu	ĉiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	tago	tag	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+4	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+5	ricevas	ricev	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+6	kvin	kvin	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+7	frankojn	frank	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+9	sed	sed	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+10	por	por	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+11	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+12	hodiaŭa	hodiaŭ	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+13	tago	tag	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+14	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+15	ricevis	ricev	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
+16	duoblan	duobl	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+17	pagon	pag	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+19	t. e.	t. e.	SYM	SYM	_	_	_	_	SpaceAfter=Yes
+20	(	(	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+21	=	=	SYM	SYM	_	_	_	_	SpaceAfter=Yes
+22	tio	tio	PRON	KORPRUN	Case=Nom	_	_	_	SpaceAfter=Yes
+23	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
+24	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+25	dek	dek	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+26	frankojn	frank	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_10
+# text = Kvinoble sep estas tridek kvin. 
+1	Kvinoble	kvinobl	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+2	sep	sep	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	tridek	tridek	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+5	kvin	kvin	NUM	NUM	_	_	_	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_11
+# text = Tri estas duono de ses. 
+1	Tri	tri	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	duono	duon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+4	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+5	ses	ses	NUM	NUM	_	_	_	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_12
+# text = Ok estas kvar kvinonoj de dek. 
+1	Ok	ok	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+3	kvar	kvar	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+4	kvinonoj	kvinon	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+5	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+6	dek	dek	NUM	NUM	_	_	_	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_13
+# text = Kvar metroj da tiu ĉi ŝtofo kostas naŭ frankojn; tial du metroj kostas kvar kaj duonon frankojn (aŭ da frankoj). 
+1	Kvar	kvar	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+2	metroj	metr	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+3	da	da	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+4	tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+5	ĉi	ĉi	PART	PART	_	_	_	_	SpaceAfter=Yes
+6	ŝtofo	ŝtof	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+7	kostas	kost	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+8	naŭ	naŭ	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+9	frankojn	frank	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
+10	;	;	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+11	tial	tial	ADV	KORADV	_	_	_	_	SpaceAfter=Yes
+12	du	du	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+13	metroj	metr	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+14	kostas	kost	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+15	kvar	kvar	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+16	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+17	duonon	duon	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+18	frankojn	frank	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=Yes
+19	(	(	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+20	aŭ	aŭ	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+21	da	da	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+22	frankoj	frank	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+23	)	)	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_14
+# text = Unu tago estas tricent-sesdek-kvinono aŭ tricent-sesdek-sesono de jaro. 
+1	Unu	unu	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+2	tago	tag	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+4	tricent-sesdek-kvinono	tricent-sesdek-kvinono	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+5	aŭ	aŭ	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+6	tricent-sesdek-sesono	tricent-sesdek-sesono	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+7	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+8	jaro	jar	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_15
+# text = Tiuj ĉi du amikoj promenas ĉiam duope. 
+1	Tiuj	tiu	DET	KORDPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+2	ĉi	ĉi	PART	PART	_	_	_	_	SpaceAfter=Yes
+3	du	du	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+4	amikoj	amik	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+5	promenas	promen	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+6	ĉiam	ĉiam	ADV	KORADV	_	_	_	_	SpaceAfter=Yes
+7	duope	duop	ADV	ADE	_	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_16
+# text = Kvinope ili sin ĵetis sur min, sed mi venkis ĉiujn kvin atakantojn. 
+1	Kvinope	kvinop	ADV	ADE	_	_	_	_	SpaceAfter=Yes
+2	ili	ili	PRON	PRPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+3	sin	si	PRON	PRSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+4	ĵetis	ĵet	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
+5	sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+6	min	mi	PRON	PRSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+8	sed	sed	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+9	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+10	venkis	venk	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
+11	ĉiujn	ĉiu	DET	KORDPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=Yes
+12	kvin	kvin	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+13	atakantojn	atakant	NOUN	DPRNPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_17
+# text = Por miaj kvar infanoj mi aĉetis dek du pomojn, kaj al ĉiu el la infanoj mi donis po tri pomoj. 
+1	Por	por	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+2	miaj	mi	DET	PRSPPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+3	kvar	kvar	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+4	infanoj	infan	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+5	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+6	aĉetis	aĉet	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
+7	dek	dek	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+8	du	du	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+9	pomojn	pom	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+11	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
+12	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+13	ĉiu	ĉiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+14	el	el	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+15	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+16	infanoj	infan	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
+17	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+18	donis	don	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=Yes
+19	po	po	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+20	tri	tri	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+21	pomoj	pom	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+
+# sent_id = fundamenta-ekzercaro_18
+# text = — Tiu ĉi libro havas sesdek paĝojn; tial, se mi legos en ĉiu tago po dek kvin paĝoj, mi finos la tutan libron en kvar tagoj. 
+1	Tiu	tiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+2	ĉi	ĉi	PART	PART	_	_	_	_	SpaceAfter=Yes
+3	libro	libr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+4	havas	hav	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
+5	sesdek	sesdek	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+6	paĝojn	paĝ	NOUN	NPA	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
+7	;	;	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+8	tial	tial	ADV	KORADV	_	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+10	se	se	SCONJ	SCONJ	_	_	_	_	SpaceAfter=Yes
+11	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+12	legos	leg	VERB	VFT	Mood=Ind|Tense=Fut	_	_	_	SpaceAfter=Yes
+13	en	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+14	ĉiu	ĉiu	DET	KORDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+15	tago	tag	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+16	po	po	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+17	dek	dek	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+18	kvin	kvin	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+19	paĝoj	paĝ	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+21	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
+22	finos	fin	VERB	VFT	Mood=Ind|Tense=Fut	_	_	_	SpaceAfter=Yes
+23	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
+24	tutan	tut	ADJ	ASA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+25	libron	libr	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
+26	en	en	ADP	ADP	_	_	_	_	SpaceAfter=Yes
+27	kvar	kvar	NUM	NUM	_	_	_	_	SpaceAfter=Yes
+28	tagoj	tag	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
