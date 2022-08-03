@@ -168,6 +168,6 @@ class MainForm(npyscreen.Form):
 
 if __name__=='__main__':
     a = App()
-    fn = '../out/conll/fundamenta-ekzercaro.con' if len(sys.argv)==1 else sys.argv[1]
+    fn = '../out/conll/fundamenta-krestomatio.con' if len(sys.argv)==1 else sys.argv[1]
     a.load_con(fn)
     a.run()
