@@ -1,7 +1,0 @@
-En diversaj partoj de nia programo ni uzas precipe saman objektojn, sed aktuale ili ankaux estas kodita parte. Por estigigxi malhundo ni bezonas formaligxi ilin cxiuj.
-
-1. KNLL objekto - estas grva objekto. konsistas el frazoj. La plej gravaj metodoj estas eksporti() kaj importi().
-2. Frazo - parto de KNLL. konsistas el vortoj, havas ID-n.
-3. Vorto - parto de Frazo. havas multe de cxiuajxo.
-
-KNLL povas esti formala, aux neformala. Se KNLL estas fromala, cxiu Vorto havas nur unu varianton. Alie, KNLL estas malformala.
