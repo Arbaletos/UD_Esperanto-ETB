@@ -330,159 +330,159 @@
 4	tajloro	tajlor	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_62
+# sent_id = fe_dep_ab_1.0.2_62
 # text = Infano ne estas matura homo. 
-1	Infano	infan	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-2	ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
-3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-4	matura	matur	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-5	homo	hom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Infano	infan	NOUN	NSN	Case=Nom|Number=Sing	5	nsubj	_	SpaceAfter=Yes
+2	ne	ne	PART	PART	_	3	advmod	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	5	cop	_	SpaceAfter=Yes
+4	matura	matur	ADJ	ASN	Case=Nom|Number=Sing	5	amod	_	SpaceAfter=Yes
+5	homo	hom	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_63
+# sent_id = fe_dep_ab_1.0.2_63
 # text = La infano jam ne ploras. 
-1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-2	infano	infan	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	jam	jam	ADV	ADV	_	_	_	_	SpaceAfter=Yes
-4	ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
-5	ploras	plor	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	2	det	_	SpaceAfter=Yes
+2	infano	infan	NOUN	NSN	Case=Nom|Number=Sing	5	nsubj	_	SpaceAfter=Yes
+3	jam	jam	ADV	ADV	_	5	advmod	_	SpaceAfter=Yes
+4	ne	ne	PART	PART	_	5	advmod	_	SpaceAfter=Yes
+5	ploras	plor	VERB	VPR	Mood=Ind|Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_64
+# sent_id = fe_dep_ab_1.0.2_64
 # text = La ĉielo estas blua. 
-1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-2	ĉielo	ĉiel	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-4	blua	blu	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	2	det	_	SpaceAfter=Yes
+2	ĉielo	ĉiel	NOUN	NSN	Case=Nom|Number=Sing	4	nsubj	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	4	cop	_	SpaceAfter=Yes
+4	blua	blu	ADJ	ASN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_65
+# sent_id = fe_dep_ab_1.0.2_65
 # text = Kie estas la libro kaj la krajono? 
-1	Kie	kie	ADV	DEMADV	_	_	_	_	SpaceAfter=Yes
-2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-3	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-4	libro	libr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-5	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
-6	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-7	krajono	krajon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-8	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Kie	kie	ADV	DEMADV	_	0	root	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	1	cop	_	SpaceAfter=Yes
+3	la	la	DET	DET	_	4	det	_	SpaceAfter=Yes
+4	libro	libr	NOUN	NSN	Case=Nom|Number=Sing	1	nsubj	_	SpaceAfter=Yes
+5	kaj	kaj	CCONJ	CCONJ	_	7	cc	_	SpaceAfter=Yes
+6	la	la	DET	DET	_	7	det	_	SpaceAfter=Yes
+7	krajono	krajon	NOUN	NSN	Case=Nom|Number=Sing	4	conj	_	SpaceAfter=No
+8	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_66
+# sent_id = fe_dep_ab_1.0.2_66
 # text = La libro estas sur la tablo, kaj la krajono kuŝas sur la fenestro. 
-1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-2	libro	libr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-4	sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-5	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-6	tablo	tabl	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-7	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-8	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
-9	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-10	krajono	krajon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-11	kuŝas	kuŝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-12	sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-13	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-14	fenestro	fenestr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-15	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	2	det	_	SpaceAfter=Yes
+2	libro	libr	NOUN	NSN	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	6	cop	_	SpaceAfter=Yes
+4	sur	sur	ADP	ADP	_	6	case	_	SpaceAfter=Yes
+5	la	la	DET	DET	_	6	det	_	SpaceAfter=Yes
+6	tablo	tabl	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=Yes
+8	kaj	kaj	CCONJ	CCONJ	_	11	cc	_	SpaceAfter=Yes
+9	la	la	DET	DET	_	10	det	_	SpaceAfter=Yes
+10	krajono	krajon	NOUN	NSN	Case=Nom|Number=Sing	11	nsubj	_	SpaceAfter=Yes
+11	kuŝas	kuŝ	VERB	VPR	Mood=Ind|Tense=Pres	3	conj	_	SpaceAfter=Yes
+12	sur	sur	ADP	ADP	_	14	case	_	SpaceAfter=Yes
+13	la	la	DET	DET	_	14	det	_	SpaceAfter=Yes
+14	fenestro	fenestr	NOUN	NSN	Case=Nom|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_67
+# sent_id = fe_dep_ab_1.0.2_67
 # text = Sur la fenestro kuŝas krajono kaj plumo. 
-1	Sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-3	fenestro	fenestr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-4	kuŝas	kuŝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-5	krajono	krajon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-6	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
-7	plumo	plum	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Sur	sur	ADP	ADP	_	3	case	_	SpaceAfter=Yes
+2	la	la	DET	DET	_	3	det	_	SpaceAfter=Yes
+3	fenestro	fenestr	NOUN	NSN	Case=Nom|Number=Sing	4	nmod	_	SpaceAfter=Yes
+4	kuŝas	kuŝ	VERB	VPR	Mood=Ind|Tense=Pres	0	root	_	SpaceAfter=Yes
+5	krajono	krajon	NOUN	NSN	Case=Nom|Number=Sing	4	nsubj	_	SpaceAfter=Yes
+6	kaj	kaj	CCONJ	CCONJ	_	7	cc	_	SpaceAfter=Yes
+7	plumo	plum	NOUN	NSN	Case=Nom|Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_68
+# sent_id = fe_dep_ab_1.0.2_68
 # text = Jen estas pomo. 
-1	Jen	jen	PART	PART	_	_	_	_	SpaceAfter=Yes
-2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-3	pomo	pom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Jen	jen	PART	PART	_	0	root	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	1	cop	_	SpaceAfter=Yes
+3	pomo	pom	NOUN	NSN	Case=Nom|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_69
+# sent_id = fe_dep_ab_1.0.2_69
 # text = Jen estas la pomo, kiun mi trovis. 
-1	Jen	jen	PART	PART	_	_	_	_	SpaceAfter=Yes
-2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-3	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-4	pomo	pom	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-5	,	,	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
-6	kiun	kiu	DET	DEMDSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=Yes
-7	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-8	trovis	trov	VERB	VPS	Mood=Ind|Tense=Past	_	_	_	SpaceAfter=No
-9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Jen	jen	PART	PART	_	0	root	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	1	cop	_	SpaceAfter=Yes
+3	la	la	DET	DET	_	4	det	_	SpaceAfter=Yes
+4	pomo	pom	NOUN	NSN	Case=Nom|Number=Sing	1	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=Yes
+6	kiun	kiu	DET	DEMDSA	Case=Acc|Number=Sing	8	det	_	SpaceAfter=Yes
+7	mi	mi	PRON	PRSN	Case=Nom|Number=Sing	8	nsubj	_	SpaceAfter=Yes
+8	trovis	trov	VERB	VPS	Mood=Ind|Tense=Past	1	acl	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_70
+# sent_id = fe_dep_ab_1.0.2_70
 # text = Sur la tero kuŝas ŝtono. 
-1	Sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-2	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-3	tero	ter	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-4	kuŝas	kuŝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-5	ŝtono	ŝton	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Sur	sur	ADP	ADP	_	3	case	_	SpaceAfter=Yes
+2	la	la	DET	DET	_	3	det	_	SpaceAfter=Yes
+3	tero	ter	NOUN	NSN	Case=Nom|Number=Sing	4	nmod	_	SpaceAfter=Yes
+4	kuŝas	kuŝ	VERB	VPR	Mood=Ind|Tense=Pres	0	root	_	SpaceAfter=Yes
+5	ŝtono	ŝton	NOUN	NSN	Case=Nom|Number=Sing	4	subj	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_71
+# sent_id = fe_dep_ab_1.0.2_71
 # text = Leono estas forta. 
-1	Leono	leon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-3	forta	fort	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Leono	leon	NOUN	NSN	Case=Nom|Number=Sing	3	nsubj	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	3	cop	_	SpaceAfter=Yes
+3	forta	fort	ADJ	ASN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_72
+# sent_id = fe_dep_ab_1.0.2_72
 # text = La dentoj de leono estas akraj. 
-1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-2	dentoj	dent	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=Yes
-3	de	de	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-4	leono	leon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-5	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-6	akraj	akr	ADJ	APN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
-7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	2	det	_	SpaceAfter=Yes
+2	dentoj	dent	NOUN	NPN	Case=Nom|Number=Plur	6	nsubj	_	SpaceAfter=Yes
+3	de	de	ADP	ADP	_	4	case	_	SpaceAfter=Yes
+4	leono	leon	NOUN	NSN	Case=Nom|Number=Sing	2	nmod	_	SpaceAfter=Yes
+5	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	6	cop	_	SpaceAfter=Yes
+6	akraj	akr	ADJ	APN	Case=Nom|Number=Plur	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_73
+# sent_id = fe_dep_ab_1.0.2_73
 # text = Al leono ne donu la manon. 
-1	Al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-2	leono	leon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	ne	ne	PART	PART	_	_	_	_	SpaceAfter=Yes
-4	donu	don	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=Yes
-5	la	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-6	manon	man	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
-7	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Al	al	ADP	ADP	_	2	case	_	SpaceAfter=Yes
+2	leono	leon	NOUN	NSN	Case=Nom|Number=Sing	4	nmod	_	SpaceAfter=Yes
+3	ne	ne	PART	PART	_	4	advmod	_	SpaceAfter=Yes
+4	donu	don	VERB	VDM	Mood=Imp	0	root	_	SpaceAfter=Yes
+5	la	la	DET	DET	_	6	det	_	SpaceAfter=Yes
+6	manon	man	NOUN	NSA	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_74
+# sent_id = fe_dep_ab_1.0.2_74
 # text = Mi vidas leonon. 
-1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-2	vidas	vid	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-3	leonon	leon	NOUN	NSA	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No
-4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	2	nsubj	_	SpaceAfter=Yes
+2	vidas	vid	VERB	VPR	Mood=Ind|Tense=Pres	0	root	_	SpaceAfter=Yes
+3	leonon	leon	NOUN	NSA	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_75
+# sent_id = fe_dep_ab_1.0.2_75
 # text = Resti kun leono estas danĝere. 
-1	Resti	rest	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
-2	kun	kun	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-3	leono	leon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-4	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-5	danĝere	danĝer	ADV	ADE	_	_	_	_	SpaceAfter=No
-6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Resti	rest	VERB	VIN	VerbForm=Inf	5	csubj	_	SpaceAfter=Yes
+2	kun	kun	ADP	ADP	_	3	case	_	SpaceAfter=Yes
+3	leono	leon	NOUN	NSN	Case=Nom|Number=Sing	1	obl	_	SpaceAfter=Yes
+4	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	5	cop	_	SpaceAfter=Yes
+5	danĝere	danĝer	ADV	ADE	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_76
+# sent_id = fe_dep_ab_1.0.2_76
 # text = Kiu kuraĝas rajdi sur leono? 
-1	Kiu	kiu	DET	DEMDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-2	kuraĝas	kuraĝ	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-3	rajdi	rajd	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=Yes
-4	sur	sur	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-5	leono	leon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-6	?	?	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Kiu	kiu	DET	DEMDSN	Case=Nom|Number=Sing	2	subj	_	SpaceAfter=Yes
+2	kuraĝas	kuraĝ	VERB	VPR	Mood=Ind|Tense=Pres	0	root	_	SpaceAfter=Yes
+3	rajdi	rajd	VERB	VIN	VerbForm=Inf	2	ccomp	_	SpaceAfter=Yes
+4	sur	sur	ADP	ADP	_	5	case	_	SpaceAfter=Yes
+5	leono	leon	NOUN	NSN	Case=Nom|Number=Sing	3	obl	_	SpaceAfter=No
+6	?	?	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_77
+# sent_id = fe_dep_ab_1.0.2_77
 # text = Mi parolas pri leono. 
-1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-2	parolas	parol	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-3	pri	pri	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-4	leono	leon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Mi	mi	PRON	PRSN	Case=Nom|Number=Sing	2	nsubj	_	SpaceAfter=Yes
+2	parolas	parol	VERB	VPR	Mood=Ind|Tense=Pres	0	root	_	SpaceAfter=Yes
+3	pri	pri	ADP	ADP	_	4	case	_	SpaceAfter=Yes
+4	leono	leon	NOUN	NSN	Case=Nom|Number=Sing	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=Yes
 
 # sent_id = fundamenta_ekzercaro_78
 # text = La patro estas bona. 
