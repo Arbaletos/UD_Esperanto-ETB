@@ -1,334 +1,334 @@
-# sent_id = fundamenta_ekzercaro_0
+# sent_id = fe_dep_ab_1.0.2_0
 # text = Citrono. 
-1	Citrono	citron	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Citrono	citron	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_1
+# sent_id = fe_dep_ab_1.0.2_1
 # text = Cento. 
-1	Cento	cent	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Cento	cent	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_2
+# sent_id = fe_dep_ab_1.0.2_2
 # text = Sceno. 
-1	Sceno	scen	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Sceno	scen	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_3
+# sent_id = fe_dep_ab_1.0.2_3
 # text = Scio. 
-1	Scio	sci	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Scio	sci	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_4
+# sent_id = fe_dep_ab_1.0.2_4
 # text = Balau. 
-1	Balau	bala	VERB	VDM	Mood=Imp	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Balau	bala	VERB	VDM	Mood=Imp	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_5
+# sent_id = fe_dep_ab_1.0.2_5
 # text = Ŝanceli. 
-1	Ŝanceli	ŝancel	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Ŝanceli	ŝancel	VERB	VIN	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_6
+# sent_id = fe_dep_ab_1.0.2_6
 # text = Neniel. 
-1	Neniel	neniel	ADV	KORADV	_	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Neniel	neniel	ADV	KORADV	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_7
+# sent_id = fe_dep_ab_1.0.2_7
 # text = Embaraso. 
-1	Embaraso	embaras	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Embaraso	embaras	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_8
+# sent_id = fe_dep_ab_1.0.2_8
 # text = Zoologio. 
-1	Zoologio	zoologi	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Zoologio	zoologi	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_9
+# sent_id = fe_dep_ab_1.0.2_9
 # text = Reservi. 
-1	Reservi	reserv	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Reservi	reserv	VERB	VIN	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_10
+# sent_id = fe_dep_ab_1.0.2_10
 # text = Traire. 
-1	Traire	trair	ADV	ADE	_	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Traire	trair	ADV	ADE	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_11
+# sent_id = fe_dep_ab_1.0.2_11
 # text = Hodiaŭ. 
-1	Hodiaŭ	hodiaŭ	ADV	ADV	_	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Hodiaŭ	hodiaŭ	ADV	ADV	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_12
+# sent_id = fe_dep_ab_1.0.2_12
 # text = Disŝiri. 
-1	Disŝiri	disŝir	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Disŝiri	disŝir	VERB	VIN	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_13
+# sent_id = fe_dep_ab_1.0.2_13
 # text = Neulo. 
-1	Neulo	neul	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Neulo	neul	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_14
+# sent_id = fe_dep_ab_1.0.2_14
 # text = Majesta. 
-1	Majesta	majest	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Majesta	majest	ADJ	ASN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_15
+# sent_id = fe_dep_ab_1.0.2_15
 # text = Packapo. 
-1	Packapo	packap	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Packapo	packap	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_16
+# sent_id = fe_dep_ab_1.0.2_16
 # text = Heroino. 
-1	Heroino	heroin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Heroino	heroin	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_17
+# sent_id = fe_dep_ab_1.0.2_17
 # text = Pezo. 
-1	Pezo	pez	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Pezo	pez	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_18
+# sent_id = fe_dep_ab_1.0.2_18
 # text = Internacia. 
-1	Internacia	internaci	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Internacia	internaci	ADJ	ASN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_19
+# sent_id = fe_dep_ab_1.0.2_19
 # text = Seshora. 
-1	Seshora	seshor	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Seshora	seshor	ADJ	ASN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_20
+# sent_id = fe_dep_ab_1.0.2_20
 # text = Cipreso. 
-1	Cipreso	cipres	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Cipreso	cipres	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_21
+# sent_id = fe_dep_ab_1.0.2_21
 # text = Stalo. 
-1	Stalo	stal	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Stalo	stal	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_22
+# sent_id = fe_dep_ab_1.0.2_22
 # text = Feino. 
-1	Feino	fein	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Feino	fein	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_23
+# sent_id = fe_dep_ab_1.0.2_23
 # text = Plu. 
-1	Plu	plu	ADV	ADV	_	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Plu	plu	ADV	ADV	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_24
+# sent_id = fe_dep_ab_1.0.2_24
 # text = Sukero. 
-1	Sukero	suker	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Sukero	suker	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_25
+# sent_id = fe_dep_ab_1.0.2_25
 # text = Gento. 
-1	Gento	gent	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Gento	gent	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_26
+# sent_id = fe_dep_ab_1.0.2_26
 # text = Indigni. 
-1	Indigni	indign	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Indigni	indign	VERB	VIN	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_27
+# sent_id = fe_dep_ab_1.0.2_27
 # text = Sigelo. 
-1	Sigelo	sigel	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Sigelo	sigel	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_28
+# sent_id = fe_dep_ab_1.0.2_28
 # text = Krajono. 
-1	Krajono	krajon	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Krajono	krajon	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_29
+# sent_id = fe_dep_ab_1.0.2_29
 # text = Ruino. 
-1	Ruino	ruin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Ruino	ruin	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_30
+# sent_id = fe_dep_ab_1.0.2_30
 # text = Pesilo. 
-1	Pesilo	pesil	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Pesilo	pesil	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_31
+# sent_id = fe_dep_ab_1.0.2_31
 # text = Lipharo. 
-1	Lipharo	liphar	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Lipharo	liphar	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_32
+# sent_id = fe_dep_ab_1.0.2_32
 # text = Metio. 
-1	Metio	meti	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Metio	meti	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_33
+# sent_id = fe_dep_ab_1.0.2_33
 # text = Ĝardeno. 
-1	Ĝardeno	ĝarden	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Ĝardeno	ĝarden	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_34
+# sent_id = fe_dep_ab_1.0.2_34
 # text = Sono. 
-1	Sono	son	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Sono	son	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_35
+# sent_id = fe_dep_ab_1.0.2_35
 # text = Laŭdi. 
-1	Laŭdi	laŭd	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Laŭdi	laŭd	VERB	VIN	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_36
+# sent_id = fe_dep_ab_1.0.2_36
 # text = Pale. 
-1	Pale	pal	ADV	ADE	_	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Pale	pal	ADV	ADE	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_37
+# sent_id = fe_dep_ab_1.0.2_37
 # text = Facila. 
-1	Facila	facil	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Facila	facil	ADJ	ASN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_38
+# sent_id = fe_dep_ab_1.0.2_38
 # text = Insekto. 
-1	Insekto	insekt	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Insekto	insekt	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_39
+# sent_id = fe_dep_ab_1.0.2_39
 # text = Kiu. 
-1	Kiu	kiu	DET	DEMDSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Kiu	kiu	DET	DEMDSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_40
+# sent_id = fe_dep_ab_1.0.2_40
 # text = Zorgi. 
-1	Zorgi	zorg	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Zorgi	zorg	VERB	VIN	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_41
+# sent_id = fe_dep_ab_1.0.2_41
 # text = Cikano. 
-1	Cikano	cikan	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Cikano	cikan	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_42
+# sent_id = fe_dep_ab_1.0.2_42
 # text = Traetera. 
-1	Traetera	traeter	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Traetera	traeter	ADJ	ASN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_43
+# sent_id = fe_dep_ab_1.0.2_43
 # text = Sofismo. 
-1	Sofismo	sofism	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Sofismo	sofism	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_44
+# sent_id = fe_dep_ab_1.0.2_44
 # text = Domoj. 
-1	Domoj	dom	NOUN	NPN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Domoj	dom	NOUN	NPN	Case=Nom|Number=Plur	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_45
+# sent_id = fe_dep_ab_1.0.2_45
 # text = Spino. 
-1	Spino	spin	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Spino	spin	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_46
+# sent_id = fe_dep_ab_1.0.2_46
 # text = Majo. 
-1	Majo	maj	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Majo	maj	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_47
+# sent_id = fe_dep_ab_1.0.2_47
 # text = Signi. 
-1	Signi	sign	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Signi	sign	VERB	VIN	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_48
+# sent_id = fe_dep_ab_1.0.2_48
 # text = Ec. 
-1	Ec	ec	X	X	_	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Ec	ec	X	X	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_49
+# sent_id = fe_dep_ab_1.0.2_49
 # text = Bonaĵo. 
-1	Bonaĵo	bonaĵ	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Bonaĵo	bonaĵ	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_50
+# sent_id = fe_dep_ab_1.0.2_50
 # text = Legi. 
-1	Legi	leg	VERB	VIN	VerbForm=Inf	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Legi	leg	VERB	VIN	VerbForm=Inf	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_51
+# sent_id = fe_dep_ab_1.0.2_51
 # text = Iel. 
-1	Iel	iel	ADV	KORADV	_	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Iel	iel	ADV	KORADV	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_52
+# sent_id = fe_dep_ab_1.0.2_52
 # text = Juristo. 
-1	Juristo	jurist	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Juristo	jurist	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_53
+# sent_id = fe_dep_ab_1.0.2_53
 # text = Ĉielo. 
-1	Ĉielo	ĉiel	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Ĉielo	ĉiel	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_54
+# sent_id = fe_dep_ab_1.0.2_54
 # text = Ĥemio. 
-1	Ĥemio	ĥemi	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-2	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Ĥemio	ĥemi	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_55
+# sent_id = fe_dep_ab_1.0.2_55
 # text = Patro kaj frato. 
-1	Patro	patr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-2	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
-3	frato	frat	NOUN	SPRNSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Patro	patr	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=Yes
+2	kaj	kaj	CCONJ	CCONJ	_	3	cc	_	SpaceAfter=Yes
+3	frato	frat	NOUN	SPRNSN	Case=Nom|Number=Sing	1	conj	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_56
+# sent_id = fe_dep_ab_1.0.2_56
 # text = Leono estas besto. 
-1	Leono	leono	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-3	besto	best	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Leono	leono	NOUN	NSN	Case=Nom|Number=Sing	3	nsubj	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	3	cop	_	SpaceAfter=Yes
+3	besto	best	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_57
+# sent_id = fe_dep_ab_1.0.2_57
 # text = Rozo estas floro kaj kolombo estas birdo. 
-1	Rozo	roz	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-3	floro	flor	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-4	kaj	kaj	CCONJ	CCONJ	_	_	_	_	SpaceAfter=Yes
-5	kolombo	kolomb	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-6	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-7	birdo	bird	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-8	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	Rozo	roz	NOUN	NSN	Case=Nom|Number=Sing	3	nsubj	_	SpaceAfter=Yes
+2	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	3	cop	_	SpaceAfter=Yes
+3	floro	flor	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=Yes
+4	kaj	kaj	CCONJ	CCONJ	_	7	cc	_	SpaceAfter=Yes
+5	kolombo	kolomb	NOUN	NSN	Case=Nom|Number=Sing	7	nsubj	_	SpaceAfter=Yes
+6	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	7	cop	_	SpaceAfter=Yes
+7	birdo	bird	NOUN	NSN	Case=Nom|Number=Sing	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_58
+# sent_id = fe_dep_ab_1.0.2_58
 # text = La rozo apartenas al Teodoro. 
-1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-2	rozo	roz	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	apartenas	aparten	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-4	al	al	ADP	ADP	_	_	_	_	SpaceAfter=Yes
-5	Teodoro	Teodoro	PROPN	PROPSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-6	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	2	det	_	SpaceAfter=Yes
+2	rozo	roz	NOUN	NSN	Case=Nom|Number=Sing	3	nsubj	_	SpaceAfter=Yes
+3	apartenas	aparten	VERB	VPR	Mood=Ind|Tense=Pres	0	root	_	SpaceAfter=Yes
+4	al	al	ADP	ADP	_	5	case	_	SpaceAfter=Yes
+5	Teodoro	Teodoro	PROPN	PROPSN	Case=Nom|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_59
+# sent_id = fe_dep_ab_1.0.2_59
 # text = La suno brilas. 
-1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-2	suno	sun	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	brilas	bril	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=No
-4	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	2	det	_	SpaceAfter=Yes
+2	suno	sun	NOUN	NSN	Case=Nom|Number=Sing	3	nsubj	_	SpaceAfter=Yes
+3	brilas	bril	VERB	VPR	Mood=Ind|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_60
+# sent_id = fe_dep_ab_1.0.2_60
 # text = La patro estas sana. 
-1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-2	patro	patr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-4	sana	san	ADJ	ASN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	2	det	_	SpaceAfter=Yes
+2	patro	patr	NOUN	NSN	Case=Nom|Number=Sing	4	nsubj	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	4	cop	_	SpaceAfter=Yes
+4	sana	san	ADJ	ASN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=Yes
 
-# sent_id = fundamenta_ekzercaro_61
+# sent_id = fe_dep_ab_1.0.2_61
 # text = La patro estas tajloro. 
-1	La	la	DET	DET	_	_	_	_	SpaceAfter=Yes
-2	patro	patr	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=Yes
-3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	_	_	_	SpaceAfter=Yes
-4	tajloro	tajlor	NOUN	NSN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
-5	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=Yes
+1	La	la	DET	DET	_	2	det	_	SpaceAfter=Yes
+2	patro	patr	NOUN	NSN	Case=Nom|Number=Sing	4	nsubj	_	SpaceAfter=Yes
+3	estas	est	VERB	VPR	Mood=Ind|Tense=Pres	4	cop	_	SpaceAfter=Yes
+4	tajloro	tajlor	NOUN	NSN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=Yes
 
 # sent_id = fundamenta_ekzercaro_62
 # text = Infano ne estas matura homo. 
