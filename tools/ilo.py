@@ -71,7 +71,7 @@ def main():
     if is_raw(source): # Disigado
       con = disigilo.preprilabori(source)
     else:
-      con = Conll(id=os.path.splitext(os.path.basename(source))[0])
+      con = Conll()
       con.load_from_file(source)
 
     for sent in con.sentaro:

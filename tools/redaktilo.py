@@ -15,7 +15,7 @@ class App(npyscreen.NPSAppManaged):
   def load_con(self, fn):
     self.fn = os.path.abspath(fn)
     n_id = os.path.splitext(os.path.basename(fn))[0]
-    self.con = Conll(id=n_id)
+    self.con = Conll()
     self.con.load_from_file(fn)
 
   def save_con(self, fn):
@@ -168,6 +168,6 @@ class MainForm(npyscreen.Form):
 
 if __name__=='__main__':
     a = App()
-    fn = '../out/conll/fundamenta-krestomatio.con' if len(sys.argv)==1 else sys.argv[1]
+    fn = '../data/hand/fe_dep_ab_1.0.2.con' if len(sys.argv)==1 else sys.argv[1]
     a.load_con(fn)
     a.run()

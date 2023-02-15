@@ -1,8 +1,9 @@
 class Conll:
   """Full Conll representation of a document."""
 
-  def __init__(self, id=None):
-    self.id = id
+  def __init__(self, doc_id=None, par_id=None):
+    self.doc_id = None
+    self.par_id = None
     self.formal = True
     self.sentaro = []
     self.col_names = ['ID', 'FORM', 'LEMMA', 'UPOS', 'XPOS', 'FEATS', 'HEAD', 'DEPREL', 'DEPS', 'MISC']
@@ -19,6 +20,7 @@ class Conll:
       Por esti sukcese eksportita, frazoj en via teksto devas esti divigitaj.
       Exportas conll el .con file.
     '''
+    
     self.sentaro = [Sent(strings) for strings in insert_spaces(text).split('\n\n') if len(strings)]
     
   def exportu(self, fn):
@@ -31,9 +33,21 @@ class Conll:
     ''' 
     return ''.join([str(sent) for sent in self.sentaro])
     
+        
   def update_sent_id(self):
-    for i in range(len(self.sentaro)):
-      self.sentaro[i].update_sent_id(str(i),self.id)
+    newdoc_id = None
+    newpar_id = None
+    num = 1
+    for i, sent in enumerate(self.sentaro):
+      if sent.get_doc_id() and sent.get_doc_id() != newdoc_id:
+        newdoc_id = sent.get_doc_id()
+        num = 1
+        newpar_id = sent.get_doc_id()
+      if sent.get_par_id() and sent.get_par_id() != newpar_id:
+        newpar_id = sent.get_par_id()
+        num = 1
+      sent.update_sent_id('_'.join(filter(None, [newpar_id, str(num)])))
+      num += 1
       
   def update_text(self):
     for s in self.sentaro:
@@ -73,6 +87,7 @@ class Sent:
   def __init__(self, strings=None):  
     self.tokens = []
     self.pars =  {}
+    self.comments = []
     if strings is not None:
       tokens = strings.split('\n')
       for tok in tokens:
@@ -82,10 +97,18 @@ class Sent:
           pars = tok.strip()[1:].split('=')
           if len(pars)>=2:
             self.pars[pars[0].strip()] = pars[1].strip()
+          else:
+            self.comments.append(tok)
         else:
           cols = tok.split('\t')
           self.tokens.append(Token(*cols))
-          
+  
+  def get_doc_id(self):
+    return self.pars.get('newdoc id', '')
+    
+  def get_par_id(self):
+    return self.pars.get('newpar id', '')
+    
   def add(self, token):
     self.tokens.append(token)
   
@@ -130,6 +153,8 @@ class Sent:
         
   def __str__(self):
     ret = []
+    for com in self.comments:
+      ret.append(f'{com}\n')
     for key in sorted(self.pars.keys()):
       ret.append('# {} = {}\n'.format(key, self.pars[key]))
     for tok in self.tokens:
@@ -147,8 +172,8 @@ class Sent:
   def get_text(self):
     return self.pars.get('text', '')
     
-  def update_sent_id(self, sent_id, text_id):
-    self.pars['sent_id'] = text_id+'_'+sent_id
+  def update_sent_id(self, sent_id):
+    self.pars['sent_id'] = sent_id
     
   def update_text(self):
     if len(self.tokens) == 0:

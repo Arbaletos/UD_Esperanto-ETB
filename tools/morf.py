@@ -221,15 +221,15 @@ def main():
       quit()
 
 
-    con = Conll(id=os.path.splitext(os.path.basename(source))[0])
+    con = Conll()
     con.load_from_file(source)
 
     for sent in con.sentaro:
       parser.parse(sent)
       print(sent)
 
-    con.update_sent_id()
-    con.update_text()
+    #con.update_sent_id()
+    #con.update_text()
 
     con.exportu(out)
       
