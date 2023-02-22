@@ -24,13 +24,16 @@ class MorfParser:
     ###INIT ClOSED WORDS DICT###
     num_k ={k:'NUM' for k in ['du', 'tri', 'kvar', 'kvin', 'ses', 'sep', 'ok', 'naŭ']}
     num_f ={'dek':'','cent':'', 'mil':''}
+    
     kor_k = {'ki':'DEM','i':'KOR','ĉi':'KOR','neni':'KOR','ti':'KOR'}
     kor_f = {'a':'ASN', 'o':'PRUN', 'u':'DSN', 'e':'ADV','el':'ADV',\
              'en':'ADD', 'es':'DPS','om':'DQU', 'am':'ADV','al':'ADV',\
              'on':'PRUA', 'aj':'APN','an':'ASA','ajn':'APA','uj':'DPN',\
              'un':'DSA','ujn':'DPA'}
+    
     prn_k = {'m':'PRS', 'v':'PRU', 'c':'PRS', 'l':'PRS','ŝ':'PRS',\
              'ĝ':'PRS', 's':'PRS', 'n':'PRP', 'il':'PRP', 'on':'PRP'}
+    
     prn_f = {'i':'N', 'in':'A', 'ia':'PSN', 'ian':'PSA', \
              'iaj':'PPN', 'iajn':'PPA'}
              
@@ -48,7 +51,7 @@ class MorfParser:
                  'o':'NSN','oj':'NPN','on':'NSA','ojn':'NPA',
                  'a':'ASN','aj':'APN','an':'ASA','ajn':'APA',
                  'e':'ADE','en':'ADD','as':'VPR','os':'VFT',
-                 'is':'VPS','i':'VIN','u':'VDM','us':'VCN'}
+                 'is':'VPS','i':'VIN','u':'VIM','us':'VCN'}
     
     ### Special ending for partiples
     self.part_fin_dict = {'at':'SPR','ot':'SFT','it':'SPS',
@@ -60,7 +63,7 @@ class MorfParser:
     'APN':('ADJ',2),   'ASA':('ADJ',2),   'APA':('ADJ',3),
     'ADE':('ADV',1),   'ADD':('ADV',2),   'VPR':('VERB',2),
     'VFT':('VERB',2),  'VPS':('VERB',2),  'VIN':('VERB',1),
-    'VDM':('VERB',1),  'VCN':('VERB',2),
+    'VIM':('VERB',1),  'VCN':('VERB',2),
     'PRSN':('PRON',0), 'PRPN':('PRON',0),'PRUN':('PRON',0),
     'PRSA':('PRON',1), 'PRPA':('PRON',1),'PRUA':('PRON',1),
     'PRSPSN':('DET',1),'PRPPSN':('DET',1),'PRUPSN':('DET',1),
