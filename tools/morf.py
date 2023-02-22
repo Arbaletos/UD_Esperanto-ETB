@@ -23,7 +23,7 @@ class MorfParser:
     
     ###INIT ClOSED WORDS DICT###
     num_k ={k:'NUM' for k in ['du', 'tri', 'kvar', 'kvin', 'ses', 'sep', 'ok', 'naŭ']}
-    num_f ={'dek':'','cent':''}
+    num_f ={'dek':'','cent':'', 'mil':''}
     kor_k = {'ki':'DEM','i':'KOR','ĉi':'KOR','neni':'KOR','ti':'KOR'}
     kor_f = {'a':'ASN', 'o':'PRUN', 'u':'DSN', 'e':'ADV','el':'ADV',\
              'en':'ADD', 'es':'DPS','om':'DQU', 'am':'ADV','al':'ADV',\
@@ -67,7 +67,7 @@ class MorfParser:
     'PRSPSA':('DET',2),'PRPPSA':('DET',2),'PRUPSA':('DET',2),
     'PRSPPN':('DET',2),'PRPPPN':('DET',2),'PRUPPN':('DET',2),
     'PRSPPA':('DET',3),'PRPPPA':('DET',3),'PRUPPA':('DET',3),
-    'PROPSN':('PROPN',0), 'PROPSA':('PROPN',1)}
+    'PSN':('PROPN',0), 'PSA':('PROPN',1)}
 
     kom = ['KOR','DEM']
     fin = ['ASN','PRUN','DSN','ADV','ADV',\
@@ -129,8 +129,8 @@ class MorfParser:
       
     if token.is_capital():
       if token.form.endswith('on'):
-        ret.append(self.add_pos(token, 'PROPN', 'PROPSA', token.form[:-1]))
-      ret.append(self.add_pos(token, 'PROPN', 'PROPSN', token.form[:]))
+        ret.append(self.add_pos(token, 'PROPN', 'PSA', token.form[:-1]))
+      ret.append(self.add_pos(token, 'PROPN', 'PSN', token.form[:]))
       if not new_sent: #If this word definetely proper
         return ret
       
@@ -142,11 +142,11 @@ class MorfParser:
         tag = self.fin_dict[fin]
         pos, ind = self.conv_dict.get(tag,(tag,0))
         lemm = token.form.lower()[:len(token.form) - ind]
-        if pos in ['ADJ','NOUN','ADV']:
-          for part in self.part_fin_dict.keys():
-            if lemm.endswith(part):
-              tag = self.part_fin_dict[part]+tag
-              break
+        #if pos in ['ADJ','NOUN','ADV']:
+        #  for part in self.part_fin_dict.keys():
+        #    if lemm.endswith(part):
+        #      tag = self.part_fin_dict[part]+tag
+        #      break
         ret.append(self.add_pos(token, pos, tag, lemm))
         return ret
     ret.append(self.add_pos(token, 'X'))
@@ -160,7 +160,7 @@ class MorfParser:
       if token.xpos == 'VPS': feats.append('Mood=Ind|Tense=Past')
       if token.xpos == 'VFT': feats.append('Mood=Ind|Tense=Fut')
       if token.xpos == 'VCN': feats.append('Mood=Cnd')
-      if token.xpos == 'VDM': feats.append('Mood=Imp')
+      if token.xpos == 'VIM': feats.append('Mood=Imp')
       if token.xpos == 'VIN': feats.append('VerbForm=Inf')
     else:
       if len(token.xpos)>=1:
