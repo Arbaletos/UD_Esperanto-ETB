@@ -1,11 +1,22 @@
+# Remove passive und active
+xpos=/^([DS](PR|FT|PS))(.*)$/	none	#1:xpos=$3
+
 # Change VDM to VIM
 xpos=/^VDM$/	none	#1:xpos=VIM
+
+# Normalize ADV
 xpos=/^ADE$/	none	#1:xpos=ADV
 xpos=/^ADD$/	none	#1:xpos=ADV
+
+# Rename Propernomes
 xpos=/^PROPSN$/	none	#1:xpos=PSN
 xpos=/^PROPSA$/	none	#1:xpos=PSA
 xpos=/^PROPSD$/	none	#1:xpos=PSD
 xpos=/^PROPPN$/	none	#1:xpos=PPN
 xpos=/^PROPPA$/	none	#1:xpos=PPA
 xpos=/^PROPPD$/	none	#1:xpos=PPD
-xpos=/^([DS](PR|FT|PS))(.*)$/	none	#1:xpos=$3
+
+# Normalize pronomoj und korelativoj
+pos=/^PRON$/	none	#1:xpos=PRON
+pos=/^DET$/	none	#1:xpos=DET
+xpos=/.*AD[VD]/	none	#1:xpos=ADV
