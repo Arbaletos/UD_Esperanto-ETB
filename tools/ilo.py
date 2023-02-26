@@ -74,8 +74,9 @@ def main():
       con = Conll()
       con.load_from_file(source)
 
-    for sent in con.sentaro:
-      parser.parse(sent)
+    for idx, sent in enumerate(con.sentaro):
+      sent = parser.parse(sent)
+      con.sentaro[idx] = sent
       print(sent)
  
     con.exportu(out)
@@ -83,6 +84,5 @@ def main():
     if source == 'stdin':
       pipeline.append('stdin')
       
-
 if __name__=='__main__':
   main()

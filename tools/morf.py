@@ -115,11 +115,9 @@ class MorfParser:
         ret = self.disamb(ret)
     
     sent.tokens = ret ## Faru interfacon
-    
     sent = Sent(self.xpos_normer.run_depedit(io.StringIO(str(sent))))
     sent = Sent(self.feat_parser.run_depedit(io.StringIO(str(sent))))
-
-    return sent.tokens 
+    return sent 
       
   def get_tag(self, token, new_sent):
   
@@ -239,9 +237,9 @@ def main():
     con = Conll()
     con.load_from_file(source)
 
-    for sent in con.sentaro:
-      parser.parse(sent)
-      print(sent)
+    for i, sent in enumerate(con.sentaro):
+      sent = parser.parse(sent)
+      con.sentaro[i] = sent
 
     #con.update_sent_id()
     #con.update_text()
