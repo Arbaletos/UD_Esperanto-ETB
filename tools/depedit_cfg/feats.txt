@@ -1,0 +1,17 @@
+# Open Words
+xpos=/^[ANP]SN$/	none	#1:feats=Number=Sing|Case=Nom
+xpos=/^[ANP]SA$/	none	#1:feats=Number=Sing|Case=Acc
+xpos=/^[ANP]PN$/	none	#1:feats=Number=Plur|Case=Nom
+xpos=/^[ANP]PA$/	none	#1:feats=Number=Plur|Case=Acc
+xpos=/^[ANP]SD$/	none	#1:feats=Number=Sing|Case=Lat
+xpos=/^[ANP]PD$/	none	#1:feats=Number=Plur|Case=Lat
+
+# Verbs
+xpos=/^VIN$/	none	#1:feats=VerbForm=Inf
+xpos=/^VIM$/	none	#1:feats=Mood=Imp
+xpos=/^VCN$/	none	#1:feats=Mood=Cnd
+xpos=/^VPR$/	none	#1:feats=Mood=Ind|Tense=Pres
+xpos=/^VPS$/	none	#1:feats=Mood=Ind|Tense=Past
+xpos=/^VFT$/	none	#1:feats=Mood=Ind|Tense=Fut
+
+# Verbish words

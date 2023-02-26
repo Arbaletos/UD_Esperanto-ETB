@@ -4,12 +4,16 @@
 
 import sys
 import os
+import io
 
 from copy import deepcopy as copy
+from depedit import DepEdit
 
 from conll.conll import Token, Conll, Sent
 
 import ilo
+
+
     
     
 class MorfParser:
@@ -20,6 +24,9 @@ class MorfParser:
     y-trick - Each foreign word is marked by y on ending
     diakr_sys - code diakr by x sistemo, h sistemo, au do not code at all.
     """
+    
+    self.feat_parser = DepEdit(open('depedit_cfg/feats.txt'))
+    self.xpos_normer = DepEdit(open('depedit_cfg/fix_xpos.txt'))
     
     ###INIT ClOSED WORDS DICT###
     num_k ={k:'NUM' for k in ['du', 'tri', 'kvar', 'kvin', 'ses', 'sep', 'ok', 'naŭ']}
@@ -101,13 +108,18 @@ class MorfParser:
       parsoj = self.get_tag(t, i==0 or all([r.upos in ['PUNCT', 'SYM', 'X'] for r in ret]))
       
       for p in parsoj:
-          self.get_feats(p)
+          #self.get_feats(p)
           self.get_misc(p)
           ret.append(p)
     if disamb:
         ret = self.disamb(ret)
+    
     sent.tokens = ret ## Faru interfacon
-    return ret 
+    
+    sent = Sent(self.xpos_normer.run_depedit(io.StringIO(str(sent))))
+    sent = Sent(self.feat_parser.run_depedit(io.StringIO(str(sent))))
+
+    return sent.tokens 
       
   def get_tag(self, token, new_sent):
   
