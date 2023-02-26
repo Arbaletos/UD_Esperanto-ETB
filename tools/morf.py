@@ -114,6 +114,7 @@ class MorfParser:
     if disamb:
         ret = self.disamb(ret)
     
+    sent = copy(sent)
     sent.tokens = ret ## Faru interfacon
     sent = Sent(self.xpos_normer.run_depedit(io.StringIO(str(sent))))
     sent = Sent(self.feat_parser.run_depedit(io.StringIO(str(sent))))
