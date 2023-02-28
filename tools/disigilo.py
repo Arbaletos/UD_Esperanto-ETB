@@ -1,9 +1,11 @@
 #/usr/bin/python3
 #coding=utf-8
 
+import click
 import sys
 import os
 import re
+import click
 
 from conll.conll import Token, Conll, Sent
 
@@ -94,24 +96,30 @@ def preprilabori(source):
 
     return con
     
-
-def main():
-  args = sys.argv[1:]
-  pipeline = args[:]
-  if not args: 
-    pipeline.append('stdin')
-  while len(pipeline):
-    source = ilo.get_source(pipeline.pop())
-    out = ilo.get_out(source)
+@click.command
+@click.option('-i', '--input', default=None, type=click.Path())
+@click.option('-o', '--output', default=None, type=click.Path())
+def main(input, output):
+  if input is None:
+    input = 'stdin'
+  if output is None:
+    output = 'stdout'
+  while True:
+    source = input
+    
     if not ilo.is_raw(source):
       print('Cxi programo laboras nur kun nedisigita teksto')
       quit()
-    con = preprilabori(source)
-    con.exportu(out)
-
-    if source == 'stdin':
-      pipeline.append('stdin')
       
+    con = preprilabori(source)
+    
+    if output == 'stdout':
+        print(con)
+    else:
+        con.exportu(output)
+    
+    if input != 'stdin':
+        break
 
 if __name__=='__main__':
   main()

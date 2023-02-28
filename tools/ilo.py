@@ -3,6 +3,7 @@
 
 import sys
 import os
+import click
 
 from conll.conll import Token, Conll, Sent
 
@@ -36,53 +37,37 @@ def is_raw(fn):
     return False
   return True
 
-
-def get_source(fn, root='../data'):
-  if fn=='stdin':
-    return fn
-  if fn.endswith('.xml'):
-    return os.path.join(root,'xml',fn)
-  if fn.endswith('.con'):
-    return os.path.join(root,'conll',fn)
-  return os.path.join(root,'txt',fn)
-
-
-def get_out(source, root='../out/conll/'):
-  """get output filename to write for selected source"""
-  if source=='stdin':
-    name = root + 'out.con'
-  else:
-    name = root+source.split(os.sep)[-1].replace('.xml', '').replace('.txt', '').replace('.con', '')+'.con'
-  return name
-
-  
-def main():
-  args = sys.argv[1:]
-  pipeline = args[:]
-
+      
+@click.command
+@click.option('-i', '--input', default=None, type=click.Path())
+@click.option('-o', '--output', default=None, type=click.Path())
+def main(input, output):
+  if input is None:
+    input = 'stdin'
+  if output is None:
+    output = 'stdout'
+    
   parser = morf.MorfParser()
-
-  if not args: 
-    pipeline.append('stdin')
-  while len(pipeline):
-    source = get_source(pipeline.pop())
-    out = get_out(source)
-
+    
+  while True:
+    source = input
     if is_raw(source): # Disigado
       con = disigilo.preprilabori(source)
     else:
       con = Conll()
       con.load_from_file(source)
-
+      
     for idx, sent in enumerate(con.sentaro):
       sent = parser.parse(sent)
       con.sentaro[idx] = sent
-      print(sent)
- 
-    con.exportu(out)
+    
+    if output == 'stdout':
+        print(con)
+    else:
+        con.exportu(output)
+    
+    if input != 'stdin':
+        break
 
-    if source == 'stdin':
-      pipeline.append('stdin')
-      
 if __name__=='__main__':
   main()

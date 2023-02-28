@@ -1,3 +1,5 @@
+import os
+
 class Conll:
   """Full Conll representation of a document."""
 
@@ -24,6 +26,8 @@ class Conll:
     self.sentaro = [Sent(strings) for strings in insert_spaces(text).split('\n\n') if len(strings)]
     
   def exportu(self, fn):
+    if os.path.dirname(fn):
+        os.makedirs(os.path.dirname(fn), exist_ok=True)
     with open(fn, 'w') as f:
       f.write(str(self))
     

@@ -5,6 +5,7 @@
 import sys
 import os
 import io
+import click
 
 from copy import deepcopy as copy
 from depedit import DepEdit
@@ -218,35 +219,34 @@ def kombiki(kom_dict, fin_dict):
         ret[kom+fin] = [kom_dict[kom]+fin_dict[fin]]  
   return ret
 
-  
-def main():
-  """Main function Loop, containing every step"""
-  args = sys.argv[1:]
-  pipeline = args[:]
 
+@click.command
+@click.option('-i', '--input', default=None, type=click.Path())
+@click.option('-o', '--output', default=None, type=click.Path())
+def main(input, output):
+  if input is None:
+    input = 'stdin'
+  if output is None:
+    output = 'stdout'
+    
   parser = MorfParser()
-  while len(pipeline):
-
-    source = ilo.get_source(pipeline.pop())
-    out = ilo.get_out(source)
-
-    if ilo.is_raw(source):
-      print('Cxi programo laboras nur kun prilaborita teksto en CONLL-formato')
-      quit()
-
-
-    con = Conll()
-    con.load_from_file(source)
-
-    for i, sent in enumerate(con.sentaro):
-      sent = parser.parse(sent)
-      con.sentaro[i] = sent
-
-    #con.update_sent_id()
-    #con.update_text()
-
-    con.exportu(out)
+  source = input
+    
+  if ilo.is_raw(source):
+    print('Cxi programo laboras nur kun prilaborita teksto en CONLL-formato')
+    quit()
       
+  con = Conll()
+  con.load_from_file(source)
+
+  for i, sent in enumerate(con.sentaro):
+    sent = parser.parse(sent)
+    con.sentaro[i] = sent
+    
+  if output == 'stdout':
+    print(con)
+  else:
+    con.exportu(output)
 
 if __name__=='__main__':
   main()
