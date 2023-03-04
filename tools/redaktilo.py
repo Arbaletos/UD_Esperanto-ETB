@@ -1,5 +1,6 @@
 import sys
 import os 
+import click
 from conll.conll import *
 from conll.conllgrid import ConllGrid
 
@@ -164,10 +165,14 @@ class MainForm(npyscreen.Form):
 
     def AfterEditing(self):
       self.parentApp.setNextForm(None)
-
+      
+      
+@click.command
+@click.option('-i', '--input', default='../data/hand/fe_dep_ab_1.0.2.con', type=click.Path())
+def main(input):
+    a = App()
+    a.load_con(input)
+    a.run()
 
 if __name__=='__main__':
-    a = App()
-    fn = '../data/hand/fe_dep_ab_1.0.2.con' if len(sys.argv)==1 else sys.argv[1]
-    a.load_con(fn)
-    a.run()
+    main()
