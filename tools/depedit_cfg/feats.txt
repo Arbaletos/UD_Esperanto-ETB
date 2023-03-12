@@ -15,3 +15,41 @@ xpos=/^VPS$/	none	#1:feats=Mood=Ind|Tense=Past
 xpos=/^VFT$/	none	#1:feats=Mood=Ind|Tense=Fut
 
 # Verbish words
+text=/^.*[aoeiuAOEIU].*[aoi]nt(oj?n?|aj?n?|en?)$/&upos=/(NOUN|ADJ|ADV)/&feats=/([^_]+)/	none	#1:feats=$3|Voice=Act
+text=/^.*[aoeiuAOEIU].*[aoi]t(oj?n?|aj?n?|en?)$/&upos=/(NOUN|ADJ|ADV)/&feats=/([^_]+)/	none	#1:feats=$3|Voice=Pass
+text=/^.*[aoeiuAOEIU].*[aoi]nt(oj?n?|aj?n?|en?)$/&upos=/(NOUN|ADJ|ADV)/&feats=/_/	none	#1:feats=Voice=Act
+text=/^.*[aoeiuAOEIU].*[aoi]t(oj?n?|aj?n?|en?)$/&upos=/(NOUN|ADJ|ADV)/&feats=/_/	none	#1:feats=Voice=Pass
+text=/^.*[aoeiuAOEIU].*an?t(oj?n?|aj?n?|en?)$/&upos=/(NOUN|ADJ|ADV)/&feats=/(.*)/	none	#1:feats=$3|Tense=Pres
+text=/^.*[aoeiuAOEIU].*on?t(oj?n?|aj?n?|en?)$/&upos=/(NOUN|ADJ|ADV)/&feats=/(.*)/	none	#1:feats=$3|Tense=Fut
+text=/^.*[aoeiuAOEIU].*in?t(oj?n?|aj?n?|en?)$/&upos=/(NOUN|ADJ|ADV)/&feats=/(.*)/	none	#1:feats=$3|Tense=Pass
+
+# Pron
+lemma=/^(on|m|n|v|c|l|ŝ|sx|sh|ĝ|gx|gh|il|s)i*/&upos=/(PRON|DET)/	none	#1:feats=PronType=Prs
+lemma=/^oni*/&upos=/(PRON|DET)/&feats=/(.*)/	none	#1:feats=$2|Person=0
+lemma=/^(m|n)i*/&upos=/(PRON|DET)/&feats=/(.*)/	none	#1:feats=$3|Person=1
+lemma=/^(c|v)i*/&upos=/(PRON|DET)/&feats=/(.*)/	none	#1:feats=$3|Person=2
+lemma=/^si*/&upos=/(PRON|DET)/&feats=/(.*)/	none	#1:feats=$2|Reflex=Yes
+lemma=/^(l|ŝ|sx|sh|ĝ|gx|gh|il)i*/&upos=/(PRON|DET)/&feats=/(.*)/	none	#1:feats=$3|Person=3
+lemma=/^(on|m|n|v|c|l|ŝ|sx|sh|ĝ|gx|gh|il|s)i*/&upos=/DET/&feats=/(.*)/	none	#1:feats=$2|Poss=Yes
+
+lemma=/^(on|m|n|v|c|l|ŝ|sx|sh|ĝ|gx|gh|il|s)i*/&text=/.*i$/&upos=/PRON/&feats=/(.*)/	none	#1:feats=$2|Case=Nom
+lemma=/^(on|m|n|v|c|l|ŝ|sx|sh|ĝ|gx|gh|il|s)i*/&text=/.*in$/&upos=/PRON/&feats=/(.*)/	none	#1:feats=$2|Case=Acc
+lemma=/^(m|c|l|ŝ|sx|sh|ĝ|gx|gh)i*/&upos=/PRON/&feats=/(.*)/	none	#1:feats=$2|Number=Sing
+lemma=/^(on|n|il)i*/&upos=/PRON/&feats=/(.*)/	none	#1:feats=$2|Number=Plur
+
+# Korelativoj
+lemma=/^ki(a|o|u|es|e|el|en|es|om|am|al)$/&upos=/(DET|PRON|ADV)/	none	#1:feats=PronType=Rel
+lemma=/^ti(a|o|u|es|e|el|en|es|om|am|al)$/&upos=/(DET|PRON|ADV)/	none	#1:feats=PronType=Dem
+lemma=/^neni(a|o|u|es|e|el|en|es|om|am|al)$/&upos=/(DET|PRON|ADV)/	none	#1:feats=PronType=Neg
+lemma=/^i(a|o|u|es|e|el|en|es|om|am|al)$/&upos=/(DET|PRON|ADV)/	none	#1:feats=PronType=Ind
+lemma=/^ĉi(a|o|u|es|e|el|en|es|om|am|al)$/&upos=/(DET|PRON|ADV)/	none	#1:feats=PronType=Tot
+lemma=/^(ĉi|ki|ti|neni|i)es$/&upos=/DET/&feats=/(.*)/	none	#1:feats=$2|Poss=Yes
+
+# Misc
+lemma=/^la$/&upos=/DET/	none	#1:feats=PronType=Art
+
+# Case and Number for poss and korelativoj
+upos=/DET/&feats=/(.*)/&text=/.*[iI][aou]$/	none	#1:feats=$1|Number=Sing|Case=Nom
+upos=/DET/&feats=/(.*)/&text=/.*[iI][aou]n$/	none	#1:feats=$1|Number=Sing|Case=Acc
+upos=/DET/&feats=/(.*)/&text=/.*[iI][aou]j$/	none	#1:feats=$1|Number=Plur|Case=Nom
+upos=/DET/&feats=/(.*)/&text=/.*[iI][aou]jn$/	none	#1:feats=$1|Number=Plur|Case=Acc
