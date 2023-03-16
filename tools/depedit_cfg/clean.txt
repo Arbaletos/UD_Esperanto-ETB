@@ -1,0 +1,7 @@
+# Remove passive und active
+xpos=/.*/	none	#1:xpos=X
+pos=/.*/	none	#1:pos=X
+text=/.*/	none	#1:lemma=_
+feats=/.*/	none	#1:feats=_
+head=/.*/	none	#1:head=0
+func=/.*/	none	#1:func=
